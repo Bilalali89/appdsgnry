@@ -6232,7 +6232,6 @@ Go Top CSS
         justify-content: space-between;
         padding: 50px 30px 30px 30px;
         height: 550px;
-        border-color: transparent;
         @media only #{$media} and ($feature_max : $value_two) {
             height: auto;
             justify-content: flex-start;
@@ -6286,12 +6285,10 @@ Go Top CSS
             border-width: 3px;
           }
         &.border-gradient-purple {
-            border-color: transparent;
             border-image-source: linear-gradient(208deg, #001427 0%, #001427 100%);
             transition: .6s all;
           }
         &:hover.border-gradient-purple {
-            border-color: transparent;
             border-image-source: linear-gradient(208deg, #29EFAD 0%, #54D1FC 100%);
                 
         }    
