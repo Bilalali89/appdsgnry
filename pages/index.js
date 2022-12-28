@@ -17,6 +17,7 @@ import WorkProcess from '../components/DefaultHome/WorkProcess';
 import HomeStatsCounter from '../components/Common/HomeStatsCounter';
 import HomeBottomGetintouch from '../components/Common/HomeBottomGetintouch';
 import HomeWeDesign from '../components/Common/HomeWeDesign';
+import HomeTestimonial from '../components/Common/HomeTestimonial';
 
 class Index extends Component {
     render() {
@@ -35,6 +36,8 @@ class Index extends Component {
                 <HomeStatsCounter />
                 
                 <HomeWeDesign />
+
+                <HomeTestimonial />
 
                 <HomeBottomGetintouch />
 

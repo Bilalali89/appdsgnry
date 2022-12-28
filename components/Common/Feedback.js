@@ -8,7 +8,7 @@ const options = {
     dots: true,
     autoplayHoverPause: true,
     autoplay: true,
-    items:1,
+    items:3,
     navText: [
         "<i class='pe-7s-angle-left'></i>",
         "<i class='pe-7s-angle-right'></i>"

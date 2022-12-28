@@ -25,7 +25,7 @@ const HomeWeDesign = () => {
 
                 </div>
 
-                <div className="col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-sm-12 col-12">
+                <div className="col-xl-6 order-xl-2col-lg-12 order-lg-1 col-sm-12 col-12">
                     <div className='mobileillustration d-flex justify-content-center'>
                         <div className='animateicons'>
                             <img className="rocket" src="/images/mobileillustration/Rocket.svg" alt="img" />

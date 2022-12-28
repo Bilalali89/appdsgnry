@@ -6431,13 +6431,26 @@ Go Top CSS
 
 .paddingsec {
     padding: 140px 150px;
+    position: relative;
+    z-index: 1;
     @media only #{$media} and ($feature_max : $value_two) {
-        padding: 100px 20px;     
+        padding: 100px 20px;
+        z-index: 1;
+        position: relative;
      }
 }
 
 .wedesignsec {
     background: transparent linear-gradient(0deg, #F2F2F277 0%, #EFEFEF 100%) 0% 0% no-repeat padding-box;
+    position: relative;
+    &::before {
+        content: url(./../public/images/backgroundlogo.png);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 0;
+        
+    }
     .mainheading {
         font-size: 68px;
         line-height: 5rem;
@@ -6446,6 +6459,9 @@ Go Top CSS
         margin-bottom: 40px;
         @media only #{$media} and ($feature_max : $value_two) {
             font-size: 68px;
+            font-size: 42px;
+            line-height: 4rem;
+            
          }
     }
     .secondheading {
@@ -6478,7 +6494,7 @@ Go Top CSS
             @media only #{$media} and ($feature_max : $value_three) {
                 
                 padding-bottom: 20px;
-                
+               
               }
         }
         .awards {
@@ -6498,6 +6514,9 @@ Go Top CSS
 .mobileillustration {
     position: relative;
     .animateicons {
+        @media only #{$media} and ($feature_max : $value_one) {       
+           transform:scale(0.7)        
+          }
         position: absolute;
         img {
             position: relative;
@@ -6508,10 +6527,18 @@ Go Top CSS
             right: 13px;
             animation: float 6s ease-in-out infinite;
             animation-delay: .4s;
+            @media only #{$media} and ($feature_max : $value_one) {       
+                top: 28px;
+                right: 55px;
+               }
         }
         .mobile {
             top: -16px;
             animation: float 6s ease-in-out infinite;
+            @media only #{$media} and ($feature_max : $value_one) {       
+                left: -60px;
+                top: -46px;
+               }
             
         }
         .hands {
@@ -6519,29 +6546,48 @@ Go Top CSS
             left: 93px;
             animation: float 6s ease-in-out infinite;
             animation-delay: .4s;
+            @media only #{$media} and ($feature_max : $value_one) {       
+                top: 0px;
+                left: -27px;
+            }
         }
         .cubes {
             top: 18px;
             left: 133px;
             animation: float 6s ease-in-out infinite;
+            @media only #{$media} and ($feature_max : $value_one) {       
+                top: -47px;
+                left: 0px;
+            }
         }
         .thumb {
             top: 189px;
             left: 43px;
             animation: float 6s ease-in-out infinite;
+            @media only #{$media} and ($feature_max : $value_one) {       
+                top: 0px;
+                left: 188px;
+            }
             
         }
         .monitor {
             top: 95px;
             animation: float 6s ease-in-out infinite;
             animation-delay: .4s;
-    left: 34px;
-        }
+         left: 34px;
+         @media only #{$media} and ($feature_max : $value_one) {       
+              
+         }
+        }   
         .persons {
             top: 217px;
             left: 21px;
             animation: float 6s ease-in-out infinite;
             animation-delay: .4s;
+            @media only #{$media} and ($feature_max : $value_one) {       
+                top: 0;
+                left: 118px;
+            }
             
         }
     }
@@ -6560,4 +6606,106 @@ Go Top CSS
 	
 		transform: translatey(0px);
 	}
+}
+
+.testimonialbg {
+    background-color: #29EFAD;
+    position: relative;
+    &::before {
+        content: url(./../public/images/testimonialbg.png);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+        @media only #{$media} and ($feature_max : $value_three) {
+                
+            display: none;
+            
+          }
+        
+    }
+}
+
+.testimonialsec {
+    
+    padding: 150px 0px;
+    position: relative;
+    z-index: 1;
+
+    @media only #{$media} and ($feature_max : $value_two) {
+                
+        padding: 60px 0px;
+      }
+    .mainheading {
+        font-size: 68px;
+            font-weight: bold;
+            align-self: center;
+            line-height: 6rem;
+            @media only #{$media} and ($feature_max : $value_three) {
+                
+                padding-bottom: 20px;
+                font-size: 42px;
+                line-height: 3rem;
+                
+              }
+    }
+    .reviewrow {
+        position: relative;
+        @media only #{$media} and ($feature_max : $value_two) {
+                
+            display: none;
+            
+          }
+        img {
+            position: relative;
+            
+        }
+        .review1 {
+            left: 68px;
+             bottom: 35px;
+        }
+        .review2 {
+            bottom: 70px;
+        }
+
+        .review3 {
+            left: 22px;
+        }
+        .review4 {
+            left: 148px;
+        
+        }
+  
+        .review7 {
+            left: -183px;
+            float: right;
+            bottom: 56px;
+        }
+        
+    }
+   
+
+}
+
+.full {
+    display: none;
+    @media only #{$media} and ($feature_max : $value_two) {
+            
+        display: block;
+        text-align: center;
+        
+      }
+}
+.testimonialslide {
+    .feedback {
+        padding: 10px 20px;
+        .head {
+            font-size: 29px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .text {
+            font-size: 24px;
+        }
+    }   
 }
