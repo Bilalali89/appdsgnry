@@ -18,6 +18,7 @@ import HomeStatsCounter from '../components/Common/HomeStatsCounter';
 import HomeBottomGetintouch from '../components/Common/HomeBottomGetintouch';
 import HomeWeDesign from '../components/Common/HomeWeDesign';
 import HomeTestimonial from '../components/Common/HomeTestimonial';
+import HomePortfolio from '../components/Common/HomePortfolio';
 
 class Index extends Component {
     render() {
@@ -30,6 +31,8 @@ class Index extends Component {
                 <Partner />
 
                 <HomeHeadline />
+
+                <HomePortfolio />
 
                 <HomeServices />
 
