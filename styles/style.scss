@@ -6647,8 +6647,8 @@ Pricing CSS
         max-width: 100% !important;
         @media only #{$media} and ($feature_max : $value_two) {
             
-            font-size: 22px;
-            line-height: 2rem;
+            font-size: 19px;
+            line-height: 1.6rem;
               
             }
         
@@ -6956,4 +6956,137 @@ Pricing Area CSS
             }
         }
     }
+}
+
+.bottombg {
+    background: #fafafa;
+    position: relative;
+
+    .mobilebanner {
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+            display: none;
+              
+            }
+
+    }
+
+    .bottomcontactsec {
+        padding: 130px 0px 80px 0px;
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+            padding: 30px 0px 30px 0px;
+              
+            }
+        
+       .contactsec {
+           padding: 0px;
+           padding-top: 30px;
+           background-color: #fafafa;
+   
+           .form-control, .form-select {
+               border: 1px solid $black-color;
+               border-radius: 0px !important;
+               background-color: $white-color;
+               font-size: 18px;
+           }
+   
+           .form-select{
+               padding: 15px 20px;
+   
+               &:focus {
+                   box-shadow: none;
+               }
+           }
+       }
+   
+       .contactheading {
+           font-size: 64px;
+           font-weight: bold;
+           line-height: 4rem;
+           margin-bottom: 10px;
+           @media only #{$media} and ($feature_max : $value_two) {
+            
+            font-size: 42px;
+            line-height: 3rem;
+            padding: 0px 20px;
+              
+            }
+       }
+   
+       .contacttext {
+           font-size: 28px;
+           font-family: 'Poppins', sans-serif;
+           @media only #{$media} and ($feature_max : $value_two) {
+            
+            font-size: 22px;
+            line-height: 1.6rem;
+            padding: 0px 20px;
+            font-weight: bold;
+              
+            }
+       }
+   
+       .btncontact {
+           text-align: right;
+           .btn.btn-form {
+               border-radius: 0px;
+               background: $gradient-color;
+               padding: 20px 30px;
+               color: $white-color;
+               font-size: 18px;
+               
+           }
+       }
+   
+       .bottomsec {
+           background-color: #001427;
+           padding: 30px;
+           margin-top: 100px;
+           @media only #{$media} and ($feature_max : $value_two) {
+            
+            display: none
+              
+            }
+
+           
+   
+           .bottomdiv {
+               border-right: 1px solid $white-color;
+               display: flex;
+               .bold {
+                   font-size: 60px;
+                   color: $primary-color;
+                   font-weight: bold;
+                   
+               }
+               .text {
+                   color: $white-color;
+                   font-size: 18px;
+                   
+                   padding: 20px
+               }
+           }
+           .bottomdiv2 {
+               border-right: none;
+               display: flex;
+               .bold {
+                   font-size: 60px;
+                   color: $primary-color;
+                   font-weight: bold;
+                   
+               }
+               .text {
+                   color: $white-color;
+                   font-size: 18px;
+                   
+                   padding: 20px 10px
+               }
+           }
+       }
+       
+      
+   }
+   
+   
 }
