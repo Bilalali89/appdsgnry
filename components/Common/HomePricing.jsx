@@ -217,13 +217,13 @@ class HomePricing extends Component {
                                                 </div>
 
                                                 <div className="price">
-                                                    <sup>$</sup>49 
+                                                    <sup>$</sup>149 
                                                 </div>
 
                                                 <ul className="pricing-features">
                                                     <li>
                                                         <i className="icofont-check-circled"></i>
-                                                        2 Logo Concepts
+                                                        2 Website Designs
                                                     </li>
                                                     <li>
                                                         <i className="icofont-check-circled"></i>
@@ -266,13 +266,13 @@ class HomePricing extends Component {
                                                 </div>
 
                                                 <div className="price">
-                                                    <sup>$</sup>149 
+                                                    <sup>$</sup>259 
                                                 </div>
 
                                                 <ul className="pricing-features">
                                                     <li>
                                                         <i className="icofont-check-circled"></i>
-                                                        6 Logo Concepts
+                                                        6 Website Designs
                                                     </li>
                                                     <li>
                                                         <i className="icofont-check-circled"></i>
@@ -322,13 +322,13 @@ class HomePricing extends Component {
                                                 </div>
 
                                                 <div className="price">
-                                                    <sup>$</sup>199 
+                                                    <sup>$</sup>499 
                                                 </div>
 
                                                 <ul className="pricing-features">
                                                     <li>
                                                         <i className="icofont-check-circled"></i>
-                                                        Unlimited Logo Concepts 
+                                                        Unlimited Website Designs
                                                     </li>
                                                     <li>
                                                         <i className="icofont-check-circled"></i>
