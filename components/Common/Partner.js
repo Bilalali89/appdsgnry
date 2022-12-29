@@ -12,7 +12,7 @@ class Partner extends Component {
                     </div> */}
 
                     <div className="row align-items-center justify-content-center">
-                        <div className="col-lg-2 col-4 col-sm-4">
+                        <div className="col-lg-2 col-4 col-sm-4 mobnone">
                             <div className="single-partner">
                                 <a href="#" target="_blank">
                                     <img src="/images/partners/partner1.png" alt="image" />
@@ -20,7 +20,7 @@ class Partner extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-4 col-sm-4">
+                        <div className="col-lg-2 col-4 col-sm-4 mobnone">
                             <div className="single-partner">
                                 <a href="#" target="_blank">
                                     <img src="/images/partners/partner2.png" alt="image" />
@@ -44,7 +44,7 @@ class Partner extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-4 col-sm-4">
+                        <div className="col-lg-2 col-4 col-sm-4 mobnone">
                             <div className="single-partner">
                                 <a href="#" target="_blank">
                                     <img src="/images/partners/partner5.png" alt="image" />
@@ -52,7 +52,7 @@ class Partner extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-4 col-sm-4">
+                        <div className="col-lg-2 col-4 col-sm-4 mobnone">
                             <div className="single-partner">
                                 <a href="#" target="_blank">
                                     <img src="/images/partners/partner6.png" alt="image" />
@@ -84,7 +84,7 @@ class Partner extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-4 col-sm-4">
+                        <div className="col-lg-2 col-4 col-sm-4 mobnone">
                             <div className="single-partner">
                                 <a href="#" target="_blank">
                                     <img src="/images/partners/partner10.png" alt="image" />

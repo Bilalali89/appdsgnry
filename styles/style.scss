@@ -2700,10 +2700,21 @@ Portfolio Details CSS
 /*================================================
 Partner CSS
 =================================================*/
+
+.partner-area {
+    .mobnone {
+        @media only #{$media} and ($feature_max : $value_two) {       
+            display: none;
+        }
+
+    }
+
+}
 .single-partner {
     text-align: center;
     margin-bottom: 40px;
 
+    
     img {
         transition: $transition;
     }
@@ -6305,6 +6316,10 @@ Go Top CSS
         font-size: 20px;
         color: $white-color;
         margin-bottom: 1rem;
+        @media only #{$media} and ($feature_max : $value_two) {
+           
+            padding: 10px
+         }
 
     }
 
@@ -6319,6 +6334,7 @@ Go Top CSS
             width: 100%;
             font-size: 42px;
             line-height: 3rem;
+            padding: 10px
          }
 
     }
@@ -6710,51 +6726,141 @@ Go Top CSS
     }   
 }
 
-.slick-prev:before, .slick-next:before{
-    color:red;
-}
+
 .portfoliosec {
     padding: 100px 0px;
+    .portdiv {
+        justify-content: space-between;
+    }
     .headingportfolio {
         font-size: 68px;
         line-height: 4rem;
         font-weight: bold;
         margin-bottom: 50px;
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+            display: none;
+            
+          }
         .blue {
             color: $secondary-color
         }
     }
+    .headingportfolio2 {
+        display: none;
+        font-size: 68px;
+        line-height: 4rem;
+        font-weight: bold;
+        margin-bottom: 50px;
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+            display: block;
+            font-size: 42px;
+            margin-bottom: 30px;
+            padding-left: 20px;
+            
+          }
+        .blue {
+            color: $secondary-color
+        }
+    }
+
+
+
+    .slidehide {
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+           display: none;
+            
+          }
+    }
     
         
         .slide {
-            padding-left: 20px
+            padding-left: 20px;
+            cursor: pointer;
         }
     
    
     .slick-next, .slick-prev {
         font-size: 0;
         line-height: 0;
-        top: 0;
-        width: 20px;
-        height: 20px;
-        -webkit-transform: translate(0,-50%);
-        -ms-transform: translate(0,-50%);
-        transform: translate(0,-50%);
-        cursor: pointer;
-        color: transparent;
-        border: none;
-        outline: 0;
-        background: 0 0;
+        width: 66px;
+        height: 66px;
+       
     }
-    .slick-next {
-        right: 50px;
-        bottom: 100px;
+    .slick-arrow.slick-next {
+      
+        transform: rotate(180deg); 
+        right: 51px !important;
+        top: -121px;
+
 
     }
-    .slick-prev {
-        right: 100px;
-        bottom: 100px;
+    .slick-arrow.slick-prev {
+       
+        left: initial;
+        right: 114px !important;
+        top: -88px;
+    }
+
+    .slick-arrow.slick-prev::before {
+        content: url(./../public/images/LeftArrow1.svg);
+        position: relative;
+    }
+
+    .slick-arrow.slick-next::before {
+        content: url(./../public/images/LeftArrow1.svg);
+        position: relative;
+        
+       
     }
     
     
+}
+
+.viewbutton {
+    justify-content: center;
+    margin-top: 80px;
+    @media only #{$media} and ($feature_max : $value_two) {
+            
+       margin-top: 10px;
+         
+       }
+   
+    .viewmore.btn {
+        border-radius: 0px !important;
+        border: 2px solid $primary-color;
+        font-size: 23px;
+        font-weight: bold;
+        padding: 16px 80px;
+
+        a {
+
+            color: $black-color
+        }
+        
+    }
+}
+
+.mobportfolio {
+    display: none;
+    
+    .port {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    @media only #{$media} and ($feature_max : $value_two) {
+            
+       display: block;
+          
+        }
+}
+
+.slidehide {
+    @media only #{$media} and ($feature_max : $value_two) {
+            
+        display: none;
+           
+         }
 }
