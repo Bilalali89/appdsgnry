@@ -32,6 +32,7 @@ const HomePortfolio = () => {
         infinite: true,
         speed: 500,
         arrows: true,
+        draggable: false,
           variableWidth: true,
           adaptiveHeight: true,
         slidesToShow: 3,
