@@ -19,6 +19,7 @@ import HomeBottomGetintouch from '../components/Common/HomeBottomGetintouch';
 import HomeWeDesign from '../components/Common/HomeWeDesign';
 import HomeTestimonial from '../components/Common/HomeTestimonial';
 import HomePortfolio from '../components/Common/HomePortfolio';
+import HomePricing from '../components/Common/HomePricing';
 
 class Index extends Component {
     render() {
@@ -40,9 +41,16 @@ class Index extends Component {
                 
                 <HomeWeDesign />
 
+                <HomePricing />
+
                 <HomeTestimonial />
 
                 <HomeBottomGetintouch />
+
+
+
+                
+
 
                 
 
