@@ -7035,9 +7035,15 @@ Pricing Area CSS
                background: $gradient-color;
                padding: 20px 30px;
                color: $white-color;
-               font-size: 18px;
-               
+               font-size: 18px; 
+               @media only #{$media} and ($feature_max : $value_two) {
+            
+                width: 100%
+                   
+                 }
            }
+
+           
        }
    
        .bottomsec {
