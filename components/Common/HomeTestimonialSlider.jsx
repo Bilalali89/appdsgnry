@@ -47,8 +47,7 @@ class HomeTestimonialSlider extends Component {
             <section className=" ptb-50">
                 <div className="container">
                     <div className="testimonialslide">
-                    
-
+                
                         {this.state.display ? <OwlCarousel 
                         className="feedback-slides owl-carousel owl-theme"
                             {...options}
