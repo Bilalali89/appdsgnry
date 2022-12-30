@@ -16,6 +16,7 @@ class Contact extends Component {
                     pageTitle="Talk to us!" 
                     pageDescription = "Let's Discuss"
                     BGImage="bg-five"
+                    DNONE="none"
                 />  
 
                 {/* <ContactInfo />

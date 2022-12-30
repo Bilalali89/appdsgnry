@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
-import PricingStyleTwo from '../components/Pricing/PricingStyleTwo';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+
+import HomeBottomContact from '../components/Common/HomeBottomContact';
+import PricingPageSection from '../components/Pricing/PricingPageSection';
 import Footer from '../components/Layouts/Footer';
+import PricingMainSection from '../components/Pricing/PricingMainSection';
 
 class Pricing extends Component {
     render() {
@@ -15,12 +17,12 @@ class Pricing extends Component {
                     pageTitle="Digitally Optimized" 
                     pageDescription = "Our Pricing"
                     BGImage="bg-four"
-                />  
+                    // DNONE="none"
+                />
+                <PricingMainSection />  
 
-                {/* <PricingStyleTwo /> */}
-
-                {/* <CtaAreaTwo /> */}
-
+                <PricingPageSection />
+                <HomeBottomContact />
                 <Footer />
             </>
         );

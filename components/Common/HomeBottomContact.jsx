@@ -62,8 +62,8 @@ const HomeBottomContact = () => {
                     
                 </div>
                 <div className="col-md-4">
-                    <div className='mobilebanner'>
-                        <img src="/images/letsdiscuss.png" alt="img" />
+                    <div className='mobilebanner text-center'>
+                        <img src="/images/letsdiscuss.png" width="400px" height="auto" alt="img" />
                     </div>
                 </div>
                 

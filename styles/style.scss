@@ -6782,16 +6782,16 @@ Pricing Area CSS
     margin-bottom: 30px;
     background: linear-gradient(333deg, #001427 0%, #003E71 100%) 0% 0% no-repeat padding-box;
     padding-bottom: 30px;
-    border-radius: 50px;
+    border-radius: 25px;
     transition: $transition;
     position: relative;
     .plabel {
         position: absolute;
-        left: 60px;
+        left: 40px;
         @media only #{$media} and ($feature_max : $value_one) {       
             transform:scale(0.7);
             transform-origin: top;  
-            left: 40px    
+            left: 25px    
            }
     }
 
@@ -6805,6 +6805,7 @@ Pricing Area CSS
             font-size: 22px;
             color: $primary-color;
             font-size: 40px;
+            line-height: 3rem;
        
     }
     .price {
@@ -6973,7 +6974,7 @@ Pricing Area CSS
     }
 
     .bottomcontactsec {
-        padding: 130px 0px 80px 0px;
+        padding: 130px 0px 0px 0px;
         @media only #{$media} and ($feature_max : $value_two) {
             
             padding: 30px 0px 30px 0px;
@@ -7097,3 +7098,67 @@ Pricing Area CSS
    
    
 }
+
+.pricebannerlogo {
+    text-align: right;
+    @media only #{$media} and ($feature_max : $value_two) {
+
+        text-align: center; 
+        padding-top: 30px;
+    }
+   
+}
+
+.pricingbg {
+    background-color: #EFEFEF;
+
+
+    .pb_100 {
+        padding-bottom: 100px;
+        @media only #{$media} and ($feature_max : $value_two) {
+
+         padding-bottom: 30px;  
+     }
+    }
+
+    .ptb-pricing {
+        padding: 120px 0;
+        @media only #{$media} and ($feature_max : $value_two) {
+
+            padding: 50px 0; 
+        }}
+    }
+    .pricinghead {
+        font-size: 68px;
+        line-height: 5rem;
+        font-weight: bold;
+        color: #001427;
+        span {
+            color: $secondary-color
+        }
+      
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+            
+            padding: 30px;
+            font-size: 42px;
+            line-height: 3.2rem;
+               
+        }
+    }
+
+    .pricingtext {
+        font-size: 36px;
+        font-weight: 100;
+        padding-left: 60px;
+        border-left: 6px solid $secondary-color;
+        width: 60%;
+
+        @media only #{$media} and ($feature_max : $value_two) {
+            
+            width: 100%;
+            padding: 30px;
+            font-size: 28px;
+               
+        }
+    }

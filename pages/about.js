@@ -8,6 +8,7 @@ import Feedback from '../components/Common/Feedback';
 import Partner from '../components/Common/Partner';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
+import HomeBottomContact from '../components/Common/HomeBottomContact';
 
 class Aabout extends Component {
     render() {
@@ -20,6 +21,7 @@ class Aabout extends Component {
                     pageDescription = {`Your Growth \nPartner`}
                     pageTitle="About Us"
                     BGImage="bg-one"
+                    DNONE="none"
                 />  
 
                 {/* <AboutContent /> */}
@@ -33,6 +35,8 @@ class Aabout extends Component {
                 {/* <Partner /> */}
 
                 {/* <CtaAreaTwo /> */}
+
+                <HomeBottomContact />
                 
                 <Footer/>
             </>

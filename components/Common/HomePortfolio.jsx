@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import Link from 'next/link';
 
+
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -47,20 +48,15 @@ const HomePortfolio = () => {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 infinite: true,
+                adaptiveHeight: true,
+                variableWidth: true
                 
               }
             },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
-              }
-            },
+           
             {
               breakpoint: 500,
               settings: {
@@ -97,6 +93,7 @@ const HomePortfolio = () => {
             </div>
           </div>
           <div className="container-fluid slidehide">
+            
             <Slider {...settings}>
               <div className="slide">
                 <div>
@@ -149,6 +146,34 @@ const HomePortfolio = () => {
                 <Link href="/portfolio">
                   <img
                     src="/images/portfolio/Portfolio 8.png"
+                    alt="portfolio"
+                  />
+                   </Link>
+                </div>
+              </div>
+              <div className="slide">
+                <div>
+                <Link href="/portfolio">
+                  <img
+                    src="/images/portfolio/Portfolio 4.png"
+                    alt="portfolio"
+                  />
+                   </Link>
+                </div>
+              </div>
+              <div className="slide">
+                <div>
+                <Link href="/portfolio">
+                  <img
+                    src="/images/portfolio/Portfolio 7.png"
+                    alt="portfolio"
+                  />
+                   </Link>
+                </div>
+                <div style={{ paddingTop: "40px" }}>
+                <Link href="/portfolio">
+                  <img
+                    src="/images/portfolio/Portfolio 10.png"
                     alt="portfolio"
                   />
                    </Link>

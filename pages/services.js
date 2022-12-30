@@ -4,6 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import ServicesStyleOne from '../components/Services/ServicesStyleOne';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
+import HomeBottomContact from '../components/Common/HomeBottomContact';
 
 class Services extends Component {
     render() {
@@ -15,11 +16,13 @@ class Services extends Component {
                     pageTitle="Our Expertise" 
                     pageDescription = "What We Do"
                     BGImage="bg-two"
+                    DNONE="none"
                 />  
 
                 {/* <ServicesStyleOne /> */}
 
                 {/* <CtaAreaTwo /> */}
+                <HomeBottomContact />
 
                 <Footer />
             </>

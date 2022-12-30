@@ -5,6 +5,7 @@ import WorksStyleOne from '../components/Portfolio/WorksStyleOne';
 import WorksStyleTwo from '../components/Portfolio/WorksStyleTwo';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
+import HomeBottomContact from '../components/Common/HomeBottomContact';
 
 class Portfolio extends Component {
     render() {
@@ -16,6 +17,7 @@ class Portfolio extends Component {
                     pageTitle="Our Portfolio" 
                     pageDescription = "What We've Built"
                     BGImage="bg-three"
+                    DNONE="none"
                 />  
 
                 {/* <WorksStyleOne /> */}
@@ -23,6 +25,7 @@ class Portfolio extends Component {
                 {/* <WorksStyleTwo /> */}
 {/* 
                 <CtaAreaTwo /> */}
+                 <HomeBottomContact />
                 
                 <Footer />
             </>
