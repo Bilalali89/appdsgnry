@@ -33,27 +33,27 @@ const HomeBottomContact = () => {
                     <div className="col-12 col-sm-2"></div>
                     <div className="col-12 col-sm-10">
                         <div className="row">
-                            <div className="col-4">
+                            <div className="col-6">
                                 <div className='bottomdiv'>
                                     <div className='bold'>75%</div>
-                                    <div className='text'>YEAR 2021 REVENUE</div>
+                                    <div className='text'>YEAR 2022 REVENUE GENERATED</div>
                                 </div>
                                 
                             </div>
-                            <div className="col-4">
-                                <div className='bottomdiv'>
+                            <div className="col-6">
+                                <div className='bottomdiv2'>
                                     <div className='bold'>89%</div>
-                                    <div className='text'>ORDERS COMPLETED</div>
+                                    <div className='text'>TOTAL ORDERS COMPLETED</div>
                                 </div>
                                 
                             </div>
-                            <div className="col-4">
+                            {/* <div className="col-4">
                                 <div className='bottomdiv2' >
                                     <div className='bold'>99%</div>
                                     <div className='text'>MONEY BACK GUARANTEE</div>
                                 </div>
                                 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

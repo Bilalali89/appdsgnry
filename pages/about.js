@@ -9,6 +9,10 @@ import Partner from '../components/Common/Partner';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
 import HomeBottomContact from '../components/Common/HomeBottomContact';
+import AboutHeaderSection from '../components/About/AboutHeaderSection';
+import AboutPhilosophy from '../components/About/AboutPhilosophy';
+import AboutClientLogos from '../components/About/AboutClientLogos';
+import AboutQuoteSection from '../components/About/AboutQuoteSection';
 
 class Aabout extends Component {
     render() {
@@ -24,17 +28,13 @@ class Aabout extends Component {
                     DNONE="none"
                 />  
 
-                {/* <AboutContent /> */}
+                <AboutHeaderSection />
 
-                {/* <FunFactsTwo /> */}
+                <AboutPhilosophy />
 
-                {/* <TeamStyleThree /> */}
+                <AboutClientLogos />
 
-                {/* <Feedback /> */}
-
-                {/* <Partner /> */}
-
-                {/* <CtaAreaTwo /> */}
+                <AboutQuoteSection />
 
                 <HomeBottomContact />
                 
