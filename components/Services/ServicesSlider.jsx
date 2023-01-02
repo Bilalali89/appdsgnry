@@ -5,19 +5,19 @@ const OwlCarousel = dynamic(import("react-owl-carousel3"));
 
 const options = {
   loop: true,
-  nav: false,
+  nav: true,
   dots: false,
   autoplayHoverPause: true,
   autoplay: true,
   margin: 20,
   navText: [
-    "<i class='pe-7s-angle-left'></i>",
-    "<i class='pe-7s-angle-right'></i>",
+    "<span> </span>",
+    "<span><img src='/images/rightarrow.png' /> </span>",
   ],
   responsive: {
     0: {
       items: 1,
-      nav: false,
+      nav: true,
     },
     576: {
       items: 2,
@@ -98,11 +98,10 @@ class ServicesSlider extends Component {
                         quickly.
                       </div>
                       <div className="ssec-3">
-                        <p>Native App</p>
-                        <p>E-commerce App</p>
-                        <p>SaaS Based</p>
+                        <p>Hybrid App</p>
+                        <p>iOS / Android</p>
+                        <p>React Native</p>
                         <p>CMS</p>
-                        <p>Back-end</p>
                       </div>
                     </div>
                     <div className="content">
@@ -114,14 +113,14 @@ class ServicesSlider extends Component {
                         quickly.
                       </div>
                       <div className="ssec-3">
-                        <p>Native App</p>
-                        <p>E-commerce App</p>
-                        <p>SaaS Based</p>
-                        <p>CMS</p>
-                        <p>Back-end</p>
+                        <p>Product Deployment</p>
+                        <p>Cross Platform</p>
+                        <p>SaaS Development</p>
+                        <p>Hybrid Platform</p>
+                       
                       </div>
                     </div>
-                    <div className="content ">
+                    <div className="content">
                       <div className="ssec-1">Web & App Design</div>
                       <div className="ssec-2">
                         Define your product, scope the MVP, and get a feel of
@@ -160,11 +159,11 @@ class ServicesSlider extends Component {
                         quickly.
                       </div>
                       <div className="ssec-3">
-                        <p>Native App</p>
-                        <p>E-commerce App</p>
-                        <p>SaaS Based</p>
+                        <p>Hybrid App</p>
+                        <p>iOS / Android</p>
+                        <p>React Native</p>
                         <p>CMS</p>
-                        <p>Back-end</p>
+                       
                       </div>
                     </div>
                     <div className="content">
@@ -176,11 +175,11 @@ class ServicesSlider extends Component {
                         quickly.
                       </div>
                       <div className="ssec-3">
-                        <p>Native App</p>
-                        <p>E-commerce App</p>
-                        <p>SaaS Based</p>
-                        <p>CMS</p>
-                        <p>Back-end</p>
+                       <p>Product Deployment</p>
+                        <p>Cross Platform</p>
+                        <p>SaaS Development</p>
+                        <p>Hybrid Platform</p>
+                       
                       </div>
                     </div>
                   </OwlCarousel>

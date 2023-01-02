@@ -44,7 +44,7 @@ class HomeTestimonialSlider extends Component {
 
     render() {
         return (
-            <section className=" ptb-50">
+            <section className="ptb-50">
                 <div className="container">
                     <div className="testimonialslide">
                 

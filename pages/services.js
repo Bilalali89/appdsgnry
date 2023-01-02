@@ -8,6 +8,7 @@ import HomeBottomContact from '../components/Common/HomeBottomContact';
 import ServiceTabletSection from '../components/Services/ServiceTabletSection';
 import ServiceMainSection from '../components/Services/ServiceMainSection';
 import ServicesSlider from '../components/Services/ServicesSlider';
+import ServiceTechnologies from '../components/Services/ServiceTechnologies';
 
 class Services extends Component {
     render() {
@@ -23,9 +24,12 @@ class Services extends Component {
                 /> 
 
                 <ServiceMainSection />
+
                 <ServicesSlider />
 
-               
+                <ServiceTechnologies />
+
+
                 <ServiceTabletSection />
 
                 <HomeBottomContact />
