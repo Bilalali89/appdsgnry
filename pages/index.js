@@ -50,33 +50,6 @@ class Index extends Component {
                 <HomeBottomContact />
 
                 <HomeBottomGetintouch />
-
-
-
-
-                
-
-
-                
-
-                {/* <Services /> */}
-
-                {/* <About /> */}
-
-                {/* <OurWorks /> */}
-
-                {/* <WorkProcess /> */}
-
-                {/* <Feedback /> */}
-
-                {/* <Team /> */}
-
-                {/* <FunFacts /> */}
-
-                {/* <LatestNewsSlider /> */}
-
-                {/* <CtaArea /> */}
-
                
                 
                 <Footer />

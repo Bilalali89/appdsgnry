@@ -2,9 +2,10 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className="contact-form">
-            <h2>Get In Touch</h2>
-  
+
+    
+        <div className="contact-form ptb-100">
+        
             <form>
                 <div className="container">
                     <div className="row">
@@ -65,8 +66,8 @@ const ContactForm = () => {
                             </div>
                         </div>
                         <div className="col-lg-12 col-sm-12">
-                            <button type="submit" className="btn btn-primary">
-                                Send Message
+                            <button type="submit" className="btn btn-contact">
+                                Submit Now
                             </button>
                         </div>
                     </div>

@@ -5,6 +5,7 @@ import ContactInfo from '../components/Contact/ContactInfo';
 import ContactForm from '../components/Contact/ContactForm';
 import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
+import ContactHeadline from '../components/Contact/ContactHeadline';
 
 class Contact extends Component {
     render() {
@@ -19,9 +20,13 @@ class Contact extends Component {
                     DNONE="none"
                 />  
 
-                {/* <ContactInfo />
-                 */}
-                {/* <ContactForm /> */}
+                <ContactHeadline />
+
+                <ContactForm />
+
+                <ContactInfo />
+                
+                
 
                 {/* <div className="ptb-100">
                     <Newsletter />

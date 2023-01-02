@@ -148,7 +148,6 @@ class ServiceTechnologies extends Component {
                                         <div className="col-md-2 col-6 text-center">
                                             <img src="/images/services/dotnet.png" alt="technologies" />
                                         </div> 
-                                      
                                     </div>
                                 </div>
 
