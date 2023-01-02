@@ -4,7 +4,7 @@ const ContactForm = () => {
     return (
 
     
-        <div className="contact-form ptb-100">
+        <div className="contact-form contact ptb-100" id="contact">
         
             <form>
                 <div className="container">

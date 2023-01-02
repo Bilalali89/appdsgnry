@@ -9,7 +9,7 @@ const ContactHeadline = () => {
                 If you’re looking to invigorate your brand and ignite your marketing then we’d love to hear from you.
                 </div>
                 <span className='link'>
-                    <a href="">Let's talk !</a>
+                    <a href="#contact">Let's talk !</a>
                 </span>
 
             </div>
