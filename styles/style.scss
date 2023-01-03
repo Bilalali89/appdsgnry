@@ -6558,6 +6558,15 @@ Go Top CSS
     font-size: 23px;
     font-weight: bold;
     padding: 16px 80px;
+    transition: $transition;
+    &:hover {
+      background: $gradient-color;
+      transition: $transition;
+      a {
+        color: $white-color;
+        transition: $transition;
+      }
+    }
     @media only #{$media} and ($feature_max : $value_two) {
       padding: 16px 20px;
     }
@@ -7658,4 +7667,404 @@ Pricing Area CSS
         
     }
 
+}
+
+.portfolioone, .portfoliotwo, .portfoliothree, .portfoliofour {
+  padding: 0
+}
+
+.portfoliothree {
+  background-color: #001427;
+}
+
+.portfoliofour {
+  background: url(/images/portfoliopage/Summer\ collection.png);
+  background-position: center;
+  height: 85vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  @media only #{$media} and ($feature_max : $value_two) {
+   display: none;
+    }
+
+  .textheading {
+     
+        bottom: 0;
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+       
+        line-height: 3rem;
+        
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+  }
+}
+
+.appcontentone {
+  padding: 100px 0;
+  @media only #{$media} and ($feature_max : $value_two) {
+    padding: 50px 20px;
+    }
+
+    .heading {
+      font-size: 68px;
+      font-weight: bold;
+      line-height: 4.5rem;
+      padding-bottom: 80px;
+      color: $secondary-color;
+      padding-top: 40px;
+      @media only #{$media} and ($feature_max : $value_two) {
+        font-size: 42px;
+        line-height: 3rem;
+        padding-bottom: 30px;
+        }
+      span {
+        color: $black-color
+      }
+    }
+
+    .text {
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 3rem;
+      padding-bottom: 100px;
+      padding-right: 25%;
+      @media only #{$media} and ($feature_max : $value_two) {
+        font-size: 23px;
+        line-height: 2rem;
+        padding-right: 0%;
+        padding-bottom: 40px;
+        }
+    }
+
+    .icotext {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 2rem;
+      @media only #{$media} and ($feature_max : $value_two) {
+        margin-bottom: 30px;
+        }
+    }
+}
+
+.appcontenttwo {
+  padding: 100px 10vw;
+  background-color: #001427;
+  @media only #{$media} and ($feature_max : $value_two) {
+    padding: 50px 20px;
+    }
+    .slogan {
+      color: $secondary-color;
+      letter-spacing: 4px;
+      font-size: 20px;
+    }
+    .heading {
+      font-size: 68px;
+      font-weight: bold;
+      line-height: 4.5rem;
+      padding-bottom: 80px;
+      color: $primary-color;
+      padding-top: 40px;
+      @media only #{$media} and ($feature_max : $value_two) {
+        font-size: 42px;
+        line-height: 3rem;
+        padding-bottom: 30px;
+        }
+      
+    }
+
+    .text {
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 3rem;
+      padding-bottom: 100px;
+      padding-right: 25%;
+      color: $white-color;
+      @media only #{$media} and ($feature_max : $value_two) {
+        font-size: 23px;
+        line-height: 2rem;
+        padding-right: 0%;
+        padding-bottom: 40px;
+        }
+    }
+
+    .icotext {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 2rem;
+      color: $secondary-color;
+      @media only #{$media} and ($feature_max : $value_two) {
+        margin-bottom: 30px;
+        }
+    }
+}
+
+.portfoliospecial {
+    overflow: hidden;
+    .section-one {
+      padding: 100px 0;
+      background-color: #F9F9F9;
+      height: 100%;
+
+      .slogan {    
+      letter-spacing: 4px;
+      font-size: 20px;
+      padding-left: 20%;
+      padding-right: 20%;
+      @media only #{$media} and ($feature_max : $value_two) {
+        padding-left: 10%;
+        padding-right: 10%;
+        }
+
+      }
+      .heading {
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 3.5rem;
+        padding-top: 40px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 40px;
+        @media only #{$media} and ($feature_max : $value_two) {
+          padding-left: 10%;
+          padding-right: 10%;
+          font-size: 42px;
+          line-height: 3rem;
+          }
+      }
+      .h {
+        padding-right: 20%;
+        @media only #{$media} and ($feature_max : $value_two) {
+         
+          padding-right: 0%;
+          }
+        .h1 {
+        font-size: 26px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        @media only #{$media} and ($feature_max : $value_two) {
+          padding-left: 10%;
+          padding-right: 10%;
+          }
+      }
+      .h2 {
+        font-size: 22px;
+        font-weight: 100;
+        padding-bottom: 40px;
+        line-height: 2rem;
+        @media only #{$media} and ($feature_max : $value_two) {
+          padding-left: 10%;
+          padding-right: 10%;
+          padding-bottom: 15px;
+          }
+      }
+      .h3 {
+        font-size: 48px;
+        color: $secondary-color;
+        @media only #{$media} and ($feature_max : $value_two) {
+          padding-left: 10%;
+          padding-right: 10%;
+          }
+      }
+      }
+      
+    }
+   .section-two {
+    height: 100%;
+    padding: 100px;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media only #{$media} and ($feature_max : $value_two) {
+         
+      padding: 50px 10%;
+      }
+    .heading {
+      font-size: 62px;
+      font-weight: bold;
+      line-height: 5rem;
+      padding-right: 30%;
+      @media only #{$media} and ($feature_max : $value_two) {
+         
+        font-size: 36px;
+        line-height: 2.5rem;
+        padding-right: 0%;
+        padding-bottom: 30px;
+        }
+    }
+
+    .extension{
+      @media only #{$media} and ($feature_max : $value_two) {   
+        padding-bottom: 30px;
+        }
+      .head {
+          font-size: 28px;
+          font-weight: bold;
+          color: $white-color;
+          margin-bottom: 30px;
+
+      }
+      .text {
+        font-size: 26px;
+        padding-right: 20%;
+        @media only #{$media} and ($feature_max : $value_two) {   
+          padding-right: 0%;
+          }
+            
+      }
+    }
+    .arrw {
+      cursor: pointer;
+    }
+   } 
+
+}
+
+.introsection {
+  overflow: hidden;
+   padding: 100px 0px;
+   background: rgb(255,255,255);
+background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 46%, rgba(0,20,39,1) 46%);
+   margin-bottom: -1px;
+  
+   @media only #{$media} and ($feature_max : $value_two) {
+     padding: 50px 20px;
+     }
+    .mainDiv {
+      @media only #{$media} and ($feature_max : $value_four) {
+        display: none;
+       }
+      
+      background: url(/images/portfoliopage/mobile-mockup-002.png) no-repeat;
+      background-size: contain;
+      height: 90vh;
+      padding: 0px 10vw;
+      @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_seven) {
+        height: 50vh;
+       }
+
+      .heading {
+        font-size: 62px;
+        line-height: 4rem;
+        padding-bottom: 30px;
+        
+      }
+
+      .btn.btn-casestudy {
+        border: 3px solid $primary-color;
+        padding: 15px 40px;
+        font-weight: bold;
+        font-size: 22px;
+        border-radius: 0px;
+        background-color: $white-color;
+        font-family: 'Poppins',sans-serif;
+        transition: $transition;
+        &:hover {
+          background: $gradient-color;
+          transition: $transition;
+          
+          a {
+            color: $white-color;
+            transition: $transition;
+          }
+        }
+        a {
+          color: #001427;
+          transition: $transition;
+        }
+        float: right;
+        
+
+      }
+    
+    } 
+    .bottomheading {
+      color: $white-color;
+      font-size: 56px;
+      font-weight: 900;
+      padding-left: 40%;
+      line-height: 4rem;
+      text-align: left;
+      @media only #{$media} and ($feature_max : $value_two) {
+        font-size: 38px;
+        line-height: 3rem;
+        padding-left: 0%;
+       }
+
+       @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four){
+        font-size: 38px;
+        line-height: 3rem;
+        padding-left: 0%;
+        padding: 20px
+       }
+      .green {
+        color: $primary-color;
+      }
+      .blue {
+        color: $secondary-color
+      }
+    }
+
+    .mobdiv {
+      display: none;
+      @media only #{$media} and ($feature_max : $value_four) {
+        display: block;
+       }
+       .button {
+        padding: 20px;
+        @media only #{$media} and ($feature_max : $value_two) {
+          padding: 0;
+         }
+       }
+       .btn.btn-casestudy {
+        border: 3px solid $primary-color;
+        padding: 15px 40px;
+        font-weight: bold;
+        font-size: 22px;
+        border-radius: 0px;
+        background-color: $white-color;
+        width: 100%;
+        cursor: pointer;
+        font-family: 'Poppins',sans-serif;
+        transition: $transition;
+        
+      
+        &:hover {
+          background: $gradient-color;
+          transition: $transition;
+          
+          a {
+            color: $white-color;
+            transition: $transition;
+          }
+        }
+        a {
+          color: #001427;
+          transition: $transition;
+        }   
+
+      }
+      .title {
+        font-size: 36px;
+        line-height: 3rem;
+        padding-bottom: 30px;  
+        @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four){
+          font-size: 36px;
+          line-height: 3rem;    
+          padding: 20px
+         }
+      }
+      .mockup {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    }
 }

@@ -11,8 +11,8 @@ const HomeBottomContact = () => {
             <div className="row">
                 <div className="col-md-8" >
                     <div className="row">
-                        <div className="col-12 col-sm-2"></div>
-                        <div className="col-12 col-sm-10">
+                        
+                        <div className="col-12 col-md-10 offset-md-1 offset-lg-2">
                             <div className='sec'>
                                 <div className="contactheading">
                                 Let's Discuss your idea
@@ -30,8 +30,8 @@ const HomeBottomContact = () => {
                     </div>
                     <div className="bottomsec">
                     <div className="row">
-                    <div className="col-12 col-sm-2"></div>
-                    <div className="col-12 col-sm-10">
+                   
+                    <div className="col-12 col-md-10 offset-md-1 offset-lg-2">
                         <div className="row">
                             <div className="col-6">
                                 <div className='bottomdiv'>

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
-import WorksStyleOne from '../components/Portfolio/WorksStyleOne';
-import WorksStyleTwo from '../components/Portfolio/WorksStyleTwo';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
 import HomeBottomContact from '../components/Common/HomeBottomContact';
+import PortfolioOne from '../components/Portfolio/PortfolioOne';
+import PortfolioTwo from '../components/Portfolio/PortfolioTwo';
+import PortfolioThree from '../components/Portfolio/PortfolioThree';
+import PortfolioTitle from '../components/Portfolio/PortfolioTitle';
+import PortfolioAppContentOne from '../components/Portfolio/PortfolioAppContentOne';
+import PortfolioAppContentTwo from '../components/Portfolio/PortfolioAppContentTwo';
+import PortfolioSpecial from '../components/Portfolio/PortfolioSpecial';
+import PortfolioIntroSection from '../components/Portfolio/PortfolioIntroSection';
 
 class Portfolio extends Component {
     render() {
@@ -20,11 +25,20 @@ class Portfolio extends Component {
                     DNONE="none"
                 />  
 
-                {/* <WorksStyleOne /> */}
+                <PortfolioIntroSection />
+                <PortfolioThree />
 
-                {/* <WorksStyleTwo /> */}
-{/* 
-                <CtaAreaTwo /> */}
+                <PortfolioAppContentOne/>
+                
+
+                <PortfolioAppContentTwo />
+
+                <PortfolioTitle />
+                <PortfolioSpecial />
+                <PortfolioOne />
+
+                <PortfolioTwo />
+
                  <HomeBottomContact />
                 
                 <Footer />
