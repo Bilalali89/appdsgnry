@@ -7,6 +7,8 @@ import AboutHeaderSection from '../components/About/AboutHeaderSection';
 import AboutPhilosophy from '../components/About/AboutPhilosophy';
 import AboutClientLogos from '../components/About/AboutClientLogos';
 import AboutQuoteSection from '../components/About/AboutQuoteSection';
+import AboutScrollspy from '../components/About/AboutScrollspy';
+import AboutApproach from '../components/About/AboutApproach';
 
 class Aabout extends Component {
     render() {
@@ -23,6 +25,10 @@ class Aabout extends Component {
                 />  
 
                 <AboutHeaderSection />
+
+                <AboutApproach />
+                
+                <AboutScrollspy />
 
                 <AboutPhilosophy />
 

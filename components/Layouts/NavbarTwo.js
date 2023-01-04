@@ -91,13 +91,13 @@ class NavbarTwo extends Component {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav" style={{paddingTop:'40px'}}>
                   <li className="nav-item">
-                    <Link href="/about">
+                    <Link href="/about" activeClassName="active">
                       <a className="nav-link">ABOUT US</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/services">
+                    <Link href="/services" activeClassName="active">
                       <a className="nav-link">SERVICES</a>
                     </Link>
                   </li>
@@ -109,13 +109,13 @@ class NavbarTwo extends Component {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/pricing">
+                    <Link href="/pricing" activeClassName="active">
                       <a className="nav-link">PRICING</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact">
+                    <Link href="/contact" activeClassName="active">
                       <a className="nav-link">CONTACT</a>
                     </Link>
                   </li>

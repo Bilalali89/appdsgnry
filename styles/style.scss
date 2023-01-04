@@ -8068,3 +8068,139 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
       }
     }
 }
+
+.list-group {
+  position: sticky;
+  top: 40vh
+}
+
+
+.aboutapproach {
+  background-color: #001427;
+  padding: 100px 0;
+  .slogan {
+    color: $white-color;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+  }
+  .heading {
+    color: $primary-color;
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 5rem;
+    @media only #{$media} and ($feature_max : $value_two) {
+      font-size: 42px;
+    font-weight: bold;
+    line-height: 3rem;
+     }
+  }
+}
+
+
+
+
+
+.scroll {
+  background-color: #001427;
+
+  .vh {
+    height: 25vh;
+    @media only #{$media} and ($feature_max : $value_two) {
+      display: none;
+     }
+  }
+
+  
+  ul {
+    position: sticky;
+    top: 40vh;
+    width: 60%;
+    @media only #{$media} and ($feature_max : $value_two) {
+      display: none;
+     }
+  }
+  li {
+    list-style-type: none;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 18px;
+ 
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    a {
+      color: #767676;
+    }
+  }
+ 
+  .is-current {
+    position: relative;
+    transition: .4s all;
+    &::before {
+      content: '';
+      background-color: $white-color;
+      top: 13px;
+      width: 130px;
+      height: 1px;
+      position: absolute;
+      right: -140px;
+      transition: $transition;
+     
+
+    }
+    a {
+      color: $white-color;
+    }
+  }
+
+  .box{
+    .heading {
+      font-size: 50px;
+      font-weight: 100;
+      color: $white-color;
+      padding-bottom: 30px;
+    }
+    .list {
+      p {
+        span {
+          font-family: 'Poppins',sans-serif;
+          padding-right: 10px;
+          font-weight: 100;
+        }
+        font-size: 18px;
+        font-weight: 600;
+        color: $white-color;
+        margin-bottom: 4px
+      };
+      
+    }
+   
+  }
+  .textbox {
+    padding-top: 70px;
+    .text {
+    font-size: 20px;
+    color: $white-color;
+    font-weight: 100;
+    padding-right: 30%;
+    @media only #{$media} and ($feature_max : $value_two) {
+     padding-top: 30px;
+     padding-right: 0%;
+     }
+    
+  }
+  }
+  
+
+  .image {
+    padding-top: 40px;
+    @media only #{$media} and ($feature_max : $value_two) {
+      padding-bottom: 40px;
+      text-align: center;
+     }
+  }
+
+ 
+}
