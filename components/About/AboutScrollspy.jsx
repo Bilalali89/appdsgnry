@@ -79,7 +79,7 @@ const AboutScrollspy = () => {
               </div>
             </section>
             <section id="section-2">
-            <div  ></div>
+            <div className="vh"></div>
             <div className="row">
                 <div className="col-md-3">
                   <div className="box">
