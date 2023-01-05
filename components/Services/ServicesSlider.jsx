@@ -53,7 +53,7 @@ class ServicesSlider extends Component {
         <div className="serviceslidersec">
           <section className="case-studies-area ptb-100">
             <div className="container-fluid">
-              <div className="testimonialslide">
+              <div className="testimonialslide" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                 {this.state.display ? (
                   <OwlCarousel
                     className="feedback-slides owl-carousel owl-theme"

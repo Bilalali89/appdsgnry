@@ -19,19 +19,23 @@ class PricingPageSection extends Component {
         evt.currentTarget.className += "current";
     }
 
+    
+
     render() {
+        let { display , btndisplay } = this.props
+
         return (
             <>
                 <section className="pricing-area pt-100 pb-70 bg-f9f6f6">
                     <div className="container">
                         <div className="section-title">
-                            <div className='title'>Our Pricing</div>
-                            <p>Now Presenting Priceless Digital Solutions At Less And Affordable Price.</p>
+                            <div className='title' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">Our Pricing</div>
+                            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">Now Presenting Priceless Digital Solutions At Less And Affordable Price.</p>
                         </div>
 
                         <div className="tab pricing-list-tab">
                             {/* Pricing Tab List */}
-                            <ul className="tabs">
+                            <ul className="tabs" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                                 <li
                                     className="current"
                                     onClick={(e) => this.openTabSection(e, 'tab1')}
@@ -47,11 +51,11 @@ class PricingPageSection extends Component {
                                 
                             </ul>
 
-                            <div className="tab_content">
+                            <div className="tab_content" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
                                 <div id="tab1" className="tabs_item">
                                     <div className="row">
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12">
                                             <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                    BASIC
@@ -100,7 +104,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12">
                                         <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                   PROFESSIONAL
@@ -153,7 +157,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12">
                                         <div className="single-pricing-table premium">
                                                 <div className='plabel'>
                                                     <img src="/images/plabel.png" alt="label" />
@@ -205,7 +209,7 @@ class PricingPageSection extends Component {
                                             </div>
                                         </div>
 
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12" style={{display:`${display}`}}>
                                             <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                    STARTUP
@@ -254,7 +258,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12" style={{display:`${display}`}}>
                                         <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                   BUSINESS PRO
@@ -307,7 +311,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12" style={{display:`${display}`}}>
                                         <div className="single-pricing-table premium">
                                                 <div className='plabel'>
                                                     <img src="/images/plabel.png" alt="label" />
@@ -364,7 +368,7 @@ class PricingPageSection extends Component {
                                 <div id="tab2" className="tabs_item">
                                     <div className="row">
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12">
                                             <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                    BASIC
@@ -410,7 +414,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12">
                                         <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                   PROFESSIONAL
@@ -463,7 +467,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12">
                                         <div className="single-pricing-table premium">
                                                 <div className='plabel'>
                                                     <img src="/images/plabel.png" alt="label" />
@@ -515,7 +519,7 @@ class PricingPageSection extends Component {
                                             </div>
                                         </div>
 
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12" style={{display:`${display}`}}>
                                             <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                    STARTUP
@@ -564,7 +568,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12" style={{display:`${display}`}}>
                                         <div className="single-pricing-table">
                                                 <div className="pricing-header">
                                                   BUSINESS PRO
@@ -617,7 +621,7 @@ class PricingPageSection extends Component {
                                         </div>
 
                                         {/* Single pricing table */}
-                                        <div className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+                                        <div className="col-lg-6 col-xl-4 col-sm-12" style={{display:`${display}`}}>
                                         <div className="single-pricing-table premium">
                                                 <div className='plabel'>
                                                     <img src="/images/plabel.png" alt="label" />
@@ -658,7 +662,7 @@ class PricingPageSection extends Component {
                                                  
                                                 </ul>
 
-                                                <div className="btn-box">
+                                                <div className="btn-box" >
                                                     <Link href="#">
                                                         <a className="btn btn-primary green">
                                                             <i className="bx bxs-hot"></i> 
@@ -673,6 +677,15 @@ class PricingPageSection extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="container" style={{display:`${btndisplay}`}}>
+            <div className="d-flex viewbutton">
+              <div className="viewmore btn" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+                <Link href="/pricing">
+                  <a>VIEW ALL PACKAGES</a>
+                </Link>
+              </div>
+            </div>
+          </div>
                     
                 </section>
                

@@ -21,6 +21,7 @@ import HomeTestimonial from '../components/Common/HomeTestimonial';
 import HomePortfolio from '../components/Common/HomePortfolio';
 import HomePricing from '../components/Common/HomePricing';
 import HomeBottomContact from '../components/Common/HomeBottomContact';
+import PricingPageSection from '../components/Pricing/PricingPageSection';
 
 class Index extends Component {
     render() {
@@ -42,7 +43,9 @@ class Index extends Component {
                 
                 <HomeWeDesign />
 
-                <HomePricing />
+                <PricingPageSection 
+                    display="none"
+                />
 
                 <HomeTestimonial />
 

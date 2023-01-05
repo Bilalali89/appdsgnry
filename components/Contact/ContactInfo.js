@@ -7,7 +7,7 @@ class ContactInfo extends Component {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6">
-                            <div className="contact-info-box">
+                            <div className="contact-info-box" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                                 <div className='cicon'>
                                    <img src="/images/contact/Message.png" alt="icon" />
                                 </div>
@@ -18,7 +18,7 @@ class ContactInfo extends Component {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="contact-info-box">
+                            <div className="contact-info-box" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
                                  <div className='cicon'>
                                    <img src="/images/contact/Call.png" alt="icon" />
                                 </div>
@@ -28,7 +28,7 @@ class ContactInfo extends Component {
                         </div>
 
                         <div className="col-lg-4 col-md-6">
-                            <div className="contact-info-box">
+                            <div className="contact-info-box" data-aos="fade-right" data-aos-duration="600" data-aos-delay="900">
                             <div className='cicon'>
                                    <img src="/images/contact/map.png" alt="icon" />
                                 </div>

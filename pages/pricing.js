@@ -21,7 +21,9 @@ class Pricing extends Component {
                 />
                 <PricingMainSection />  
 
-                <PricingPageSection />
+                <PricingPageSection 
+                    btndisplay = "none"
+                    />
                 <HomeBottomContact />
                 <Footer />
             </>

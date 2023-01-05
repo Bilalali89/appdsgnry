@@ -24,19 +24,19 @@ class MainBanner extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-8">
                                         <div className="main-banner-content">
-                                            <p className='firstline'>Experience Driven Applications</p>
-                                            <h1>Design For People by People</h1>
+                                            <p className='firstline' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Experience Driven Applications</p>
+                                            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">Design For People by People</h1>
                                                 
-                                            <p className='descrption'>As global leaders in technology, and business solutions, we partner with clients to simplify, strengthen, and transform their businesses.</p>
+                                            <p className='descrption' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">As global leaders in technology, and business solutions, we partner with clients to simplify, strengthen, and transform their businesses.</p>
                                         
                                             <Link href="/contact">
-                                                <a className="btn btn-primary">Our Work</a>
+                                                <a className="btn btn-primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Our Work</a>
                                             </Link>
 
                                             <Link href="/">
                                                 <a
                                                     // onClick={e => {e.preventDefault(); this.openModal()}}
-                                                    className="btn btn-secondary"
+                                                    className="btn btn-secondary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"
                                                 > 
                                                      Get Started
                                                 </a>

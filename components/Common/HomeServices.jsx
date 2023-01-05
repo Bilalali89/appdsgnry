@@ -1,18 +1,22 @@
-import React from "react";
-import Link from "next/link";
+import React, {useEffect} from 'react';
+import Link from 'next/link';
+import AOS from 'aos';
 
 const HomeServices = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="container-fluid homeservices">
+    <div className="container-fluid homeservices" >
       <div className="container">
-        <div className="headerone">WE SPECIALIZE IN</div>
-        <div className="headertwo">
+        <div className="headerone" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">WE SPECIALIZE IN</div>
+        <div className="headertwo" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
           Smart UX, Pixel Perfect UI with Precise Coding Strategy.
         </div>
         <div className="row">
           {/* Research */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple">
+            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Research.svg" alt="research" />
@@ -35,7 +39,7 @@ const HomeServices = () => {
           </div>
           {/* Strategy */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple">
+            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Strategy.svg" alt="strategy" />
@@ -59,7 +63,7 @@ const HomeServices = () => {
           </div>
           {/* Design */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple">
+            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Design.svg" alt="design" />
@@ -85,7 +89,7 @@ const HomeServices = () => {
           </div>
           {/* Development */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple">
+            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="900">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Development.svg" alt="development" />
@@ -112,7 +116,7 @@ const HomeServices = () => {
         <div className="text-center">
           <Link href="/services">
             <a
-              className="btn btn-secondary learn-btn"
+              className="btn btn-secondary learn-btn" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"
             >
               Learn more
             </a>

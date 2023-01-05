@@ -1,18 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react';
+import Link from 'next/link';
+import AOS from 'aos';
 
 const AboutClientLogos = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
   return (
     <div>
         <div className="clientlogosection">
             <div className="container">
-                <div className="heading">
+                <div className="heading" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                 Good Work That Does Good !
                 </div>
-                <div className="subheading">
+                <div className="subheading" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                 We believe in spending our time doing good things, and hope our clients do too. We’re proud to have worked with some amazing organisations who do amazing things. Here are just a few.
                 </div>
             </div>
-            <div className="container ptb-100 logos">
+            <div className="container ptb-100 logos" data-aos="fade-up" data-aos-duration="600" data-aos-delay="800">
                 <div className="row">
                     <div className="col-md-3 text-center">
                         <img src="/images/aboutus/redbull.png" alt="logo" />

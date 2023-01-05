@@ -26,12 +26,6 @@ class Contact extends Component {
 
                 <ContactInfo />
                 
-                
-
-                {/* <div className="ptb-100">
-                    <Newsletter />
-                </div> */}
-
                 <Footer/>
             </>
         );

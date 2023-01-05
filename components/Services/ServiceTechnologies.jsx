@@ -23,10 +23,10 @@ class ServiceTechnologies extends Component {
       <div style={{marginTop: '-1px'}}>
         <div className="technologiestab pb-100">
             <div className="container">
-                <div className="techtitle">
+                <div className="techtitle" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                   Technologies
                 </div>
-                <div className="techtabs">
+                <div className="techtabs" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                  <div className="tab pricing-list-tab">
                             {/* Pricing Tab List */}
                             <ul className="tabs">

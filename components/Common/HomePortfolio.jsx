@@ -1,6 +1,8 @@
-import React from 'react'
+
+import React, {useEffect} from 'react';
 import Slider from "react-slick";
 import Link from 'next/link';
+import AOS from 'aos'
 
 
 function SampleNextArrow(props) {
@@ -26,8 +28,10 @@ function SampleNextArrow(props) {
   }
   
 
-
 const HomePortfolio = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
     var settings = {
         dots: false,
         infinite: true,
@@ -79,11 +83,11 @@ const HomePortfolio = () => {
             <div className="row">
               <div className="col-12 col-sm-10">
                 <div className="portdiv d-flex justify-content-space-between">
-                  <div className="headingportfolio">
+                  <div className="headingportfolio" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                     Our <br />
                     <span className="blue">Portfolio</span>
                   </div>
-                  <div className="headingportfolio2">
+                  <div className="headingportfolio2"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                     What <br />
                     <span className="blue">We Excel At</span>
                   </div>
@@ -92,7 +96,7 @@ const HomePortfolio = () => {
               </div>
             </div>
           </div>
-          <div className="container-fluid slidehide">
+          <div className="container-fluid slidehide"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
             
             <Slider {...settings}>
               <div className="slide">
@@ -181,7 +185,7 @@ const HomePortfolio = () => {
               </div>
             </Slider>
           </div>
-          <div className="container mobportfolio">
+          <div className="container mobportfolio"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
             <div className='port'>
             <Link href="/portfolio">
                <img src="/images/mobportfolio/Portfolio 1 for mobile.png" alt="img" />
@@ -200,7 +204,7 @@ const HomePortfolio = () => {
 
           </div>
           <div className="container">
-          <div className="d-flex viewbutton">
+          <div className="d-flex viewbutton"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
                     <div className="viewmore btn">
                       <Link href="/portfolio">
                         <a>VIEW MORE</a>

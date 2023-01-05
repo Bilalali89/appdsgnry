@@ -1,3 +1,4 @@
+
 import '../styles/bootstrap.min.css';
 import 'animate.css';
 import '../styles/icofont.min.css';
@@ -7,6 +8,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import 'react-image-lightbox/style.css';
 import '../styles/style.scss';
 import '../styles/responsive.scss';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 import App from 'next/app';
 import Head from 'next/head';
@@ -20,6 +24,7 @@ export default class MyApp extends App {
     };
     componentDidMount() {
         this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
+        AOS.init();
     }
     componentWillUnmount() {
         if (this.timerHandle) {
@@ -27,9 +32,12 @@ export default class MyApp extends App {
             this.timerHandle = 0;
         }
     }
+
+   
     
     render () {
-        const { Component, pageProps } = this.props
+        const { Component, pageProps } = this.props;
+        
 
         return (
             <>

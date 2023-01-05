@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/Layouts/Footer';
@@ -12,39 +12,38 @@ import PortfolioAppContentTwo from '../components/Portfolio/PortfolioAppContentT
 import PortfolioSpecial from '../components/Portfolio/PortfolioSpecial';
 import PortfolioIntroSection from '../components/Portfolio/PortfolioIntroSection';
 
-class Portfolio extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+const portfolio = () => {
+  return (
+    <>
+    <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="Our Portfolio" 
-                    pageDescription = "What We've Built"
-                    BGImage="bg-three"
-                    DNONE="none"
-                />  
+    <PageBanner 
+        pageTitle="Our Portfolio" 
+        pageDescription = "What We've Built"
+        BGImage="bg-three"
+        DNONE="none"
+    />  
 
-                <PortfolioIntroSection />
-                <PortfolioThree />
+    <PortfolioIntroSection />
+    <PortfolioThree />
 
-                <PortfolioAppContentOne/>
-                
+    <PortfolioAppContentOne/>
+    
 
-                <PortfolioAppContentTwo />
+    <PortfolioAppContentTwo />
 
-                <PortfolioTitle />
-                <PortfolioSpecial />
-                <PortfolioOne />
+    <PortfolioTitle />
+    <PortfolioSpecial />
+    <PortfolioOne />
 
-                <PortfolioTwo />
+    <PortfolioTwo />
 
-                 <HomeBottomContact />
-                
-                <Footer />
-            </>
-        );
-    }
+     <HomeBottomContact />
+    
+    <Footer />
+</>
+  )
 }
 
-export default Portfolio;
+export default portfolio
+

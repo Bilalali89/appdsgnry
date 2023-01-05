@@ -4,7 +4,7 @@ import Link from 'next/link';
 class Partner extends Component {
     render() {
         return (
-            <section className="partner-area pt-100 pb-60">
+            <section className="partner-area pt-100 pb-60" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <div className="container">
                     {/* <div className="section-title">
                         <h2>Trusted By</h2>

@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useEffect} from 'react';
+import Link from 'next/link';
+import AOS from 'aos';
 import Scrollspy from "react-scrollspy";
 
 const AboutScrollspy = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <div className="scroll">
@@ -28,7 +33,7 @@ const AboutScrollspy = () => {
             </Scrollspy>
           </div>
           <div className="col-md-9">
-            <section id="section-1">
+            <section id="section-1" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
               <div className="vh"></div>
               <div className="row">
                 <div className="col-md-3">
@@ -78,7 +83,7 @@ const AboutScrollspy = () => {
                 </div>
               </div>
             </section>
-            <section id="section-2">
+            <section id="section-2" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
             <div className="vh"></div>
             <div className="row">
                 <div className="col-md-3">
@@ -129,7 +134,7 @@ const AboutScrollspy = () => {
                 </div>
               </div>
             </section>
-            <section id="section-3">
+            <section id="section-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
             <div className="vh"></div>
             <div className="row">
                 <div className="col-md-3">
@@ -180,7 +185,7 @@ const AboutScrollspy = () => {
                 </div>
               </div>
             </section>
-            <section id="section-4">
+            <section id="section-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
             <div className="vh"></div>
             <div className="row">
                 <div className="col-md-3">
