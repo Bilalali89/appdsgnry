@@ -114,7 +114,7 @@ const HomeServices = () => {
         </div>
         {/* Learn more button */}
         <div className="text-center">
-          <Link href="/services">
+          <Link href="/about">
             <a
               className="btn btn-secondary learn-btn" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"
             >

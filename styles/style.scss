@@ -5930,6 +5930,7 @@ Go Top CSS
   padding: 16px 30px;
   font-size: 24px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .mt-50 {
@@ -5962,7 +5963,7 @@ Go Top CSS
   background-color: #efefef;
   padding: 5.3rem;
   @media only #{$media} and ($feature_max : $value_two) {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     line-height: 3rem;
   }
 
@@ -5971,7 +5972,9 @@ Go Top CSS
     font-weight: 500;
     color: $black-color;
     @media only #{$media} and ($feature_max : $value_two) {
-      font-size: 22px;
+      font-size: 23px;
+      line-height: 2.5rem;
+  
     }
     .box1 {
       font-weight: 700;
@@ -6019,6 +6022,9 @@ Go Top CSS
 .homeservices {
   padding: 120px 0px;
   background-color: #001427;
+  @media only #{$media} and ($feature_max : $value_two) {
+   padding: 50px 0px
+  }
 
   .servicebox {
     display: flex;
@@ -6497,7 +6503,7 @@ Go Top CSS
       display: block;
       font-size: 42px;
       margin-bottom: 30px;
-      padding-left: 20px;
+      padding-left: 15px;
       line-height: 3rem;
     }
     .blue {
@@ -7369,8 +7375,8 @@ Pricing Area CSS
     font-weight: 400;
     margin-bottom: 30px;
     @media only #{$media} and ($feature_max : $value_two) {
-      font-size: 34px;
-      line-height: 3rem;
+      font-size: 26px;
+      line-height: 2.5rem;
      }
 
   }

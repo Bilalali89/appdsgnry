@@ -1,6 +1,9 @@
 import React, {useEffect} from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
+import Image from 'next/image';
+import tablet from './../../public/images/services/2tabs-purple@2x.png'
+
 
 const ServiceTabletSection = () => {
     useEffect(() => {
@@ -26,7 +29,10 @@ const ServiceTabletSection = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-12" data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">
-                        <img src="/images/services/2tabs-purple@2x.png" alt="tab" />
+                        {/* <img src="/images/services/2tabs-purple@2x.png" alt="tab" /> */}
+                        <Image
+                        src={tablet} 
+                        />
                     </div>
                 </div>
 

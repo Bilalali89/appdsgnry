@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
+import Image from 'next/image';
+import mobile from './../../public/images/services/Elegant@2x.png'
 
 
 const ServiceMainSection = () => {
@@ -24,13 +26,16 @@ const ServiceMainSection = () => {
                     <div className="col-lg-6">
                     <div className="serviceviewbutton">
                         <div className="viewmore btn" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
-                        <Link href="/pricing">
+                        <Link href="/services">
                             <a>VIEW ALL SERVICES</a>
                         </Link>
                         </div>
                     </div>
                         <div className='serviceimg' data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">
-                        <img src="/images/services/Elegant@2x.png" alt="img" />
+                        {/* <img src="/images/services/Elegant@2x.png" alt="img" /> */}
+                        <Image 
+                  src={mobile}
+                  />
                         </div>
                       
                     </div>

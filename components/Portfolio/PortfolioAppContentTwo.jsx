@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
+import Image from 'next/image';
+import mobile from './../../public/images/portfoliopage/Cutsom app.png'
 
 const PortfolioAppContentTwo = () => {
     
@@ -51,7 +53,10 @@ const PortfolioAppContentTwo = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <img src="/images/portfoliopage/Cutsom app.png" alt="img" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000"/>
+            <Image 
+                  src={mobile}
+                  />
+              {/* <img src="/images/portfoliopage/Cutsom app.png" alt="img" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000"/> */}
             </div>
           </div>
         </div>

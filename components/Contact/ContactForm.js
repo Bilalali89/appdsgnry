@@ -7,12 +7,12 @@ const ContactForm = () => {
     AOS.init();
   }, []);
   return (
-    <div className="contact-form contact ptb-100" id="contact">
+    <div className="contact-form contact ptb-100" id="contact" >
       <form>
-        <div className="container">
+        <div className="container" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
           <div className="row">
             <div className="col-lg-6">
-              <div className="form-group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+              <div className="form-group">
                 <input
                   type="text"
                   name="name"
@@ -23,7 +23,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="col-lg-6" >
-              <div className="form-group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+              <div className="form-group">
                 <input
                   type="text"
                   name="email"
@@ -34,7 +34,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="form-group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+              <div className="form-group">
                 <input
                   type="text"
                   name="number"
@@ -45,7 +45,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="form-group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+              <div className="form-group">
                 <input
                   type="text"
                   name="subject"
@@ -56,7 +56,7 @@ const ContactForm = () => {
               </div>
             </div>
             <div className="col-lg-12 col-md-12">
-              <div className="form-group" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+              <div className="form-group">
                 <textarea
                   name="text"
                   cols="30"
@@ -67,7 +67,7 @@ const ContactForm = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-12 col-sm-12" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+            <div className="col-lg-12 col-sm-12">
               <button type="submit" className="btn btn-contact">
                 Submit Now
               </button>

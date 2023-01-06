@@ -1,6 +1,9 @@
 import React, {useEffect} from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
+import Image from 'next/image';
+import mobile from './../../public/images/portfoliopage/Furniture app.png'
+
 
 const PortfolioAppContentOne = () => {
   useEffect(() => {
@@ -12,7 +15,10 @@ const PortfolioAppContentOne = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-6">
-              <img src="/images/portfoliopage/Furniture app.png" alt="img" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700"/>
+                <Image 
+                  src={mobile}
+                  />
+              {/* <img src="/images/portfoliopage/Furniture app.png" alt="img" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700"/> */}
             </div>
             <div className="col-md-6">
               <div className="heading" data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">

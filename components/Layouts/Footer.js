@@ -15,7 +15,7 @@ class Footer extends Component {
                   <div className="logo">
                     <Link href="/">
                       <a>
-                        <img src="/images/Logo@2x.png" height="120" width="auto" alt="image" />
+                        <img src="/images/Logo@2x.png" height="90" width="auto" alt="image" />
                       </a>
                     </Link>
                   </div>
@@ -27,9 +27,11 @@ class Footer extends Component {
                     apps.
                   </p>
                   <div className="worktogether1">
+                  <Link href="/contact">
                     <span className="letswork">
                          LET'S WORK TOGETHER
                     </span>
+                    </Link>
                    
                   </div>
                   <div className="payment-logos">
@@ -184,9 +186,11 @@ class Footer extends Component {
                 </div>
                 <div className="worktogether2">
                     <div className="text">We would love to hear from you</div>
+                    <Link href="/contact">
                     <span className="letswork">
                          LET'S WORK TOGETHER
                     </span>
+                    </Link>
                    
                   </div>
                 <div className="row mt-50">
@@ -246,14 +250,14 @@ class Footer extends Component {
                 </div>
                 <div className="col-lg-6 justify-content-end">
                   <span className="terms">
-                    <Link href="/terms-conditions">
+                    <Link href="/">
                       <a>Terms of Use</a>
                     </Link>
                   </span>
                   <span style={{padding: '0px 20px'}}>|</span>
                   <span className="privacy">
                     {" "}
-                    <Link href="/privacy-policy">
+                    <Link href="/">
                       <a>Privacy Policy</a>
                     </Link>
                   </span>
