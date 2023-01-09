@@ -17,7 +17,7 @@ const ServiceMainSection = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className='servicehead' data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
-                        Elegant Solutions <br/> <span>Built <br/> on Proven Methodologies</span>
+                        Elegant Solutions <br/> <span>Built on Proven Methodologies</span>
                         </div>
                         <div className='servicetext' data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                         We offer a wide range of design services under one roof: go-to-market strategies, UX, visual design, app design, development, implementation & more.
