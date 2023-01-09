@@ -29,11 +29,11 @@ class MainBanner extends Component {
                                                 
                                             <p className='descrption' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">As global leaders in technology, and business solutions, we partner with clients to simplify, strengthen, and transform their businesses.</p>
                                         
-                                            <Link href="/contact">
+                                            <Link href="/portfolio">
                                                 <a className="btn btn-primary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Our Work</a>
                                             </Link>
 
-                                            <Link href="/">
+                                            <Link href="/pricing">
                                                 <a
                                                     // onClick={e => {e.preventDefault(); this.openModal()}}
                                                     className="btn btn-secondary" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"

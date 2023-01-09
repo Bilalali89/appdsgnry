@@ -6411,6 +6411,7 @@ Go Top CSS
 .testimonialbg {
   background-color: #29efad;
   position: relative;
+  overflow: hidden;
   &::before {
     content: url(./../public/images/testimonialbg.png);
     position: absolute;
@@ -6425,6 +6426,7 @@ Go Top CSS
 
 .testimonialsec {
   padding: 150px 0px;
+
   position: relative;
   z-index: 1;
 
