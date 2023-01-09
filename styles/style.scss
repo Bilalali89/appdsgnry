@@ -70,6 +70,24 @@ $value_five: 992px;
 $value_six: 1199px;
 $value_seven: 1650px;
 
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: $gradient-color;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: $primary-color;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: $black-color;
+  border-radius: 20px;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -8206,4 +8224,10 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
      }
   }
 
+}
+
+#quotemodal {
+  .modal-title {
+    color: $black-color
+  }
 }

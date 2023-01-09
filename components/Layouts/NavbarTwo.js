@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "../../utils/ActiveLink";
+import QuoteModal from "../Common/QuoteModal";
 
 class NavbarTwo extends Component {
   // Navbar
@@ -123,13 +124,32 @@ class NavbarTwo extends Component {
 
                 <div className="others-options" style={{paddingTop:'40px'}}>
                   <Link href="/pricing">
-                    <a className="btn btn-primary">REQUEST A QUOTE</a>
+                    <a className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quotemodal">REQUEST A QUOTE</a>
                   </Link>
                 </div>
               </div>
             </div>
           </nav>
         </div>
+        {/* Modal */}
+<div className="modal fade" id="quotemodal" tabIndex={-1} aria-labelledby="requestmodal" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="requestModalLabel">Request Quote</h5>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
+      </div>
+      <div className="modal-body">
+        <QuoteModal />
+      </div>
+      <div className="modal-footer">
+        <button type="submit" className="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
       </>
     );
   }
