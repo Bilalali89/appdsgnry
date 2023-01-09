@@ -25,7 +25,7 @@ const ContactForm = () => {
             <div className="col-lg-6" >
               <div className="form-group">
                 <input
-                  type="text"
+                  type="email"
                   name="email"
                   placeholder="Email"
                   className="form-control"
