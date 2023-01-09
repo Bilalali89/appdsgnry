@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
 import Image from 'next/image';
-import mobile from './../../public/images/portfoliopage/Furniture app.png'
+import mobile from './../../public/images/portfoliopage/Furniture-app.png'
 
 
 const PortfolioAppContentOne = () => {
