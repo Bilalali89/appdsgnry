@@ -18,16 +18,16 @@ const AboutScrollspy = () => {
               items={["section-1", "section-2", "section-3", "section-4"]}
               currentClassName="is-current"
             >
-              <li>
+              <li className='one'>
                 <a href="#section-1">Research</a>
               </li>
-              <li>
+              <li className='two'>
                 <a href="#section-2">Strategy</a>
               </li>
-              <li>
+              <li className='three'>
                 <a href="#section-3">Design</a>
               </li>
-              <li>
+              <li className='four'>
                 <a href="#section-4">Development</a>
               </li>
             </Scrollspy>

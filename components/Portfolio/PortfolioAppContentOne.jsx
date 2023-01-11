@@ -14,13 +14,13 @@ const PortfolioAppContentOne = () => {
       <div className="appcontentone">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6">
                 <Image 
                   src={mobile}
                   />
               {/* <img src="/images/portfoliopage/Furniture app.png" alt="img" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700"/> */}
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6">
               <div className="heading" data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">
                 Apps That Makes <br />
                 Your <span>Business Grow</span>
@@ -41,7 +41,7 @@ const PortfolioAppContentOne = () => {
                     data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000"
                   />
                 </div>
-                <div className="col-9 col-md-10 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000">
+                <div className="col-9 col-md-4 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1000">
                   On-brand <br />
                   App Design
                 </div>
@@ -54,7 +54,7 @@ const PortfolioAppContentOne = () => {
                     data-aos="fade-right" data-aos-duration="600" data-aos-delay="1200"
                   />
                 </div>
-                <div className="col-9 col-md-10 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1200">
+                <div className="col-9 col-md-4 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="1200">
                   Engaging User
                   <br />
                   Experience

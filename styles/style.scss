@@ -4810,9 +4810,14 @@ Go Top CSS
       display: inline-block;
     }
     img {
-      padding-right: 50px;
+      padding-right: 30px;
       opacity: 0.7;
       transition: opacity 0.4s;
+      @media only #{$media} and ($feature_max : $value_four) {
+        padding-right: 20px;
+        
+      }
+    
       &:hover {
         opacity: 1;
       }
@@ -4862,6 +4867,9 @@ Go Top CSS
   @media only #{$media} and ($feature_max : $value_two) {
     padding: 1.5rem 1rem;
     line-height: 3rem;
+  }
+  @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
+    padding: 4rem;
   }
 
   .hh {
@@ -5105,6 +5113,10 @@ Go Top CSS
       font-weight: 600;
       display: inline-block;
       transition: all 0.4s ease-in-out;
+      @media only #{$media} and ($feature_max : $value_four) {
+        width:100%;
+        text-align: center;
+      }
       &:hover {
         background: linear-gradient(
           218deg,
@@ -5125,7 +5137,7 @@ Go Top CSS
   padding: 140px 150px;
   position: relative;
   z-index: 1;
-  @media only #{$media} and ($feature_max : $value_two) {
+  @media only #{$media} and ($feature_max : $value_four) {
     padding: 100px 20px;
     z-index: 1;
     position: relative;
@@ -5317,8 +5329,13 @@ Go Top CSS
     font-weight: bold;
     align-self: center;
     line-height: 6rem;
-    @media only #{$media} and ($feature_max : $value_three) {
+    @media only #{$media} and ($feature_max : $value_two) {
       padding-bottom: 20px;
+      font-size: 42px;
+      line-height: 3rem;
+    }
+    @media only #{$media} and ($feature_min : $value_two) and ($feature_max : $value_four) {
+      padding-bottom: 40px;
       font-size: 42px;
       line-height: 3rem;
     }
@@ -5840,7 +5857,7 @@ Pricing Area CSS
   overflow: hidden;
 
   .mobilebanner {
-    @media only #{$media} and ($feature_max : $value_two) {
+    @media only #{$media} and ($feature_max : $value_four) {
       display: none;
     }
   }
@@ -5969,7 +5986,7 @@ Pricing Area CSS
 
   .pb_100 {
     padding-bottom: 100px;
-    @media only #{$media} and ($feature_max : $value_two) {
+    @media only #{$media} and ($feature_max : $value_four) {
       padding-bottom: 30px;
     }
   }
@@ -6004,7 +6021,7 @@ Pricing Area CSS
   border-left: 6px solid $secondary-color;
   width: 60%;
 
-  @media only #{$media} and ($feature_max : $value_two) {
+  @media only #{$media} and ($feature_max : $value_four) {
     width: 100%;
     padding: 30px;
     font-size: 28px;
@@ -6091,10 +6108,11 @@ Pricing Area CSS
     padding-left: 60px;
     border-left: 6px solid $secondary-color;
 
-    @media only #{$media} and ($feature_max : $value_two) {
+    @media only #{$media} and ($feature_max : $value_four) {
       width: 100%;
       padding: 30px;
       font-size: 28px;
+      margin-bottom: 40px;
     }
   }
   .serviceimg {
@@ -6286,6 +6304,11 @@ Pricing Area CSS
       line-height: 2.5rem;
      }
 
+     @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
+      font-size: 42px;
+    
+     }
+
   }
 
   .link {
@@ -6450,7 +6473,7 @@ Pricing Area CSS
       .art {
         display: flex;
         align-items: center;
-        @media only #{$media} and ($feature_max : $value_two) {
+        @media only #{$media} and ($feature_max : $value_four) {
           padding-bottom: 50px;
           }
       }
@@ -6622,7 +6645,7 @@ Pricing Area CSS
 
 .appcontentone {
   padding: 100px 0;
-  @media only #{$media} and ($feature_max : $value_two) {
+  @media only #{$media} and ($feature_max : $value_four) {
     padding: 50px 20px;
     }
 
@@ -6649,7 +6672,7 @@ Pricing Area CSS
       line-height: 3rem;
       padding-bottom: 100px;
       padding-right: 25%;
-      @media only #{$media} and ($feature_max : $value_two) {
+      @media only #{$media} and ($feature_max : $value_four) {
         font-size: 23px;
         line-height: 2rem;
         padding-right: 0%;
@@ -6670,7 +6693,7 @@ Pricing Area CSS
 .appcontenttwo {
   padding: 100px 10vw;
   background-color: #001427;
-  @media only #{$media} and ($feature_max : $value_two) {
+  @media only #{$media} and ($feature_max : $value_four) {
     padding: 50px 20px;
     }
     .slogan {
@@ -6700,7 +6723,7 @@ Pricing Area CSS
       padding-bottom: 100px;
       padding-right: 25%;
       color: $white-color;
-      @media only #{$media} and ($feature_max : $value_two) {
+      @media only #{$media} and ($feature_max : $value_four) {
         font-size: 23px;
         line-height: 2rem;
         padding-right: 0%;
@@ -6762,7 +6785,7 @@ Pricing Area CSS
         font-size: 26px;
         font-weight: bold;
         padding-bottom: 30px;
-        @media only #{$media} and ($feature_max : $value_two) {
+        @media only #{$media} and ($feature_max : $value_four) {
           padding-left: 10%;
           padding-right: 10%;
           }
@@ -6772,7 +6795,7 @@ Pricing Area CSS
         font-weight: 100;
         padding-bottom: 40px;
         line-height: 2rem;
-        @media only #{$media} and ($feature_max : $value_two) {
+        @media only #{$media} and ($feature_max : $value_four) {
           padding-left: 10%;
           padding-right: 10%;
           padding-bottom: 15px;
@@ -6781,7 +6804,7 @@ Pricing Area CSS
       .h3 {
         font-size: 48px;
         color: $secondary-color;
-        @media only #{$media} and ($feature_max : $value_two) {
+        @media only #{$media} and ($feature_max : $value_four) {
           padding-left: 10%;
           padding-right: 10%;
           }
@@ -6805,7 +6828,7 @@ Pricing Area CSS
       font-weight: bold;
       line-height: 5rem;
       padding-right: 30%;
-      @media only #{$media} and ($feature_max : $value_two) {
+      @media only #{$media} and ($feature_max : $value_four) {
          
         font-size: 36px;
         line-height: 2.5rem;
@@ -6836,6 +6859,10 @@ Pricing Area CSS
     }
     .arrw {
       cursor: pointer;
+      @media only #{$media} and ($feature_max : $value_four) {
+         
+        padding-top: 30px;
+        }
     }
    } 
 
@@ -6860,7 +6887,7 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
       background-size: contain;
       height: 90vh;
       padding: 0px 10vw;
-      @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_seven) {
+      @media only #{$media} and ($feature_min : $value_three) and ($feature_max : 1820px ) {
         height: 50vh;
        }
 
@@ -7018,7 +7045,7 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
 
   .vh {
     height: 25vh;
-    @media only #{$media} and ($feature_max : $value_two) {
+    @media only #{$media} and ($feature_max : $value_four) {
       display: none;
      }
   }
@@ -7028,7 +7055,7 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     position: sticky;
     top: 40vh;
     width: 60%;
-    @media only #{$media} and ($feature_max : $value_two) {
+    @media only #{$media} and ($feature_max : $value_four) {
       display: none;
      }
   }

@@ -14,7 +14,7 @@ const HomeBottomContact = () => {
             <div className="bottomcontactsec" >
                 
             <div className="row">
-                <div className="col-md-8" >
+                <div className="col-md-12 col-lg-8" >
                     <div className="row">
                         
                         <div className="col-12 col-md-10 offset-md-1 offset-lg-2">

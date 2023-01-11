@@ -11,9 +11,9 @@ const AboutPhilosophy = () => {
       <div className="aboutphilosophy">
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-12 col-lg-5">
               <div
-                className="art"
+                className="art justify-content-center"
                 data-aos="fade-right"
                 data-aos-duration="600"
                 data-aos-delay="500"
@@ -24,7 +24,7 @@ const AboutPhilosophy = () => {
                 />
               </div>
             </div>
-            <div className="col-md-7">
+            <div className="col-md-12 col-lg-7">
               <div
                 className="subheading"
                 data-aos="fade-right"
@@ -137,7 +137,7 @@ const AboutPhilosophy = () => {
         </div>
         <div className="container ptb-50">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-12 col-lg-4">
               <div className="gridbox"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                 <div className="icon">
                   <img
@@ -155,7 +155,7 @@ const AboutPhilosophy = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12 col-lg-4">
               <div className="gridbox" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
                 <div className="icon">
                   <img
@@ -173,7 +173,7 @@ const AboutPhilosophy = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-12 col-lg-4">
               <div className="gridbox" data-aos="fade-right" data-aos-duration="600" data-aos-delay="900">
                 <div className="icon3">
                   <img

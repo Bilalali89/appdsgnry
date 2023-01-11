@@ -14,7 +14,7 @@ const PortfolioAppContentTwo = () => {
          <div className="appcontenttwo">
         <div className="container-fluid">
           <div className="row">     
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6 order-md-2">
                 <div className="slogan" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">FEATURED</div>
               <div className="heading" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                 Custom Application Development
@@ -32,7 +32,7 @@ const PortfolioAppContentTwo = () => {
                     data-aos="fade-right" data-aos-duration="600" data-aos-delay="500"
                   />
                 </div>
-                <div className="col-9 col-md-10 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+                <div className="col-9 col-md-4 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                   Android & <br />
                   iOS Native
                 </div>
@@ -45,14 +45,14 @@ const PortfolioAppContentTwo = () => {
                     data-aos="fade-right" data-aos-duration="600" data-aos-delay="500"
                   />
                 </div>
-                <div className="col-9 col-md-10 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+                <div className="col-9 col-md-4 col-xl-3 icotext" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                   App UI
                   <br />
                  Style Guide
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6 order-md-1">
             <Image 
                   src={mobile}
                   />

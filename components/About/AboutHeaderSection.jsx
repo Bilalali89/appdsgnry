@@ -11,7 +11,7 @@ const AboutHeaderSection = () => {
       <div className="aboutheader">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6">
               <div className="illustration" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
                 <img
                   src="/images/aboutus/Illustration.svg"
@@ -19,7 +19,7 @@ const AboutHeaderSection = () => {
                 />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6">
               <div className="heading" data-aos="fade-right" data-aos-duration="600" data-aos-delay="800">
                 We are a team of specialised{" "}
                 <span className="primary">product design</span> experts, trusted
