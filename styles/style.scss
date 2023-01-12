@@ -6346,7 +6346,6 @@ Pricing Area CSS
 
 .contact-info-box {
   transition: $transition;
-  
   background: none;
   padding: 30px ;
   margin-bottom: 30px;
@@ -7147,3 +7146,102 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     color: $black-color
   }
 }
+
+.projectbrief {
+  padding: 120px 0px;
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: $secondary-color;
+    padding-bottom: 20px;
+  }
+  .subheading{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+    textarea {
+      height: 130px;
+      resize: none;
+    }
+  }
+  .form-control {
+    border: 1px solid #18181b;
+  border-radius: 0px !important;
+  background-color: #ffffff;
+  font-size: 18px;
+  
+  }
+
+  .form-select {
+    border: 1px solid #18181b;
+  border-radius: 0px !important;
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  .titletextarea {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-right: 30%;
+  }
+
+  .hint {
+    color: #8D8D8D;
+    font-size: 16px;
+    margin-bottom: 40px;
+   
+  }
+
+.uploadbox {
+  text-align: center;
+  border: 1px solid $black-color;
+  padding: 30px; 
+  margin-bottom: 20px;
+  #upload {
+    width: 100%;
+    cursor: pointer;
+  }
+    input {
+      display: none;
+      
+    }
+  }
+
+
+}
+
+.ColorpickerDiv {
+  position: relative;
+
+  input[type="color"] {
+    position: absolute;
+    right: 10px;
+    top:9px;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none
+   }
+
+   input[type="text"] {
+    border: 1px solid #18181b;
+  border-radius: 0px !important;
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 15px 20px;
+  width: 100%;
+   }
+ 
+}
+

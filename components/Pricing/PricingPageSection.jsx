@@ -93,7 +93,7 @@ class PricingPageSection extends Component {
                                                 </ul>
 
                                                 <div className="btn-box">
-                                                    <Link href="#">
+                                                    <Link href="/PackageSelect">
                                                         <a className="btn btn-primary blue">
                                                             <i className="bx bxs-hot"></i> 
                                                             Order Now   

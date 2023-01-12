@@ -52,7 +52,7 @@ const HomeContactForm = () => {
             </div>
             <div className="col-lg-12 col-md-12">
               <div className="form-group">
-                <select class="form-select" aria-label="Default">
+                <select className="form-select" aria-label="Default">
                   <option selected>What are you Interested In?</option>
                   <option value="1">App Design</option>
                   <option value="2">Web Design</option>
