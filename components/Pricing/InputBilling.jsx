@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Input = (props) => {
-    let { title, hint } = props;
+const InputBilling = (props) => {
+    let { title, hint, type } = props;
     
 
   return (
@@ -11,7 +11,7 @@ const Input = (props) => {
               </div>
               <div className="form-group">
                 <input
-                  type="text"
+                  type={type}
                   name="name"
                   placeholder=''
                   className="form-control"
@@ -25,4 +25,4 @@ const Input = (props) => {
   )
 }
 
-export default Input
+export default InputBilling

@@ -2,24 +2,24 @@ import React from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
 import Footer from "../components/Layouts/Footer";
 import PageBanner from "../components/Common/PageBanner";
-import ProjectBrief from "../components/PackageSelect/ProjectBrief";
+import BillingInfo from "../components/BillingInfo/BillingInfo";
 
-const packageSelect = () => {
+const PaymentSelect = () => {
   return (
     <div>
       <NavbarTwo />
       <PageBanner
-        pageDescription={`Your Project Brief`}
-        pageTitle="Requirements"
+        pageDescription={`Secure Payment`}
+        pageTitle="Billing Info"
         BGImage="bg-three"
         DNONE="none"
       />
 
-      <ProjectBrief />
+      <BillingInfo />
       
       <Footer />
     </div>
   );
 };
 
-export default packageSelect;
+export default PaymentSelect;

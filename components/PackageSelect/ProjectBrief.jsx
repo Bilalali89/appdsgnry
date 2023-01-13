@@ -4,8 +4,14 @@ import ColorPicker from "../Pricing/ColorPicker";
 import Input from "../Pricing/Input";
 import SelectDropdown from "../Pricing/SelectDropdown";
 import TextArea from "../Pricing/TextArea";
+import RadioSelectDays from "../Pricing/RadioSelectDays";
+import RadioSelectPackage from "../Pricing/RadioSelectPackage";
+import Link from "next/link";
 
 const ProjectBrief = () => {
+  const refreshPage = ()=>{
+    window.location.reload();
+ }
   return (
     <div className="projectbrief">
       <div className="container">
@@ -124,6 +130,41 @@ const ProjectBrief = () => {
             </div>
           </div>
          
+        </div>
+        <div className="row">
+          <div className="col-md-12 col-lg-8">
+              <RadioSelectPackage />
+          </div>
+          <div className="col-md-12 col-lg-4">
+              <div className="durationbox">
+                <div className="heading">Duration</div>
+                <div className="subheading">
+                How long do you want your project delivery time?
+                </div>
+                <div className="durationoptions">
+                  <RadioSelectDays />
+                </div>
+              </div>
+          </div>
+
+        </div>
+        <br/>
+
+        <div className="row">
+          <div className="col-lg-3">
+              <img src="/images/moneybackguarantee.png" alt="img" />
+          </div>
+          <div className="col-lg-9 justify-content-end d-flex align-items-center">
+            <div>
+              <button className="btn btn-back">BACK TO PRICING</button>
+              <button className="btn btn-reset" onClick={refreshPage}>RESET</button>
+              
+               <Link href="/PaymentSelect"><button className="btn btn-proceed">PROCEED</button></Link> 
+                
+            </div>
+           
+          </div>
+
         </div>
       </div>
     </div>
