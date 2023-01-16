@@ -16,7 +16,7 @@ const HomeServices = () => {
         <div className="row">
           {/* Research */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
+            <div className="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Research.svg" alt="research" />
@@ -39,7 +39,7 @@ const HomeServices = () => {
           </div>
           {/* Strategy */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+            <div className="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Strategy.svg" alt="strategy" />
@@ -63,7 +63,7 @@ const HomeServices = () => {
           </div>
           {/* Design */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
+            <div className="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Design.svg" alt="design" />
@@ -84,12 +84,13 @@ const HomeServices = () => {
 
               <div className="rightarrow">
                 <img src="/images/arrow.png" alt="arrow" />
+                <img src="/images/arrow.png" alt="arrow" />
               </div>
             </div>
           </div>
           {/* Development */}
           <div className="col-xl-3 col-lg-6 col-12 col-md-6">
-            <div class="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="900">
+            <div className="servicebox border-gradient border-gradient-purple" data-aos="fade-right" data-aos-duration="600" data-aos-delay="900">
               <div className="servicewrapper">
                 <div className="icon">
                   <img src="/images/Development.svg" alt="development" />

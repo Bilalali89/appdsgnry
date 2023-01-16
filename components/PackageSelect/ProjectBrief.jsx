@@ -15,6 +15,7 @@ const ProjectBrief = () => {
   return (
     <div className="projectbrief">
       <div className="container">
+        <form action="">
         <div className="row">
           <div className="col-md-12 col-lg-10 order-lg-1 order-2">
             <div className="heading">Project Brief</div>
@@ -159,13 +160,14 @@ const ProjectBrief = () => {
               <button className="btn btn-back">BACK TO PRICING</button>
               <button className="btn btn-reset" onClick={refreshPage}>RESET</button>
               
-               <Link href="/PaymentSelect"><button className="btn btn-proceed">PROCEED</button></Link> 
+               <Link href="/PaymentSelect"><button type="submit" className="btn btn-proceed">PROCEED</button></Link> 
                 
             </div>
            
           </div>
 
         </div>
+        </form>
       </div>
     </div>
   );
