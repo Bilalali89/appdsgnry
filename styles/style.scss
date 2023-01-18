@@ -70,21 +70,18 @@ $value_five: 992px;
 $value_six: 1199px;
 $value_seven: 1650px;
 
-body::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: $gradient-color;
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: $gradient-color;
 }
 
-body::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: $primary-color;
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: $primary-color;
 }
 
-body::-webkit-scrollbar-thumb
-{
-	background-color: $black-color;
+body::-webkit-scrollbar-thumb {
+  background-color: $black-color;
   border-radius: 20px;
 }
 
@@ -1059,7 +1056,6 @@ Main Banner CSS
     }
     .btn {
       margin-top: 15px;
-     
     }
     .btn-primary {
       font-size: 16px;
@@ -1085,7 +1081,7 @@ Main Banner CSS
       }
 
       &:hover::after {
-        content: url('../public/images/header\ arrow.png');
+        content: url("../public/images/header\ arrow.png");
         position: absolute;
         top: 70px;
         left: 97px;
@@ -3040,7 +3036,6 @@ Portfolio CSS
   }
 }
 
-
 /*================================================
 Our Work Process CSS
 =================================================*/
@@ -3556,7 +3551,6 @@ Subscribe CSS
     }
   }
 }
-
 
 /*================================================
 Page Title CSS
@@ -4821,9 +4815,8 @@ Go Top CSS
       transition: opacity 0.4s;
       @media only #{$media} and ($feature_max : $value_four) {
         padding-right: 20px;
-        
       }
-    
+
       &:hover {
         opacity: 1;
       }
@@ -4885,7 +4878,6 @@ Go Top CSS
     @media only #{$media} and ($feature_max : $value_two) {
       font-size: 23px;
       line-height: 2.5rem;
-  
     }
     .box1 {
       font-weight: 700;
@@ -4934,7 +4926,7 @@ Go Top CSS
   padding: 120px 0px;
   background-color: #001427;
   @media only #{$media} and ($feature_max : $value_two) {
-   padding: 50px 0px
+    padding: 50px 0px;
   }
 
   .servicebox {
@@ -5120,7 +5112,7 @@ Go Top CSS
       display: inline-block;
       transition: all 0.4s ease-in-out;
       @media only #{$media} and ($feature_max : $value_four) {
-        width:100%;
+        width: 100%;
         text-align: center;
       }
       &:hover {
@@ -5375,11 +5367,16 @@ Go Top CSS
       bottom: 56px;
     }
 
-    .review1, .review2, .review3, .review4, .review7, .review6 {
-      transition: .4s all;
+    .review1,
+    .review2,
+    .review3,
+    .review4,
+    .review7,
+    .review6 {
+      transition: 0.4s all;
       &:hover {
         transform: scale(1.1);
-        transition: .4s all;
+        transition: 0.4s all;
       }
     }
   }
@@ -6237,7 +6234,6 @@ Pricing Area CSS
     font-weight: 100;
     color: $white-color;
     margin-bottom: 30px;
-
   }
   .techtabs {
     .tabs {
@@ -6246,9 +6242,8 @@ Pricing Area CSS
       justify-content: space-between;
       flex-wrap: wrap;
       @media only #{$media} and ($feature_max : $value_two) {
-       justify-content: space-evenly;
-       line-height: 2rem;
-     
+        justify-content: space-evenly;
+        line-height: 2rem;
       }
     }
 
@@ -6260,7 +6255,6 @@ Pricing Area CSS
     }
 
     li {
-     
       padding: 0;
       background-color: transparent !important;
       color: #767676;
@@ -6270,36 +6264,33 @@ Pricing Area CSS
         justify-content: space-evenly;
         line-height: 3.5rem;
         font-size: 28px !important;
-       }
+      }
     }
 
     li.current {
       color: $secondary-color;
-      &::before { 
-          content: url('/images/tabsarrow.png');
-          position: absolute;
-          top: 38px;
-          width: auto;
-          background: none;
+      &::before {
+        content: url("/images/tabsarrow.png");
+        position: absolute;
+        top: 38px;
+        width: auto;
+        background: none;
 
-          @media only #{$media} and ($feature_max : $value_two) {
-            top: 30px;
-            transform: scale(0.8);
-            transform-origin: left;
-           }
-      
+        @media only #{$media} and ($feature_max : $value_two) {
+          top: 30px;
+          transform: scale(0.8);
+          transform-origin: left;
+        }
       }
-      
     }
   }
 }
 
 .contactheadline {
-
   padding: 100px 0;
   @media only #{$media} and ($feature_max : $value_two) {
     padding: 50px 0;
-   }
+  }
 
   .heading {
     font-size: 60px;
@@ -6308,13 +6299,11 @@ Pricing Area CSS
     @media only #{$media} and ($feature_max : $value_two) {
       font-size: 26px;
       line-height: 2.5rem;
-     }
+    }
 
-     @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
+    @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
       font-size: 42px;
-    
-     }
-
+    }
   }
 
   .link {
@@ -6323,44 +6312,39 @@ Pricing Area CSS
     position: relative;
     color: $secondary-color;
     @media only #{$media} and ($feature_max : $value_two) {
-     font-size: 40px;
-     }
+      font-size: 40px;
+    }
 
     a {
       color: $secondary-color;
-      
+
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         bottom: -10px;
         width: 100%;
         height: 4px;
         background-color: $secondary-color;
-        transition: .4s all;
-        
+        transition: 0.4s all;
       }
       &:hover::before {
         width: 60%;
       }
-
-      
     }
-    
   }
 }
-
 
 .contact-info-box {
   transition: $transition;
   background: none;
-  padding: 30px ;
+  padding: 30px;
   margin-bottom: 30px;
   position: relative;
 
   .cicon {
     padding-bottom: 20px;
   }
- 
+
   h3 {
     font: {
       size: 24px;
@@ -6372,8 +6356,8 @@ Pricing Area CSS
   p {
     margin-bottom: 0;
     color: #767676;
-      font-weight: 600;
-      font-size: 22px;
+    font-weight: 600;
+    font-size: 22px;
 
     a {
       color: #767676;
@@ -6407,11 +6391,11 @@ Pricing Area CSS
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
-    border-bottom:3px solid $white-color;
+    border-bottom: 3px solid $white-color;
     border-radius: 0px;
     @media only #{$media} and ($feature_max : $value_two) {
-     font-size: 20px;
-     }
+      font-size: 20px;
+    }
     &::placeholder {
       color: $primary-color;
     }
@@ -6419,10 +6403,10 @@ Pricing Area CSS
   .form-group {
     margin-bottom: 50px;
   }
- 
+
   textarea.form-control {
-  height: auto !important;
-}
+    height: auto !important;
+  }
 
   .btn.btn-contact {
     border: 6px solid $primary-color;
@@ -6438,10 +6422,10 @@ Pricing Area CSS
   padding: 100px 0;
   @media only #{$media} and ($feature_max : $value_two) {
     padding: 50px 0;
-    }
+  }
 
   .illustration {
-    padding: 30px
+    padding: 30px;
   }
 
   .heading {
@@ -6452,66 +6436,63 @@ Pricing Area CSS
     @media only #{$media} and ($feature_max : $value_two) {
       font-size: 35px;
       line-height: 2.5rem;
-      }
+    }
 
-      @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_seven) {
-        font-size: 42px;
-        line-height: 3rem;
-        }
+    @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_seven) {
+      font-size: 42px;
+      line-height: 3rem;
+    }
 
     .primary {
-      color: $primary-color
+      color: $primary-color;
     }
     .secondary {
-      color: $secondary-color
+      color: $secondary-color;
     }
   }
-  
 }
 
 .aboutphilosophy {
-    padding: 100px 0;
-    @media only #{$media} and ($feature_max : $value_two) {
-      padding: 50px 0;
-      }
+  padding: 100px 0;
+  @media only #{$media} and ($feature_max : $value_two) {
+    padding: 50px 0;
+  }
 
-      .art {
-        display: flex;
-        align-items: center;
-        @media only #{$media} and ($feature_max : $value_four) {
-          padding-bottom: 50px;
-          }
-      }
-     .subheading {
-      font-size: 20px;
-      padding-bottom: 20px;
-      letter-spacing: 3px;
-     
-     }
-     .heading {
-      font-size: 50px;
-      padding-bottom: 10px;
-      font-weight: bold;
-      @media only #{$media} and ($feature_max : $value_two) {
-        font-size: 44px;
-        line-height: 3rem;
-        }
-     }
-     .text {
-      font-size: 22px;
-      padding-bottom: 30px;
-     }
-     .title {
-      font-size: 25px;
-      padding-bottom: 30px;
-      font-weight: bold;
-     }
-     .body {
-      font-size: 20px;
-      font-weight: 100;
-      padding-bottom: 30px;
-     } 
-    
+  .art {
+    display: flex;
+    align-items: center;
+    @media only #{$media} and ($feature_max : $value_four) {
+      padding-bottom: 50px;
+    }
+  }
+  .subheading {
+    font-size: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+  }
+  .heading {
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    @media only #{$media} and ($feature_max : $value_two) {
+      font-size: 44px;
+      line-height: 3rem;
+    }
+  }
+  .text {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .title {
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
+  .body {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 30px;
+  }
 }
 
 .gridbox {
@@ -6529,19 +6510,17 @@ Pricing Area CSS
     font-weight: bold;
     margin-bottom: 20px;
     margin-bottom: 30px;
-    
   }
   .subheadingg {
     font-size: 20px;
     color: $secondary-color;
     font-weight: 400;
     margin-bottom: 10px;
-    
   }
   .textt {
     font-size: 22px;
     font-weight: 100;
-    padding: 10px 30px
+    padding: 10px 30px;
   }
 }
 
@@ -6550,7 +6529,7 @@ Pricing Area CSS
   padding: 100px 0;
   @media only #{$media} and ($feature_max : $value_two) {
     padding: 50px 0;
-    }
+  }
   .heading {
     font-size: 50px;
     font-weight: bold;
@@ -6559,24 +6538,23 @@ Pricing Area CSS
     margin-bottom: 20px;
     @media only #{$media} and ($feature_max : $value_two) {
       line-height: 3.5rem;
-      }
+    }
   }
   .subheading {
-      font-size: 22px;
-      color: $white-color;
-      text-align: center;
-      width: 65%;
-      margin: 0 auto;
-      @media only #{$media} and ($feature_max : $value_two) {
-        width: 80%;
-        }
+    font-size: 22px;
+    color: $white-color;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    @media only #{$media} and ($feature_max : $value_two) {
+      width: 80%;
+    }
   }
 
   .logos {
     img {
       padding-bottom: 50px;
     }
-    
   }
 }
 
@@ -6584,34 +6562,34 @@ Pricing Area CSS
   padding: 100px 0;
   @media only #{$media} and ($feature_max : $value_two) {
     padding: 50px 0;
-    }
+  }
 
-    .slogan {
-      font-size: 26px;
-      color: $primary-color;
-      letter-spacing: 5px;
-      font-weight: bold;
-      padding-bottom: 50px;
-      padding-left: 46px;
-     
-    }
-    }
-
-    .quote {
-      font-size: 34px;
-      font-weight: 600;
-      border-left: 6px solid $secondary-color;
-      padding-left: 40px;
-      margin-bottom: 40px;
-      @media only #{$media} and ($feature_max : $value_two) {
-        font-size: 24px;
-        
-    }
-
+  .slogan {
+    font-size: 26px;
+    color: $primary-color;
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-left: 46px;
+  }
 }
 
-.portfolioone, .portfoliotwo, .portfoliothree, .portfoliofour {
-  padding: 0
+.quote {
+  font-size: 34px;
+  font-weight: 600;
+  border-left: 6px solid $secondary-color;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  @media only #{$media} and ($feature_max : $value_two) {
+    font-size: 24px;
+  }
+}
+
+.portfolioone,
+.portfoliotwo,
+.portfoliothree,
+.portfoliofour {
+  padding: 0;
 }
 
 .portfoliothree {
@@ -6629,22 +6607,21 @@ Pricing Area CSS
   justify-content: flex-end;
   text-align: center;
   @media only #{$media} and ($feature_max : $value_two) {
-   display: none;
-    }
+    display: none;
+  }
 
   .textheading {
-     
-        bottom: 0;
-        font-size: 44px;
-        font-weight: bold;
-        text-align: center;
-       
-        line-height: 3rem;
-        
-        display: flex;
-        justify-self: center;
-        flex-direction: column;
-        padding-bottom: 40px;
+    bottom: 0;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+
+    line-height: 3rem;
+
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    padding-bottom: 40px;
   }
 }
 
@@ -6652,47 +6629,47 @@ Pricing Area CSS
   padding: 100px 0;
   @media only #{$media} and ($feature_max : $value_four) {
     padding: 50px 20px;
-    }
+  }
 
-    .heading {
-      font-size: 68px;
-      font-weight: bold;
-      line-height: 4.5rem;
-      padding-bottom: 80px;
-      color: $secondary-color;
-      padding-top: 40px;
-      @media only #{$media} and ($feature_max : $value_two) {
-        font-size: 42px;
-        line-height: 3rem;
-        padding-bottom: 30px;
-        }
-      span {
-        color: $black-color
-      }
-    }
-
-    .text {
-      font-size: 30px;
-      font-weight: 100;
+  .heading {
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 4.5rem;
+    padding-bottom: 80px;
+    color: $secondary-color;
+    padding-top: 40px;
+    @media only #{$media} and ($feature_max : $value_two) {
+      font-size: 42px;
       line-height: 3rem;
-      padding-bottom: 100px;
-      padding-right: 25%;
-      @media only #{$media} and ($feature_max : $value_four) {
-        font-size: 23px;
-        line-height: 2rem;
-        padding-right: 0%;
-        padding-bottom: 40px;
-        }
+      padding-bottom: 30px;
     }
+    span {
+      color: $black-color;
+    }
+  }
 
-    .icotext {
-      font-size: 26px;
-      font-weight: 600;
+  .text {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 3rem;
+    padding-bottom: 100px;
+    padding-right: 25%;
+    @media only #{$media} and ($feature_max : $value_four) {
+      font-size: 23px;
       line-height: 2rem;
-      @media only #{$media} and ($feature_max : $value_two) {
-        margin-bottom: 30px;
-        }
+      padding-right: 0%;
+      padding-bottom: 40px;
     }
+  }
+
+  .icotext {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 2rem;
+    @media only #{$media} and ($feature_max : $value_two) {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .appcontenttwo {
@@ -6700,61 +6677,60 @@ Pricing Area CSS
   background-color: #001427;
   @media only #{$media} and ($feature_max : $value_four) {
     padding: 50px 20px;
-    }
-    .slogan {
-      color: $secondary-color;
-      letter-spacing: 4px;
-      font-size: 20px;
-    }
-    .heading {
-      font-size: 68px;
-      font-weight: bold;
-      line-height: 4.5rem;
-      padding-bottom: 80px;
-      color: $primary-color;
-      padding-top: 40px;
-      @media only #{$media} and ($feature_max : $value_two) {
-        font-size: 42px;
-        line-height: 3rem;
-        padding-bottom: 30px;
-        }
-      
-    }
-
-    .text {
-      font-size: 30px;
-      font-weight: 100;
+  }
+  .slogan {
+    color: $secondary-color;
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 68px;
+    font-weight: bold;
+    line-height: 4.5rem;
+    padding-bottom: 80px;
+    color: $primary-color;
+    padding-top: 40px;
+    @media only #{$media} and ($feature_max : $value_two) {
+      font-size: 42px;
       line-height: 3rem;
-      padding-bottom: 100px;
-      padding-right: 25%;
-      color: $white-color;
-      @media only #{$media} and ($feature_max : $value_four) {
-        font-size: 23px;
-        line-height: 2rem;
-        padding-right: 0%;
-        padding-bottom: 40px;
-        }
+      padding-bottom: 30px;
     }
+  }
 
-    .icotext {
-      font-size: 26px;
-      font-weight: 600;
+  .text {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 3rem;
+    padding-bottom: 100px;
+    padding-right: 25%;
+    color: $white-color;
+    @media only #{$media} and ($feature_max : $value_four) {
+      font-size: 23px;
       line-height: 2rem;
-      color: $secondary-color;
-      @media only #{$media} and ($feature_max : $value_two) {
-        margin-bottom: 30px;
-        }
+      padding-right: 0%;
+      padding-bottom: 40px;
     }
+  }
+
+  .icotext {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 2rem;
+    color: $secondary-color;
+    @media only #{$media} and ($feature_max : $value_two) {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .portfoliospecial {
-    overflow: hidden;
-    .section-one {
-      padding: 100px 0;
-      background-color: #F9F9F9;
-      height: 100%;
+  overflow: hidden;
+  .section-one {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+    height: 100%;
 
-      .slogan {    
+    .slogan {
       letter-spacing: 4px;
       font-size: 20px;
       padding-left: 20%;
@@ -6762,38 +6738,36 @@ Pricing Area CSS
       @media only #{$media} and ($feature_max : $value_two) {
         padding-left: 10%;
         padding-right: 10%;
-        }
-
       }
-      .heading {
-        font-size: 50px;
-        font-weight: bold;
-        line-height: 3.5rem;
-        padding-top: 40px;
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-bottom: 40px;
-        @media only #{$media} and ($feature_max : $value_two) {
-          padding-left: 10%;
-          padding-right: 10%;
-          font-size: 42px;
-          line-height: 3rem;
-          }
+    }
+    .heading {
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 3.5rem;
+      padding-top: 40px;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-bottom: 40px;
+      @media only #{$media} and ($feature_max : $value_two) {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 42px;
+        line-height: 3rem;
       }
-      .h {
-        padding-right: 20%;
-        @media only #{$media} and ($feature_max : $value_two) {
-         
-          padding-right: 0%;
-          }
-        .h1 {
+    }
+    .h {
+      padding-right: 20%;
+      @media only #{$media} and ($feature_max : $value_two) {
+        padding-right: 0%;
+      }
+      .h1 {
         font-size: 26px;
         font-weight: bold;
         padding-bottom: 30px;
         @media only #{$media} and ($feature_max : $value_four) {
           padding-left: 10%;
           padding-right: 10%;
-          }
+        }
       }
       .h2 {
         font-size: 22px;
@@ -6804,7 +6778,7 @@ Pricing Area CSS
           padding-left: 10%;
           padding-right: 10%;
           padding-bottom: 15px;
-          }
+        }
       }
       .h3 {
         font-size: 48px;
@@ -6812,12 +6786,11 @@ Pricing Area CSS
         @media only #{$media} and ($feature_max : $value_four) {
           padding-left: 10%;
           padding-right: 10%;
-          }
+        }
       }
-      }
-      
     }
-   .section-two {
+  }
+  .section-two {
     height: 100%;
     padding: 100px;
     background-color: $primary-color;
@@ -6825,200 +6798,192 @@ Pricing Area CSS
     flex-direction: column;
     justify-content: space-between;
     @media only #{$media} and ($feature_max : $value_two) {
-         
       padding: 50px 10%;
-      }
+    }
     .heading {
       font-size: 62px;
       font-weight: bold;
       line-height: 5rem;
       padding-right: 30%;
       @media only #{$media} and ($feature_max : $value_four) {
-         
         font-size: 36px;
         line-height: 2.5rem;
         padding-right: 0%;
         padding-bottom: 30px;
-        }
+      }
     }
 
-    .extension{
-      @media only #{$media} and ($feature_max : $value_two) {   
+    .extension {
+      @media only #{$media} and ($feature_max : $value_two) {
         padding-bottom: 30px;
-        }
+      }
       .head {
-          font-size: 28px;
-          font-weight: bold;
-          color: $white-color;
-          margin-bottom: 30px;
-
+        font-size: 28px;
+        font-weight: bold;
+        color: $white-color;
+        margin-bottom: 30px;
       }
       .text {
         font-size: 26px;
         padding-right: 20%;
-        @media only #{$media} and ($feature_max : $value_two) {   
+        @media only #{$media} and ($feature_max : $value_two) {
           padding-right: 0%;
-          }
-            
+        }
       }
     }
     .arrw {
       cursor: pointer;
       @media only #{$media} and ($feature_max : $value_four) {
-         
         padding-top: 30px;
-        }
+      }
     }
-   } 
-
+  }
 }
 
 .introsection {
   overflow: hidden;
-   padding: 100px 0px;
-   background: rgb(255,255,255);
-background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 46%, rgba(0,20,39,1) 46%);
-   margin-bottom: -1px;
-  
-   @media only #{$media} and ($feature_max : $value_two) {
-     padding: 50px 20px;
-     }
-    .mainDiv {
-      @media only #{$media} and ($feature_max : $value_four) {
-        display: none;
-       }
-      
-      background: url(/images/portfoliopage/mobile-mockup-002.png) no-repeat;
-      background-size: contain;
-      height: 90vh;
-      padding: 0px 10vw;
-      @media only #{$media} and ($feature_min : $value_three) and ($feature_max : 1820px ) {
-        height: 50vh;
-       }
+  padding: 100px 0px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    205deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 46%,
+    rgba(0, 20, 39, 1) 46%
+  );
+  margin-bottom: -1px;
 
-      .heading {
-        font-size: 62px;
-        line-height: 4rem;
-        padding-bottom: 30px;
-        
-      }
-
-      .btn.btn-casestudy {
-        border: 3px solid $primary-color;
-        padding: 15px 40px;
-        font-weight: bold;
-        font-size: 22px;
-        border-radius: 0px;
-        background-color: $white-color;
-        font-family: 'Poppins',sans-serif;
-        transition: $transition;
-        &:hover {
-          background: $gradient-color;
-          transition: $transition;
-          
-          a {
-            color: $white-color;
-            transition: $transition;
-          }
-        }
-        a {
-          color: #001427;
-          transition: $transition;
-        }
-        float: right;
-        
-
-      }
-    
-    } 
-    .bottomheading {
-      color: $white-color;
-      font-size: 56px;
-      font-weight: 900;
-      padding-left: 40%;
-      line-height: 4rem;
-      text-align: left;
-      @media only #{$media} and ($feature_max : $value_two) {
-        font-size: 38px;
-        line-height: 3rem;
-        padding-left: 0%;
-       }
-
-       @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four){
-        font-size: 38px;
-        line-height: 3rem;
-        padding-left: 0%;
-        padding: 20px
-       }
-      .green {
-        color: $primary-color;
-      }
-      .blue {
-        color: $secondary-color
-      }
+  @media only #{$media} and ($feature_max : $value_two) {
+    padding: 50px 20px;
+  }
+  .mainDiv {
+    @media only #{$media} and ($feature_max : $value_four) {
+      display: none;
     }
 
-    .mobdiv {
-      display: none;
-      @media only #{$media} and ($feature_max : $value_four) {
-        display: block;
-       }
-       .button {
-        padding: 20px;
-        @media only #{$media} and ($feature_max : $value_two) {
-          padding: 0;
-         }
-       }
-       .btn.btn-casestudy {
-        border: 3px solid $primary-color;
-        padding: 15px 40px;
-        font-weight: bold;
-        font-size: 22px;
-        border-radius: 0px;
-        background-color: $white-color;
-        width: 100%;
-        cursor: pointer;
-        font-family: 'Poppins',sans-serif;
-        transition: $transition;
-        
-      
-        &:hover {
-          background: $gradient-color;
-          transition: $transition;
-          
-          a {
-            color: $white-color;
-            transition: $transition;
-          }
-        }
-        a {
-          color: #001427;
-          transition: $transition;
-        }   
+    background: url(/images/portfoliopage/mobile-mockup-002.png) no-repeat;
+    background-size: contain;
+    height: 90vh;
+    padding: 0px 10vw;
+    @media only #{$media} and ($feature_min : $value_three) and ($feature_max : 1820px ) {
+      height: 50vh;
+    }
 
+    .heading {
+      font-size: 62px;
+      line-height: 4rem;
+      padding-bottom: 30px;
+    }
+
+    .btn.btn-casestudy {
+      border: 3px solid $primary-color;
+      padding: 15px 40px;
+      font-weight: bold;
+      font-size: 22px;
+      border-radius: 0px;
+      background-color: $white-color;
+      font-family: "Poppins", sans-serif;
+      transition: $transition;
+      &:hover {
+        background: $gradient-color;
+        transition: $transition;
+
+        a {
+          color: $white-color;
+          transition: $transition;
+        }
       }
-      .title {
+      a {
+        color: #001427;
+        transition: $transition;
+      }
+      float: right;
+    }
+  }
+  .bottomheading {
+    color: $white-color;
+    font-size: 56px;
+    font-weight: 900;
+    padding-left: 40%;
+    line-height: 4rem;
+    text-align: left;
+    @media only #{$media} and ($feature_max : $value_two) {
+      font-size: 38px;
+      line-height: 3rem;
+      padding-left: 0%;
+    }
+
+    @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
+      font-size: 38px;
+      line-height: 3rem;
+      padding-left: 0%;
+      padding: 20px;
+    }
+    .green {
+      color: $primary-color;
+    }
+    .blue {
+      color: $secondary-color;
+    }
+  }
+
+  .mobdiv {
+    display: none;
+    @media only #{$media} and ($feature_max : $value_four) {
+      display: block;
+    }
+    .button {
+      padding: 20px;
+      @media only #{$media} and ($feature_max : $value_two) {
+        padding: 0;
+      }
+    }
+    .btn.btn-casestudy {
+      border: 3px solid $primary-color;
+      padding: 15px 40px;
+      font-weight: bold;
+      font-size: 22px;
+      border-radius: 0px;
+      background-color: $white-color;
+      width: 100%;
+      cursor: pointer;
+      font-family: "Poppins", sans-serif;
+      transition: $transition;
+
+      &:hover {
+        background: $gradient-color;
+        transition: $transition;
+
+        a {
+          color: $white-color;
+          transition: $transition;
+        }
+      }
+      a {
+        color: #001427;
+        transition: $transition;
+      }
+    }
+    .title {
+      font-size: 36px;
+      line-height: 3rem;
+      padding-bottom: 30px;
+      @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
         font-size: 36px;
         line-height: 3rem;
-        padding-bottom: 30px;  
-        @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four){
-          font-size: 36px;
-          line-height: 3rem;    
-          padding: 20px
-         }
-      }
-      .mockup {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px;
       }
     }
+    .mockup {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
 }
 
 .list-group {
   position: sticky;
-  top: 40vh
+  top: 40vh;
 }
-
 
 .aboutapproach {
   background-color: #001427;
@@ -7035,15 +7000,11 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     line-height: 5rem;
     @media only #{$media} and ($feature_max : $value_two) {
       font-size: 42px;
-    font-weight: bold;
-    line-height: 3rem;
-     }
+      font-weight: bold;
+      line-height: 3rem;
+    }
   }
 }
-
-
-
-
 
 .scroll {
   background-color: #001427;
@@ -7052,39 +7013,37 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     height: 25vh;
     @media only #{$media} and ($feature_max : $value_four) {
       display: none;
-     }
+    }
   }
 
-  
   ul {
     position: sticky;
     top: 40vh;
     width: 60%;
     @media only #{$media} and ($feature_max : $value_four) {
       display: none;
-     }
+    }
   }
   li {
     list-style-type: none;
     text-align: right;
     margin-bottom: 30px;
     font-size: 18px;
- 
 
     &:last-child {
       margin-bottom: 0;
     }
-    
+
     a {
       color: #767676;
     }
   }
- 
+
   .is-current {
     position: relative;
-    transition: .4s all;
+    transition: 0.4s all;
     &::before {
-      content: '';
+      content: "";
       background-color: $white-color;
       top: 13px;
       width: 130px;
@@ -7092,15 +7051,13 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
       position: absolute;
       right: -140px;
       transition: $transition;
-     
-
     }
     a {
       color: $white-color;
     }
   }
 
-  .box{
+  .box {
     .heading {
       font-size: 50px;
       font-weight: 100;
@@ -7110,46 +7067,43 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     .list {
       p {
         span {
-          font-family: 'Poppins',sans-serif;
+          font-family: "Poppins", sans-serif;
           padding-right: 10px;
           font-weight: 100;
         }
         font-size: 18px;
         font-weight: 600;
         color: $white-color;
-        margin-bottom: 4px
-      };  
+        margin-bottom: 4px;
+      }
     }
-   
   }
   .textbox {
     padding-top: 70px;
     .text {
-    font-size: 20px;
-    color: $white-color;
-    font-weight: 100;
-    padding-right: 30%;
-    @media only #{$media} and ($feature_max : $value_two) {
-     padding-top: 30px;
-     padding-right: 0%;
-     }
-    
+      font-size: 20px;
+      color: $white-color;
+      font-weight: 100;
+      padding-right: 30%;
+      @media only #{$media} and ($feature_max : $value_two) {
+        padding-top: 30px;
+        padding-right: 0%;
+      }
+    }
   }
-  }
-  
+
   .image {
     padding-top: 40px;
     @media only #{$media} and ($feature_max : $value_two) {
       padding-bottom: 40px;
       text-align: center;
-     }
+    }
   }
-
 }
 
 #quotemodal {
   .modal-title {
-    color: $black-color
+    color: $black-color;
   }
 }
 
@@ -7161,7 +7115,7 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     color: $secondary-color;
     padding-bottom: 20px;
   }
-  .subheading{
+  .subheading {
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 20px;
@@ -7175,19 +7129,18 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
   }
   .form-control {
     border: 1px solid #18181b;
-  border-radius: 0px !important;
-  background-color: #ffffff;
-  font-size: 18px;
-  
+    border-radius: 0px !important;
+    background-color: #ffffff;
+    font-size: 18px;
   }
 
   .form-select {
     border: 1px solid #18181b;
-  border-radius: 0px !important;
-  background-color: #ffffff;
-  font-size: 18px;
-  padding: 15px 20px;
-  margin-bottom: 20px;
+    border-radius: 0px !important;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
   }
 
   .title {
@@ -7203,24 +7156,22 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
   }
 
   .hint {
-    color: #8D8D8D;
+    color: #8d8d8d;
     font-size: 16px;
     margin-bottom: 40px;
-   
   }
 
-.uploadbox {
-  text-align: center;
-  border: 1px solid $black-color;
-  padding: 30px; 
-  margin-bottom: 20px;
-  #upload {
-    width: 100%;
-    cursor: pointer;
-  }
+  .uploadbox {
+    text-align: center;
+    border: 1px solid $black-color;
+    padding: 30px;
+    margin-bottom: 20px;
+    #upload {
+      width: 100%;
+      cursor: pointer;
+    }
     input {
       display: none;
-      
     }
   }
 
@@ -7255,9 +7206,6 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     margin-bottom: 30px;
     margin-left: 30px;
   }
-  
-
-
 }
 
 .ColorpickerDiv {
@@ -7266,37 +7214,35 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
   input[type="color"] {
     position: absolute;
     right: 10px;
-    top:9px;
+    top: 9px;
     width: 40px;
     height: 40px;
     outline: none;
-    border: none
-   }
+    border: none;
+  }
 
-   input[type="text"] {
+  input[type="text"] {
     border: 1px solid #18181b;
-  border-radius: 0px !important;
-  background-color: #ffffff;
-  font-size: 18px;
-  padding: 15px 20px;
-  width: 100%;
-   }
- 
+    border-radius: 0px !important;
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 15px 20px;
+    width: 100%;
+  }
 }
 
 .durationbox {
-  .heading{
+  .heading {
     font-size: 32px;
     font-weight: 600;
-    color: $black-color
+    color: $black-color;
   }
   .subheading {
     font-size: 18px;
-  
   }
   .durationoptions {
     padding: 20px;
-    border: 2px solid #D0D0D0;
+    border: 2px solid #d0d0d0;
     border-radius: 6px;
     label {
       font-size: 18px;
@@ -7306,83 +7252,27 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     .price {
       font-size: 16px;
       font-weight: 600;
-      color: #767676
+      color: #767676;
     }
   }
 }
 
 .selectedpackage {
-    background-color: $main-color;
-    color: $black-color;
-    border-radius: 12px;
-    padding: 30px 0;
-
-
-    .radiosection {
-      padding-left: 30px;
-      label {
-        font-size: 18px;
-        font-weight: bold;
-        padding-left:20px
-      }
-    }
-    .selectmessage {
-      color: $white-color;
-      font-size: 16px;
-      padding-left: 30px;
-    }
-    .selectfeature {
-      font-size: 14px;
-      padding-left: 30px;
-      margin-top: 20px;
-      .icofont-check {
-        padding-right: 10px;
-        font-size: 18px;
-      }
-
-      .featurelist {
-        list-style: none;
-      padding: 0;
-      display: flex;
-      li {
-        padding-right: 20px;
-      }
-      }
-
-    }
-
-    .selectedprice {
-      background-color: #001427;
-      color: $white-color;
-      padding: 20px;
-      font-size: 30px;
-      font-weight: 600;
-      text-align: center;
-      border-top-left-radius: 50px;
-      border-bottom-left-radius: 50px;
-
-      
-    }
-}
-
-.recommendspackage {
-  background-color: $white-color;
+  background-color: $main-color;
   color: $black-color;
   border-radius: 12px;
-  border: 2px solid #D0D0D0;
   padding: 30px 0;
-
 
   .radiosection {
     padding-left: 30px;
     label {
       font-size: 18px;
       font-weight: bold;
-      padding-left:20px
+      padding-left: 20px;
     }
   }
   .selectmessage {
-
+    color: $white-color;
     font-size: 16px;
     padding-left: 30px;
   }
@@ -7393,17 +7283,66 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     .icofont-check {
       padding-right: 10px;
       font-size: 18px;
-      color: $main-color
+    }
+
+    .featurelist {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      li {
+        padding-right: 20px;
+      }
+    }
+  }
+
+  .selectedprice {
+    background-color: #001427;
+    color: $white-color;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+}
+
+.recommendspackage {
+  background-color: $white-color;
+  color: $black-color;
+  border-radius: 12px;
+  border: 2px solid #d0d0d0;
+  padding: 30px 0;
+
+  .radiosection {
+    padding-left: 30px;
+    label {
+      font-size: 18px;
+      font-weight: bold;
+      padding-left: 20px;
+    }
+  }
+  .selectmessage {
+    font-size: 16px;
+    padding-left: 30px;
+  }
+  .selectfeature {
+    font-size: 14px;
+    padding-left: 30px;
+    margin-top: 20px;
+    .icofont-check {
+      padding-right: 10px;
+      font-size: 18px;
+      color: $main-color;
     }
     .featurelist {
       list-style: none;
-    padding: 0;
-    display: flex;
-    li {
-      padding-right: 20px;
+      padding: 0;
+      display: flex;
+      li {
+        padding-right: 20px;
+      }
     }
-    }
-
   }
 
   .selectedprice {
@@ -7424,17 +7363,15 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     }
     .pricing {
       font-size: 18px;
-      
     }
-    
   }
 }
 
-.selectedpayment{
+.selectedpayment {
   label {
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 150px;
     border: 1px solid $black-color;
@@ -7446,7 +7383,6 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
 
   input[type="radio"] {
     appearance: none;
-    
   }
 
   input[type="radio"]:checked + label {
@@ -7467,6 +7403,73 @@ background: linear-gradient(205deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
       height: 55px;
       padding-left: 50px;
       border: 1px solid black;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.summarysection {
+  padding: 120px 0;
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: $secondary-color;
+    padding-bottom: 20px;
+  }
+  .summarybox {
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+    padding: 25px 30px;
+    box-shadow: 0px 0px 10px #00000021;
+  }
+
+  .sheading {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .dotted {
+    border-bottom: 1px dashed black;
+  }
+
+  .ttitle {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .paymentsec {
+    justify-content: space-between;
+    display: flex;
+
+    .btn-back {
+      background-color: #818181;
+      color: $white-color;
+      padding: 15px 50px;
+      border-radius: 0;
+      font-size: 18px;
+      box-shadow: 0px 3px 6px #00000029;
+      margin-bottom: 30px;
+      width: 40%;
+    }
+
+    .btn-proceed {
+      background-color: $primary-color;
+      color: $white-color;
+      padding: 15px 50px;
+      border-radius: 0;
+      font-size: 18px;
+      box-shadow: 0px 3px 6px #00000029;
+      margin-bottom: 30px;
+      width: 40%;
     }
   }
 }

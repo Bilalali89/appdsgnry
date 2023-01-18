@@ -81,13 +81,13 @@ const BillingInfo = () => {
           <br />
 
           <div className="row">
-            <div className="col-lg-9 justify-content-end d-flex align-items-center">
+            <div className="col-lg-12 justify-content-center d-flex align-items-center">
               <div>
                 <button className="btn btn-back" onClick={() => router.back()}>
                   BACK
                 </button>
 
-                <Link href="/PaymentSelect">
+                <Link href="/OrderSummary">
                   <button type="submit" className="btn btn-proceed">
                     CONFIRM
                   </button>

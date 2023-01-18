@@ -14,6 +14,7 @@ import HomePricing from '../components/Common/HomePricing';
 import HomeBottomContact from '../components/Common/HomeBottomContact';
 import PricingPageSection from '../components/Pricing/PricingPageSection';
 
+
 class Index extends Component {
     render() {
         return (
@@ -34,8 +35,7 @@ class Index extends Component {
                 
                 <HomeWeDesign />
 
-                <PricingPageSection 
-                    display="none"
+                <PricingPageSection
                 />
 
                 <HomeTestimonial />
