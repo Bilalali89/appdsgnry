@@ -10,7 +10,7 @@ const PriceCardWeb = ({n}, props) => {
   return (
     <div style={{display: 'flex', flexWrap: 'wrap'}}>
         {WebdData.slice(0,n).map((appdata) => {
-            return <div key={appdata.id}className="col-lg-6 col-xl-4 col-sm-12">
+            return <div key={appdata.id}className="col-lg-6 col-xl-4 col-sm-12 col-12">
             <div className="single-pricing-table premium">
                     <div className='plabel' style={{display:`${appdata.display}`}}>
                         <img src="/images/plabel.png" alt="label" />
