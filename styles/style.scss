@@ -788,7 +788,11 @@ Navbar CSS
           display: none;
         }
       }
+      .others-options {
+        padding-top: 40px;
+      }
       .navbar-nav {
+        padding-top: 40px;
         .nav-item {
           padding-left: 15px;
           padding-right: 15px;
@@ -800,6 +804,9 @@ Navbar CSS
     }
     &.is-sticky {
       background-color: $navbar-sticky !important;
+      .top-nav  {
+        display: none;
+      }
       .navbar-brand {
         color: $black-color;
 
@@ -809,6 +816,12 @@ Navbar CSS
         .white-logo {
           display: none;
         }
+      }
+      .others-options {
+        padding-top: 0;
+      }
+      .navbar-nav {
+        padding-top: 0;
       }
       .navbar-nav > {
         .nav-item {

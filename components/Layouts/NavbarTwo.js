@@ -59,7 +59,7 @@ class NavbarTwo extends Component {
                 <a className="navbar-brand">
                   <img
                     src="/images/Logo@2x.png"
-                    height="80"
+                    height="60"
                     className="black-logo"
                     alt="logo"
                   />
@@ -90,7 +90,7 @@ class NavbarTwo extends Component {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-                <ul className="navbar-nav" style={{paddingTop:'40px'}}>
+                <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link href="/about" activeClassName="active">
                       <a className="nav-link">ABOUT US</a>
@@ -122,7 +122,7 @@ class NavbarTwo extends Component {
                   </li>
                 </ul>
 
-                <div className="others-options" style={{paddingTop:'40px'}}>
+                <div className="others-options">
                   <Link href="/pricing">
                     <a className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quotemodal">REQUEST A QUOTE</a>
                   </Link>

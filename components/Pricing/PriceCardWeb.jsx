@@ -2,11 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import {WebdData} from './WebdData';
 
-
-
 const PriceCardWeb = ({n}, props) => {
     
-  
   return (
     <div style={{display: 'flex', flexWrap: 'wrap'}}>
         {WebdData.slice(0,n).map((appdata) => {
