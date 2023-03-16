@@ -25,7 +25,7 @@ class PricingPageSection extends Component {
     
 
     render() {
-        let { display , btndisplay } = this.props
+        let { display , btndisplay, cardsToDisplay } = this.props
 
         return (
             <>
@@ -59,7 +59,7 @@ class PricingPageSection extends Component {
                                     <div className="row">
                                         {/* Single pricing table */}
                                        
-                                        <PriceCardApp n={6}
+                                        <PriceCardApp n={cardsToDisplay}
                                         />
                                         
                                     </div>
@@ -68,7 +68,7 @@ class PricingPageSection extends Component {
                                 <div id="tab2" className="tabs_item">
                                     <div className="row">
                                         {/* Single pricing table */}
-                                        <PriceCardWeb n={6}/>
+                                        <PriceCardWeb n={cardsToDisplay}/>
                                     </div>
                                 </div>
                             </div>

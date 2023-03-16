@@ -12,7 +12,7 @@ $navbar-sticky: rgba(0, 0, 0, 0.699);
 
 $main-color: #ff2c9c;
 $gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
-$font-size: 14px;
+$font-size: 0.875rem;
 $black-color: #000000;
 $paragraph-color: #646464;
 $white-color: #ffffff;
@@ -42,39 +42,39 @@ $transition: .5s;
         font-size: $font-size;
     }
     .btn {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.875rem;
     }
     .ptb-100 {
         padding: {
-            top: 50px;
-            bottom: 50px;
+            top: 3.125rem;
+            bottom: 3.125rem;
         }
     }
     .pt-100 {
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
     .pb-60 {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
     .pb-70 {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
     .section-title {
-        margin: -5px auto 30px;
+        margin: -0.312rem auto 1.875rem;
 
         h2 {
             font-size: 26px;
         }
     }
     .navbar-area {
-        box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+        box-shadow: 0 2px 1.75rem 0 rgba(0, 0, 0, 0.06);
         background-color: $navbar-sticky ;
         padding: 0;
       
         nav {
             .navbar-brand {
-                font-size: 25px;
+                font-size: 1.562rem;
 
                 img {
                     max-width: 130px;
@@ -83,10 +83,10 @@ $transition: .5s;
             .navbar-nav {
                 overflow-y: scroll;
                 max-height: 70vh;
-                padding-right: 15px;
+                padding-right: 0.937rem;
     
                 &::-webkit-scrollbar {
-                    width: 10px;
+                    width: 0.625rem;
                 }
                 &::-webkit-scrollbar-track {
                     background: #f1f1f1; 
@@ -99,10 +99,10 @@ $transition: .5s;
                 }
 
                 .nav-item {
-                    padding-left: 5px;
-                    padding-right: 5px;
-                    padding-top: 5px;
-                    padding-bottom: 5px;
+                    padding-left: 0.312rem;
+                    padding-right: 0.312rem;
+                    padding-top: 0.312rem;
+                    padding-bottom: 0.312rem;
 
                     a {
                         i {
@@ -115,7 +115,7 @@ $transition: .5s;
                             .nav-item {
                                 width: 100%;
                                 float: initial;
-                                padding: 0px 15px;
+                                padding: 0px 0.937rem;
 
                                 a {
                                     &:last-child {
@@ -130,16 +130,16 @@ $transition: .5s;
                         width: 100%;
                         opacity: 1;
                         visibility: visible;
-                        padding: 10px 0;
-                        margin-top: 8px;
+                        padding: 0.625rem 0;
+                        margin-top: 0.5rem;
                         li {
-                            padding: 5px 15px;
+                            padding: 0.312rem 0.937rem;
                         }
                     }
                 }
             }
             .others-options {
-                margin: 10px 0 15px 10px;
+                margin: 0.625rem 0 0.937rem 0.625rem;
             }
         }
 
@@ -192,8 +192,8 @@ $transition: .5s;
     //                             border-top: none;
     //                         }
     //                         a {
-    //                             padding-left: 10px;
-    //                             padding-right: 10px;
+    //                             padding-left: 0.625rem;
+    //                             padding-right: 0.625rem;
     //                         }
     //                     }
     //                 }
@@ -224,8 +224,8 @@ $transition: .5s;
     .main-banner-boxes {
         .container-fluid {
             padding: {
-                left: 15px;
-                right: 15px;
+                left: 0.937rem;
+                right: 0.937rem;
             }
         }
         .main-banner {
@@ -233,8 +233,8 @@ $transition: .5s;
 
             .container-fluid {
                 padding: {
-                    left: 15px;
-                    right: 15px;
+                    left: 0.937rem;
+                    right: 0.937rem;
                 }
             }
             .main-banner-content {
@@ -251,17 +251,17 @@ $transition: .5s;
         padding-left: 5vw;
 
         span {
-            font-size: 14px;
+            font-size: 0.875rem;
         }
         h1 {
-            font-size: 30px;
-            margin: 12px 0 13px;
+            font-size: 1.875rem;
+            margin: 0.75rem 0 0.812rem;
         }
         .btn-primary {
-            margin-right: 10px;
+            margin-right: 0.625rem;
         }
         p {
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .descrption {
             display: none;
@@ -269,7 +269,7 @@ $transition: .5s;
     }
     .banner-animation-image {
         text-align: center;
-        margin-top: 45px;
+        margin-top: 2.812rem;
 
         img {
             display: none;
@@ -282,36 +282,36 @@ $transition: .5s;
     .banner-form {
         margin: {
             left: 0 !important;
-            top: 40px;
+            top: 2.5rem;
         }
         padding: {
-            top: 30px;
-            bottom: 30px;
-            left: 20px;
-            right: 20px;
+            top: 1.875rem;
+            bottom: 1.875rem;
+            left: 1.25rem;
+            right: 1.25rem;
         }
     }
     .banner-image {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
     .hero-banner {
         .main-banner-content {
             .firstline {
-                margin-bottom: 11px !important;
-                font-size: 20px !important;
-                line-height: 40px;
+                margin-bottom: 0.687rem !important;
+                font-size: 1.25rem !important;
+                line-height: 2.5rem;
             }
             h1 {
-                font-size: 60px;
+                font-size: 3.75rem;
                 margin-top: 0;
             }
             p {
-                margin-bottom: 15px;
-                font-size: 15px;
+                margin-bottom: 0.937rem;
+                font-size: 0.937rem;
             }
             .btn-primary, .btn-secondary {
-                font-size: 14px;
-                padding: 10px 20px;
+                font-size: 0.875rem;
+                padding: 0.625rem 1.25rem;
             }
         }
     }
@@ -319,12 +319,12 @@ $transition: .5s;
         ul {
             li {
                 .tp-caption.NotGeneric-SubTitle-paragraph, .NotGeneric-SubTitle-paragraph {
-                    font-size: 14px !important;
+                    font-size: 0.875rem !important;
                 }
                 .tp-caption.NotGeneric-btn, .NotGeneric-btn {
                     .btn {
-                        padding: 15px 20px !important;
-                        font-size: 13px !important;
+                        padding: 0.937rem 1.25rem !important;
+                        font-size: 0.812rem !important;
                     }
                 }
                 .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle {
@@ -341,11 +341,11 @@ $transition: .5s;
             bottom: 0;
         }
         .zeus.tparrows {
-            min-width: 50px;
-            min-height: 50px;
+            min-width: 3.125rem;
+            min-height: 3.125rem;
 
             &::before {
-                line-height: 50px;
+                line-height: 3.125rem;
             }
         }
     }
@@ -354,7 +354,7 @@ $transition: .5s;
     }
     .featured-services-area {
         margin: {
-            top: -30px;
+            top: -1.875rem;
             bottom: 0;
         }
         &.boxes-style-three {
@@ -363,32 +363,32 @@ $transition: .5s;
     }
     .service-card-one {
         i {
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
     .service-card-one {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         text-align: center;
     }
     .featured-services-box {
-        padding: 35px 20px;
+        padding: 2.187rem 1.25rem;
 
         .icon {
-            font-size: 30px;
+            font-size: 1.875rem;
         }
         h3 {
-            font-size: 19px;
-            margin: 14px 0 12px;
+            font-size: 1.187rem;
+            margin: 0.875rem 0 0.75rem;
         }
         p {
-            margin-bottom: 15px;
+            margin-bottom: 0.937rem;
         }
     }
     .read-more-btn {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .featured-services-slides {
         &.owl-theme {
@@ -423,22 +423,22 @@ $transition: .5s;
     }
     .featured-services-area {
         &.boxes-style-two {
-            padding-top: 30px;
+            padding-top: 1.875rem;
         }
     }
     .tab {
         .tabs {
             padding: 0;
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
 
             li {
                 margin: {
-                    left: 10px;
-                    right: 10px;
-                    bottom: 12px;
+                    left: 0.625rem;
+                    right: 0.625rem;
+                    bottom: 0.75rem;
                 }
                 a {
-                    font-size: 14px;
+                    font-size: 0.875rem;
 
                     &::before {
                         display: none;
@@ -466,24 +466,24 @@ $transition: .5s;
 
         .content {
             span {
-                font-size: 13px;
+                font-size: 0.812rem;
             }
             h3 {
-                font-size: 20px;
-                margin: 8px 0 0;
+                font-size: 1.25rem;
+                margin: 0.5rem 0 0;
             }
         }
         .btn-primary {
-            font-size: 13px;
+            font-size: 0.812rem;
         }
     }
 
     .owl-theme {
         .owl-nav {
             [class*="owl-"] {
-                font-size: 30px !important;
-                width: 35px !important;
-                height: 35px !important;
+                font-size: 1.875rem !important;
+                width: 2.187rem !important;
+                height: 2.187rem !important;
             }
         }
     }
@@ -491,29 +491,29 @@ $transition: .5s;
     .quotes-area {
         overflow: hidden;
         padding: {
-            top: 50px;
-            bottom: 50px;
+            top: 3.125rem;
+            bottom: 3.125rem;
         }
     }
     .quotes-content {
         p {
-            line-height: 32px;
-            font-size: 19px;
+            line-height: 2rem;
+            font-size: 1.187rem;
         }
         h3 {
-            font-size: 16px;
-            margin-top: 20px;
+            font-size: 1rem;
+            margin-top: 1.25rem;
         }
         span {
-            font-size: 13px;
+            font-size: 0.812rem;
         }
     }
 
     .services-inner {
         padding: {
-            top: 60px;
-            right: 15px;
-            left: 15px;
+            top: 3.75rem;
+            right: 0.937rem;
+            left: 0.937rem;
         }
         .services-section-title {
             max-width: unset;
@@ -521,20 +521,20 @@ $transition: .5s;
             margin-left: 0;
 
             h2 {
-                font-size: 23px;
+                font-size: 1.437rem;
             }
             .bar {
                 margin: {
-                    top: 15px;
-                    bottom: 15px;
+                    top: 0.937rem;
+                    bottom: 0.937rem;
                 }
             }
         }
     }
     .services-list {
         padding: {
-            top: 60px;
-            bottom: 60px;
+            top: 3.75rem;
+            bottom: 3.75rem;
             right: 0;
         }
     }
@@ -543,16 +543,16 @@ $transition: .5s;
             bottom: -100px;
 
             .icon {
-                width: 55px;
-                height: 55px;
-                font-size: 20px;
-                line-height: 58px;
+                width: 3.437rem;
+                height: 3.437rem;
+                font-size: 1.25rem;
+                line-height: 3.625rem;
             }
             h3 {
-                font-size: 19px;
+                font-size: 1.187rem;
                 margin: {
-                    top: 20px;
-                    bottom: 12px;
+                    top: 1.25rem;
+                    bottom: 0.75rem;
                 }
             }
         }
@@ -560,7 +560,7 @@ $transition: .5s;
     .services-slides {
         &.owl-theme {
             .owl-nav {
-                margin-top: 30px;
+                margin-top: 1.875rem;
                 line-height: .01;
                 position: relative;
                 left: 0;
@@ -569,25 +569,25 @@ $transition: .5s;
     }
     .feedback-list {
         .quotes-icon {
-            width: 60px;
-            height: 60px;
-            margin-bottom: 30px;
-            line-height: 60px;
+            width: 3.75rem;
+            height: 3.75rem;
+            margin-bottom: 1.875rem;
+            line-height: 3.75rem;
 
             img {
-                width: 30px;
+                width: 1.875rem;
             }
         }
     }
     .single-feedback {
         p {
-            font-size: 15px;
+            font-size: 0.937rem;
         }
         .bar {
-            height: 30px;
+            height: 1.875rem;
         }
         h3 {
-            font-size: 16px;
+            font-size: 1rem;
         }
         span {
             font-size: $font-size;
@@ -601,31 +601,31 @@ $transition: .5s;
 
     .newsletter {
         h4 {
-            font-size: 23px;
-            margin-bottom: 30px;
+            font-size: 1.437rem;
+            margin-bottom: 1.875rem;
         }
         form {
             .form-control {
-                height: 65px;
-                font-size: 14px;
+                height: 4.062rem;
+                font-size: 0.875rem;
             }
             .btn {
                 position: relative;
                 right: 0;
                 top: 0;
-                height: 50px;
+                height: 3.125rem;
                 width: 155px;
-                margin-top: 15px;
+                margin-top: 0.937rem;
             }
         }
     }
 
     .single-portfolio {
         .portfolio-content {
-            margin: 10px;
+            margin: 0.625rem;
 
             h3 {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
         img {
@@ -634,24 +634,24 @@ $transition: .5s;
     }
 
     .services-details-desc {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 19px;
-            margin-bottom: 15px;
+            font-size: 1.187rem;
+            margin-bottom: 0.937rem;
         }
     }
     .services-details-info {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 19px;
-            margin-bottom: 15px;
+            font-size: 1.187rem;
+            margin-bottom: 0.937rem;
         }
     }
 
     .team-area {
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
     }
     .single-team {
         .team-img {
@@ -659,7 +659,7 @@ $transition: .5s;
                 ul {
                     li {
                         a {
-                            line-height: 33px;
+                            line-height: 2.062rem;
                         }
                     }
                 }
@@ -667,7 +667,7 @@ $transition: .5s;
         }
         .team-content {
             h3 {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
             span {
                 font-size: $font-size;
@@ -675,7 +675,7 @@ $transition: .5s;
         }
     }
     .team-slides {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         &.owl-theme {
             .owl-nav {
@@ -730,57 +730,57 @@ $transition: .5s;
     .work-process-list {
         .single-work-process {
             &:nth-child(1) {
-                left: 15px;
-                top: -40px;
+                left: 0.937rem;
+                top: -2.5rem;
             }
             &:nth-child(2) {
                 left: auto;
-                right: 15px;
-                top: -40px;
+                right: 0.937rem;
+                top: -2.5rem;
             }
             &:nth-child(4) {
                 left: auto;
                 right: 0;
-                bottom: -40px;
+                bottom: -2.5rem;
                 top: auto;
             }
             &:nth-child(5) {
                 left: 0;
                 top: auto;
-                bottom: -40px;
+                bottom: -2.5rem;
             }
         }
     }
     .single-work-process {
         .icon {
-            width: 55px;
-            height: 55px;
-            line-height: 60px;
-            font-size: 20px;
+            width: 3.437rem;
+            height: 3.437rem;
+            line-height: 3.75rem;
+            font-size: 1.25rem;
         }
         h3 {
-            font-size: 13px;
+            font-size: 0.812rem;
             margin: {
-                top: 15px;
+                top: 0.937rem;
                 bottom: 4px;
             }
         }
         span {
-            font-size: 12px;
+            font-size: 0.75rem;
         }
     }
 
     .funfact {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         h3 {
-            font-size: 27px;
+            font-size: 1.687rem;
             margin-bottom: 0;
         }
     }
     .contact-cta-box {
         margin: 0 auto 0;
-        padding: 25px;
+        padding: 1.562rem;
         text-align: center;
 
         .btn {
@@ -788,29 +788,29 @@ $transition: .5s;
             right: 0;
             top: unset;
             transform: unset;
-            margin-top: 15px;
+            margin-top: 0.937rem;
         }
     }
     
     .pricing-area {
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
     }
     .pricing-table {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         .pricing-header {
-            padding: 25px 15px;
+            padding: 1.562rem 0.937rem;
 
             h3 {
-                font-size: 16px;
+                font-size: 1rem;
             }
         }
         .price {
             span {
-                font-size: 30px;
+                font-size: 1.875rem;
                     
                 span {
-                    font-size: 13px;
+                    font-size: 0.812rem;
                 }
             }
         }
@@ -818,21 +818,21 @@ $transition: .5s;
 
     .single-blog-item {
         .blog-post-content {
-            padding: 25px;
+            padding: 1.562rem;
 
             .date {
-                font-size: 13px;
+                font-size: 0.812rem;
             }
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
 
     .cta-area {
         padding: {
-            top: 50px;
-            bottom: 50px;
+            top: 3.125rem;
+            bottom: 3.125rem;
         }
     }
     .cta-content {
@@ -842,42 +842,42 @@ $transition: .5s;
             font-size: 26px;
         }
         p {
-            font-size: 16px;
+            font-size: 1rem;
         }
         .cta-btn-box {
             .btn-primary {
-                padding: 12px 25px;
-                font-size: 15px;
+                padding: 0.75rem 1.562rem;
+                font-size: 0.937rem;
             }
         }
     }
     .cta-btn-box {
         text-align: center;
-        margin-top: 18px;
+        margin-top: 1.125rem;
     }
     .team-card {
         .team-caption {
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
     .single-blog-post {
-        margin-bottom: 30px !important;
+        margin-bottom: 1.875rem !important;
 
         .post-content {
-            padding: 25px 18px;
+            padding: 1.562rem 1.125rem;
 
             .post-meta {
                 li {
-                    margin-right: 18px;
-                    margin-bottom: 5px;
+                    margin-right: 1.125rem;
+                    margin-bottom: 0.312rem;
                 }
             }
             h3 {
-                margin-top: 12px;
-                line-height: 27px;
-                font-size: 18px;
+                margin-top: 0.75rem;
+                line-height: 1.687rem;
+                font-size: 1.125rem;
             }
         }
     }
@@ -889,18 +889,18 @@ $transition: .5s;
                 }
             }
             .post-content {
-                padding: 25px 18px;
+                padding: 1.562rem 1.125rem;
 
                 .post-meta {
                     li {
-                        margin-right: 18px;
-                        margin-bottom: 5px;
+                        margin-right: 1.125rem;
+                        margin-bottom: 0.312rem;
                     }
                 }
                 h3 {
-                    margin-top: 12px;
-                    line-height: 27px;
-                    font-size: 18px;
+                    margin-top: 0.75rem;
+                    line-height: 1.687rem;
+                    font-size: 1.125rem;
                 }
             }
         }
@@ -914,21 +914,21 @@ $transition: .5s;
         margin-top: 0;
 
         h3 {
-            font-size: 19px;
-            margin-bottom: 15px;
+            font-size: 1.187rem;
+            margin-bottom: 0.937rem;
         }
     }
     .case-studies-information {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 19px;
-            margin-bottom: 15px;
+            font-size: 1.187rem;
+            margin-bottom: 0.937rem;
         }
         ul {
             li {
                 span {
-                    font-size: 13px;
+                    font-size: 0.812rem;
                 }
             }
         }
@@ -941,16 +941,16 @@ $transition: .5s;
             bottom: 85px;
         }
         h2 {
-            font-size: 40px;
+            font-size: 2.5rem;
         }
     }
 
     .about-content {
-        margin-top: 35px;
+        margin-top: 2.187rem;
 
         .section-title {
             h2 {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
     }
@@ -958,16 +958,16 @@ $transition: .5s;
         margin-top: 0;
 
         .about-text {
-            margin-top: 30px;
+            margin-top: 1.875rem;
 
             h3 {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
     }
 
     .portfolio-details-image {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         img {
             width: 100%;
@@ -977,21 +977,21 @@ $transition: .5s;
         margin-top: 0;
 
         h3 {
-            font-size: 19px;
-            margin-bottom: 15px;
+            font-size: 1.187rem;
+            margin-bottom: 0.937rem;
         }
     }
     .portfolio-information {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 19px;
-            margin-bottom: 15px;
+            font-size: 1.187rem;
+            margin-bottom: 0.937rem;
         }
         ul {
             li {
                 span {
-                    font-size: 13px;
+                    font-size: 0.812rem;
                 }
             }
         }
@@ -1001,7 +1001,7 @@ $transition: .5s;
         .accordion {
             .accordion__item {
                 .accordion__button {
-                    font-size: 15px;
+                    font-size: 0.937rem;
                 }
             }
         }
@@ -1012,48 +1012,48 @@ $transition: .5s;
         }
     }
     .faq-img {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .faq-contact {
-        padding: 25px 15px;
+        padding: 1.562rem 0.937rem;
 
         h3 {
-            margin-bottom: 30px;
-            font-size: 19px;
+            margin-bottom: 1.875rem;
+            font-size: 1.187rem;
         }
     }
 
     .contact-sidebar {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         .contact-item {
-            padding-left: 42px;
+            padding-left: 2.625rem;
 
             .icon {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
             span {
-                font-size: 16px;
+                font-size: 1rem;
                 margin-bottom: 7px;
             }
         }
     }
     .contact-info-box {
-        padding: 25px 20px;
+        padding: 1.562rem 1.25rem;
         text-align: center;
 
         .icon {
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
-            font-size: 25px;
+            width: 3.75rem;
+            height: 3.75rem;
+            line-height: 3.75rem;
+            font-size: 1.562rem;
             position: relative;
             left: 0;
             top: 0;
-            margin-bottom: 15px;
+            margin-bottom: 0.937rem;
         }
         h3 {
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     }
     .contact-with-map {
@@ -1063,43 +1063,43 @@ $transition: .5s;
             top: 0;
             transform: unset;
             max-width: unset;
-            padding: 35px 15px 60px;
+            padding: 2.187rem 0.937rem 3.75rem;
 
             h2 {
-                font-size: 24px;
-                margin-bottom: 25px;
+                font-size: 1.5rem;
+                margin-bottom: 1.562rem;
             }
         }
     }
 
     .pagination-area {
-        margin-top: 18px;
+        margin-top: 1.125rem;
             
         .page-numbers {
-            width: 35px;
-            height: 35px;
+            width: 2.187rem;
+            height: 2.187rem;
             margin: 0 2px;
-            line-height: 35px;
-            font-size: 14px;
+            line-height: 2.187rem;
+            font-size: 0.875rem;
         }
     }
 
     .widget-area {
-        margin-top: 40px;
+        margin-top: 2.5rem;
 
         .widget {
             .widget-title {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
             ul {
                 li {
-                    font-size: 13px;
+                    font-size: 0.812rem;
                 }
             }
         }
         .tagcloud {
             a {
-                font-size: 13px !important;
+                font-size: 0.812rem !important;
             }
         }
     }
@@ -1108,41 +1108,41 @@ $transition: .5s;
         .article-content {
             padding: 0;
             border: none;
-            margin-top: 25px;
+            margin-top: 1.562rem;
 
             .entry-meta {
-                margin: 0 0 15px;
+                margin: 0 0 0.937rem;
 
                 li {
-                    margin-right: 10px;
-                    font-size: 13px;
+                    margin-right: 0.625rem;
+                    font-size: 0.812rem;
                 }
             }
             .category {
                 li {
                     a {
-                        padding: 3px 10px;
-                        font-size: 12px;
+                        padding: 3px 0.625rem;
+                        font-size: 0.75rem;
                     }
                 }
             }
         }
     }
     blockquote {
-        padding: 20px 20px 20px 55px !important;
+        padding: 1.25rem 1.25rem 1.25rem 3.437rem !important;
 
         &::before {
-            left: 20px;
-            top: 35px;
-            font-size: 20px;
+            left: 1.25rem;
+            top: 2.187rem;
+            font-size: 1.25rem;
         }
     }
     .post-controls-buttons {
-        padding: 20px;
+        padding: 1.25rem;
     }
     .comments-area {
         .comments-title {
-            font-size: 19px;
+            font-size: 1.187rem;
         }
         .comment-body {
             margin-left: 0;
@@ -1152,33 +1152,33 @@ $transition: .5s;
                 left: 0;
                 position: relative;
                 display: block;
-                margin-bottom: 10px;
+                margin-bottom: 0.625rem;
             }
             .fn {
-                font-size: 13px;
+                font-size: 0.812rem;
             }
         }
         .comment-content {
             p {
-                font-size: 13px;
+                font-size: 0.812rem;
             }
         }
         .children {
-            margin-left: 25px;
+            margin-left: 1.562rem;
         }
         .comment-respond {
-            padding: 25px 20px;
+            padding: 1.562rem 1.25rem;
 
             .comment-reply-title {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
             .comment-notes {
-                font-size: 13px;
+                font-size: 0.812rem;
                 margin-bottom: 0;
-                margin-top: 10px;
+                margin-top: 0.625rem;
             }
             label {
-                font-size: 13px;
+                font-size: 0.812rem;
             }
             .comment-form-author {
                 float: left;
@@ -1192,24 +1192,24 @@ $transition: .5s;
             }
             .form-submit {
                 input {
-                    padding: 10px 24px;
-                    font-size: 13px;
+                    padding: 0.625rem 1.5rem;
+                    font-size: 0.812rem;
                 }
             }
         }
     }
 
     .footer-area {
-        padding-top: 60px;
+        padding-top: 3.75rem;
     }
     .single-footer-widget {
         padding-left: 0 !important;
         margin: {
-            bottom: 30px;
+            bottom: 1.875rem;
             left: 0 !important;
         }
         h3 {
-            font-size: 19px;
+            font-size: 1.187rem;
 
             &::before {
                 bottom: -2px;
@@ -1220,43 +1220,43 @@ $transition: .5s;
         }
         ul {
             &.get-in-touch {
-                margin: 33px 0 0;
+                margin: 2.062rem 0 0;
 
                 li {
-                    margin-bottom: 21px;
-                    padding-left: 40px;
+                    margin-bottom: 1.312rem;
+                    padding-left: 2.5rem;
                         
                     i {
-                        top: -5px;
-                        width: 30px;
-                        height: 30px;
-                        line-height: 30px;
+                        top: -0.312rem;
+                        width: 1.875rem;
+                        height: 1.875rem;
+                        line-height: 1.875rem;
                     }
                     &:first-child {
-                        margin-bottom: 30px;
+                        margin-bottom: 1.875rem;
                     }
                 }
             }
         }
     }
     .copyright-area {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
     .go-top {
-        bottom: 15px;
-        right: 15px;
-        font-size: 30px;
-        width: 35px;
-        height: 35px;
-        line-height: 40px;
+        bottom: 0.937rem;
+        right: 0.937rem;
+        font-size: 1.875rem;
+        width: 2.187rem;
+        height: 2.187rem;
+        line-height: 2.5rem;
     }
     .modal-video-body {
-        padding: 0 20px;
+        padding: 0 1.25rem;
     }
  
     .funfact-card {
         h3 {
-            font-size: 35px;
+            font-size: 2.187rem;
         }
     }
     .hero-banner {
@@ -1265,44 +1265,44 @@ $transition: .5s;
         padding-bottom: 100px;
 
         .owl-dots {
-            bottom: 20px;
+            bottom: 1.25rem;
         }
     }
     .hero-slider {
         .owl-prev {
-            left: 20px;
+            left: 1.25rem;
             top: auto;
-            bottom: 20px;
+            bottom: 1.25rem;
           
             i {
-                line-height: 38px !important;
+                line-height: 2.375rem !important;
             }
         }
         .owl-next {
-            right: 20px;
+            right: 1.25rem;
             top: auto;
-            bottom: 20px;
+            bottom: 1.25rem;
           
             i {
-                line-height: 38px !important;
+                line-height: 2.375rem !important;
             }
         }
         .owl-dots {
-            bottom: 20px;
-            left: 60px;
-            right: 60px;
+            bottom: 1.25rem;
+            left: 3.75rem;
+            right: 3.75rem;
         }
         .main-banner-content {
             p {
-                font-size: 15px;
+                font-size: 0.937rem;
             }
             .btn-primary {
-                font-size: 14px;
-                padding: 10px 20px;
+                font-size: 0.875rem;
+                padding: 0.625rem 1.25rem;
             }
             .btn-secondary {
-                font-size: 14px;
-                padding: 10px 20px;
+                font-size: 0.875rem;
+                padding: 0.625rem 1.25rem;
             }
         }
     }
@@ -1316,7 +1316,7 @@ $transition: .5s;
             }
         }
         .service-right-img {
-            MARGIN-TOP: 30px;
+            MARGIN-TOP: 1.875rem;
         }
     }
 
@@ -1327,46 +1327,46 @@ $transition: .5s;
             }
         }
         .service-left-img {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
     }
     .feature-list {
-        margin-bottom: 20px;
-        font-size: 14px;
+        margin-bottom: 1.25rem;
+        font-size: 0.875rem;
     }
     .right-image {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
     .newsletter-inner-area {
-        padding: 50px 20px;
+        padding: 3.125rem 1.25rem;
 
         .newsletter-content {
             h2 {
-                font-size: 25px;
+                font-size: 1.562rem;
             }
         }
     }
 
     .single-pricing-table {
         .pricing-header {
-            padding: 15px 25px;
+            padding: 0.937rem 1.562rem;
             h3 {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
         }
         .price {
-            padding: 10px 25px;
-            font-size: 30px;
+            padding: 0.625rem 1.562rem;
+            font-size: 1.875rem;
         }
         .pricing-features {
-            padding: 25px 25px;
+            padding: 1.562rem 1.562rem;
         }
         .btn-box {
-            padding: 0px 50px;
+            padding: 0px 3.125rem;
         }
     }
     .pb-100 {
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
     }
     .service-read-more {
         text-align: center;
@@ -1374,14 +1374,14 @@ $transition: .5s;
 
     .work-card {
         .content {
-            padding: 20px;
+            padding: 1.25rem;
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
             .custom-btn {
-                margin-top: 10px;
-                padding: 8px 17px;
-                font-size: 13px;
+                margin-top: 0.625rem;
+                padding: 0.5rem 1.062rem;
+                font-size: 0.812rem;
             }
         }
     }
@@ -1395,28 +1395,28 @@ $transition: .5s;
     .cta-area-two {
         .cta-content {
             h3 {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
         .cta-btn-box {
-            margin-top: 30px;
+            margin-top: 1.875rem;
             .custom-btn {
-                padding: 10px 20px;
-                font-size: 14px;
+                padding: 0.625rem 1.25rem;
+                font-size: 0.875rem;
             }
         }
     }
     .case-studies-area {
         .container-fluid {
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 0.937rem;
+            padding-right: 0.937rem;
         }
     }
 
     .owl-theme {
         .owl-nav {
             [class*=owl-] i {
-                line-height: 36px;
+                line-height: 2.25rem;
             }
         }
     }
@@ -1424,26 +1424,26 @@ $transition: .5s;
     .newsletter-inner-area {
         .newsletter-content {
             .newsletter-form button {
-                padding: 0 20px;
+                padding: 0 1.25rem;
             }
         }
     }
     .video-studio {
         .video-box {
-            margin-top: 40px;
+            margin-top: 2.5rem;
             .video-btn {
                 position: relative;
                 transform: translateY(0);
                 width: 70px;
                 height: 70px;
-                font-size: 35px;
+                font-size: 2.187rem;
             }
         }
     }
     .pricing-list-tab {
         .tabs {
             li {
-                font-size: 14px;
+                font-size: 0.875rem;
                 margin: 0 !important;
             }
         }
@@ -1452,7 +1452,7 @@ $transition: .5s;
     .main-banner.startup-agency {
         .main-banner-content {
             h1 {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
     }
@@ -1496,7 +1496,7 @@ $transition: .5s;
     .quotes-content {
         p::before {
             width: 80px;
-            height: 50px;
+            height: 3.125rem;
             left: 0;
             top: 0;
         }
@@ -1504,28 +1504,28 @@ $transition: .5s;
 
     single-case-studies {
         .content {
-            padding: 20px;
+            padding: 1.25rem;
         }
         .btn {
-            left: 25px;
-            bottom: 25px;
+            left: 1.562rem;
+            bottom: 1.562rem;
         }
     }
 
     .services-details-image {
         .video-box {
             .video-btn {
-                width: 50px;
-                height: 50px;
-                font-size: 30px;
+                width: 3.125rem;
+                height: 3.125rem;
+                font-size: 1.875rem;
             }
         }
     }
 
     .portfolio-desc {
         h1, h3, h3 {
-            font-size: 22px;
-            margin-bottom: 10px;
+            font-size: 1.375rem;
+            margin-bottom: 0.625rem;
         }
     }
 
@@ -1538,7 +1538,7 @@ $transition: .5s;
     }
 
     .blog-left-sidebar {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
         .widget-area {
             margin-top: 0;
         }
@@ -1549,14 +1549,14 @@ $transition: .5s;
             margin-top: 0;
         }
         .banner-animation-image2 {
-            margin-top: 40px;
+            margin-top: 2.5rem;
         }
     }
 
     .video-studio.center {
         .main-banner-content {
             h1 {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
 
@@ -1574,8 +1574,8 @@ $transition: .5s;
     }
     .navbar-area {
         .container-fluid {
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 0.937rem;
+            padding-right: 0.937rem;
         }
     }
 }
@@ -1585,7 +1585,7 @@ $transition: .5s;
     .tab {
         .tabs {
             li {
-                margin-bottom: 5px;
+                margin-bottom: 0.312rem;
 
                 span {
                     &::before {
@@ -1599,51 +1599,51 @@ $transition: .5s;
         .single-work-process {
             &:nth-child(1) {
                 left: 10%;
-                top: -40px;
+                top: -2.5rem;
             }
             &:nth-child(2) {
                 left: auto;
                 right: 10%;
-                top: -40px;
+                top: -2.5rem;
             }
             &:nth-child(4) {
                 left: auto;
                 right: 10%;
-                bottom: -40px;
+                bottom: -2.5rem;
                 top: auto;
             }
             &:nth-child(5) {
                 left: 10%;
                 top: auto;
-                bottom: -40px;
+                bottom: -2.5rem;
             }
         }
     }
     .blog-item-box {
         .blog-item {
             .post-content {
-                padding: 15px 0;
+                padding: 0.937rem 0;
             }
         }
     }
 
     .service-card-one.white-bg {
-        padding: 30px 15px;
+        padding: 1.875rem 0.937rem;
         h3 {
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     }
     .single-case-studies {
         .content {
             h3 {
-                font-size: 21px;
+                font-size: 1.312rem;
             }
         }
     }
     .service-card-one.bg-fcfbfb {
-        padding: 20px 15px;
+        padding: 1.25rem 0.937rem;
         h3 {
-            font-size: 17px;
+            font-size: 1.062rem;
         }
     }
 
@@ -1655,17 +1655,17 @@ $transition: .5s;
 
     .single-pricing-table {
         .pricing-header {
-            padding: 15px 20px;
+            padding: 0.937rem 1.25rem;
         }
         .pricing-features {
-            padding: 25px 20px;
+            padding: 1.562rem 1.25rem;
         }
         .price {
-            padding: 10px 20px;
-            font-size: 25px;
+            padding: 0.625rem 1.25rem;
+            font-size: 1.562rem;
         }
         .btn-box {
-            padding: 0px 25px;
+            padding: 0px 1.562rem;
         }
     }
 
@@ -1688,11 +1688,11 @@ $transition: .5s;
         padding-right: 0;
     }
     .btn {
-        padding: 10px 20px;
-        font-size: 14px;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.875rem;
     }
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .ptb-100 {
         padding: {
@@ -1704,16 +1704,16 @@ $transition: .5s;
         padding-top: 70px;
     }
     .pb-60 {
-        padding-bottom: 30px;
+        padding-bottom: 1.875rem;
     }
     .pb-70 {
-        padding-bottom: 40px;
+        padding-bottom: 2.5rem;
     }
     .navbar-area {
-        padding-top: 10px;
+        padding-top: 0.625rem;
         nav {
             .navbar-brand {
-                font-size: 22px;
+                font-size: 1.375rem;
 
                 img {
                     max-width: 115px;
@@ -1726,7 +1726,7 @@ $transition: .5s;
                     padding-right: 7px;
 
                     a {
-                        font-size: 14px;
+                        font-size: 0.875rem;
                     }
                 }
             }
@@ -1760,8 +1760,8 @@ $transition: .5s;
     .main-banner-boxes {
         .container-fluid {
             padding: {
-                left: 25px;
-                right: 25px;
+                left: 1.562rem;
+                right: 1.562rem;
             }
         }
         .main-banner {
@@ -1769,37 +1769,37 @@ $transition: .5s;
 
             .container-fluid {
                 padding: {
-                    left: 15px;
-                    right: 15px;
+                    left: 0.937rem;
+                    right: 0.937rem;
                 }
             }
         }
     }
     .faq-img {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
     .main-banner-content {
         text-align: center;
         margin-top: 0;
 
         span {
-            font-size: 15px;
+            font-size: 0.937rem;
         }
         h1 {
-            font-size: 36px;
-            margin: 12px 0 15px;
+            font-size: 2.25rem;
+            margin: 0.75rem 0 0.937rem;
         }
         p {
             max-width: 570px;
-            margin: 0 auto 20px;
+            margin: 0 auto 1.25rem;
         }
         .btn-primary {
-            margin-right: 15px;
+            margin-right: 0.937rem;
         }
     }
     .banner-animation-image {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 3.125rem;
 
         img {
             display: none;
@@ -1812,7 +1812,7 @@ $transition: .5s;
     }
     .banner-image {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 3.125rem;
 
         img {
             max-width: 75%;
@@ -1828,28 +1828,28 @@ $transition: .5s;
         }
     }
     .featured-services-box {
-        padding: 45px 25px;
+        padding: 2.812rem 1.562rem;
 
         .icon {
-            font-size: 35px;
+            font-size: 2.187rem;
         }
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
     .read-more-btn {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .featured-services-slides {
         &.owl-theme {
             &:hover {
                 .owl-nav {
                     [class*="owl-"] {
-                        left: -10px;
+                        left: -0.625rem;
 
                         &.owl-next {
                             left: auto;
-                            right: --10px;
+                            right: -0.625rem;
                         }
                     }
                 }
@@ -1858,32 +1858,32 @@ $transition: .5s;
     }
     .featured-services-area {
         &.boxes-style-two {
-            padding-top: 50px;
+            padding-top: 3.125rem;
         }
     }
 
     .newsletter {
         h4 {
-            margin-bottom: 30px;
-            font-size: 27px;
+            margin-bottom: 1.875rem;
+            font-size: 1.687rem;
         }
     }
 
     .section-title {
-        margin: -5px auto 40px;
+        margin: -0.312rem auto 2.5rem;
 
         h2 {
-            font-size: 32px;
+            font-size: 2rem;
         }
     }
     .funfact-card {
         h3 {
-            font-size: 40px;
+            font-size: 2.5rem;
         }
     }
     .service-card-one {
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
     .tab {
@@ -1891,11 +1891,11 @@ $transition: .5s;
             li {
                 font-size: 26px;
                 margin: {
-                    left: 12px;
-                    right: 12px;
+                    left: 0.75rem;
+                    right: 0.75rem;
                 }
                 a {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                 }
             }
         }
@@ -1919,21 +1919,21 @@ $transition: .5s;
 
         .content {
             span {
-                font-size: 13px;
+                font-size: 0.812rem;
             }
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
         .btn-primary {
-            font-size: 13px;
+            font-size: 0.812rem;
         }
     }
 
     .quotes-area {
         padding: {
             top: 90px;
-            bottom: 60px;
+            bottom: 3.75rem;
         }
     }
     .quotes-content {
@@ -1941,7 +1941,7 @@ $transition: .5s;
             margin: 0 auto;
             max-width: 580px;
             line-height: initial;
-            font-size: 20px;
+            font-size: 1.25rem;
 
             &::before {
                 width: 100px;
@@ -1952,22 +1952,22 @@ $transition: .5s;
             }
         }
         h3 {
-            font-size: 17px;
+            font-size: 1.062rem;
             margin: {
-                bottom: 5px;
-                top: 25px;
+                bottom: 0.312rem;
+                top: 1.562rem;
             }
         }
         span {
-            font-size: 13px;
+            font-size: 0.812rem;
         }
     }
 
     .services-inner {
         padding: {
             top: 90px;
-            left: 15px;
-            right: 15px;
+            left: 0.937rem;
+            right: 0.937rem;
         }
         text-align: center;
         .services-section-title {
@@ -1976,7 +1976,7 @@ $transition: .5s;
             margin-left: 0;
 
             h2 {
-                font-size: 27px;
+                font-size: 1.687rem;
             }
             h2 {
                 text-align: left;
@@ -1998,17 +1998,17 @@ $transition: .5s;
             bottom: -135px;
 
             .icon {
-                width: 60px;
-                height: 60px;
-                font-size: 25px;
-                line-height: 60px;
+                width: 3.75rem;
+                height: 3.75rem;
+                font-size: 1.562rem;
+                line-height: 3.75rem;
             }
             .content {
                 h3 {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     margin: {
-                        top: 20px;
-                        bottom: 15px;
+                        top: 1.25rem;
+                        bottom: 0.937rem;
                     }
                 }
             }
@@ -2017,7 +2017,7 @@ $transition: .5s;
     .services-slides {
         &.owl-theme {
             .owl-nav {
-                margin-top: 30px;
+                margin-top: 1.875rem;
                 position: relative;
                 left: 0;
                 bottom: 0;
@@ -2061,18 +2061,18 @@ $transition: .5s;
     .single-portfolio {
         .portfolio-content {
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
 
     .team-area {
-        padding-bottom: 60px;
+        padding-bottom: 3.75rem;
     }
     .single-team {
         .team-content {
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
@@ -2081,7 +2081,7 @@ $transition: .5s;
         overflow: hidden;
 
         .section-title {
-            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
         }
     }
     .work-process {
@@ -2109,44 +2109,44 @@ $transition: .5s;
             width: 80px;
             height: 80px;
             line-height: 86px;
-            font-size: 32px;
+            font-size: 2rem;
         }
         h3 {
-            font-size: 16px;
+            font-size: 1rem;
             margin: {
-                top: 20px;
-                bottom: 5px;
+                top: 1.25rem;
+                bottom: 0.312rem;
             }
         }
         span {
-            font-size: 13px;
+            font-size: 0.812rem;
         }
     }
 
     .funfact {
         h3 {
-            font-size: 30px;
+            font-size: 1.875rem;
             margin-bottom: 4px;
         }
     }
     .contact-cta-box {
-        margin: 20px auto 0;
+        margin: 1.25rem auto 0;
     }
     
     .pricing-area {
-        padding-bottom: 60px;
+        padding-bottom: 3.75rem;
     }
     .pricing-table {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
 
         .pricing-header {
             h3 {
-                font-size: 17px;
+                font-size: 1.062rem;
             }
         }
         .price {
             span {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
     }
@@ -2154,35 +2154,35 @@ $transition: .5s;
     .single-blog-item {
         .blog-post-content {
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
 
     .cta-area {
         padding: {
-            top: 60px;
-            bottom: 60px;
+            top: 3.75rem;
+            bottom: 3.75rem;
         }
     }
     .cta-content {
         h3 {
-            font-size: 27px;
+            font-size: 1.687rem;
         }
         p {
-            font-size: 15px;
+            font-size: 0.937rem;
         }
     }
 
     .single-blog-post {
-        margin-bottom: 30px !important;
+        margin-bottom: 1.875rem !important;
 
         .post-content {
             h3 {
-                margin-top: 12px;
-                margin-bottom: 15px;
+                margin-top: 0.75rem;
+                margin-bottom: 0.937rem;
                 line-height: initial;
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
@@ -2191,12 +2191,12 @@ $transition: .5s;
             .post-content {
                 .post-meta {
                     li {
-                        font-size: 14px;
+                        font-size: 0.875rem;
                     }
                 }
                 h3 {
-                    margin-top: 15px;
-                    font-size: 19px;
+                    margin-top: 0.937rem;
+                    font-size: 1.187rem;
                 }
             }
         }
@@ -2204,7 +2204,7 @@ $transition: .5s;
 
     .page-title-area {
         h2 {
-            font-size: 27px;
+            font-size: 1.687rem;
         }
         padding: {
             top: 150px;
@@ -2214,122 +2214,122 @@ $transition: .5s;
 
     .case-studies-desc {
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
     .case-studies-information {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
         ul {
             li {
-                font-size: 14px;
+                font-size: 0.875rem;
 
                 span {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                 }
             }
         }
     }
 
     .about-content {
-        margin-top: 35px;
+        margin-top: 2.187rem;
 
         .section-title {
             h2 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
     .about-inner-area {
-        margin-top: 10px;
+        margin-top: 0.625rem;
 
         .about-text {
-            margin-top: 30px;
+            margin-top: 1.875rem;
 
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
 
     .portfolio-desc {
         h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
+            font-size: 1.25rem;
+            margin-bottom: 0.937rem;
         }
     }
     .portfolio-information {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
         ul {
             li {
-                font-size: 14px;
+                font-size: 0.875rem;
 
                 span {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                 }
             }
         }
     }
 
     .services-details-desc {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
+            font-size: 1.25rem;
+            margin-bottom: 0.937rem;
         }
     }
     .services-details-info {
-        margin-top: 30px;
+        margin-top: 1.875rem;
 
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
         ul {
             li {
-                font-size: 14px;
+                font-size: 0.875rem;
 
                 span {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                 }
             }
         }
     }
 
     .pagination-area {
-        margin-top: 35px;
+        margin-top: 2.187rem;
     }
 
     .widget-area {
-        margin-top: 50px;
+        margin-top: 3.125rem;
 
         .widget {
             .widget-title {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
         .tagcloud {
             a {
-                font-size: 13px !important;
+                font-size: 0.812rem !important;
             }
         }
     }
 
     .comments-area {
         .comments-title {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
 
     .contact-sidebar {
-        margin-top: 25px;
+        margin-top: 1.562rem;
     }
     .contact-with-map {
         .contact-form {
@@ -2337,12 +2337,12 @@ $transition: .5s;
             right: 0;
             top: 0;
             transform: unset;
-            padding: 90px 25px 90px;
+            padding: 90px 1.562rem 90px;
             margin: 0 auto;
 
             h2 {
-                font-size: 27px;
-                margin-bottom: 25px;
+                font-size: 1.687rem;
+                margin-bottom: 1.562rem;
             }
         }
     }
@@ -2351,15 +2351,15 @@ $transition: .5s;
         .accordion {
             .accordion-item {
                 .accordion-title {
-                    font-size: 16px;
+                    font-size: 1rem;
                 }
             }
         }
     }
     .faq-contact {
         h3 {
-            margin-bottom: 30px;
-            font-size: 20px;
+            margin-bottom: 1.875rem;
+            font-size: 1.25rem;
         }
     }
 
@@ -2369,45 +2369,45 @@ $transition: .5s;
     .single-footer-widget {
         padding-left: 0 !important;
         margin: {
-            bottom: 30px;
+            bottom: 1.875rem;
             left: 0 !important;
         }
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
         ul {
             &.list {
                 li {
-                    font-size: 14px;
+                    font-size: 0.875rem;
                 }
             }
             &.get-in-touch {
-                margin: 33px 0 0;
+                margin: 2.062rem 0 0;
 
                 li {
-                    margin-bottom: 21px;
-                    font-size: 14px;
-                    padding-left: 40px;
+                    margin-bottom: 1.312rem;
+                    font-size: 0.875rem;
+                    padding-left: 2.5rem;
                         
                     i {
-                        top: -5px;
-                        width: 30px;
-                        height: 30px;
-                        line-height: 30px;
+                        top: -0.312rem;
+                        width: 1.875rem;
+                        height: 1.875rem;
+                        line-height: 1.875rem;
                     }
                     &:first-child {
-                        margin-bottom: 30px;
+                        margin-bottom: 1.875rem;
                     }
                 }
             }
         }
     }
     .copyright-area {
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .modal-video-body {
-        padding: 0 30px;
+        padding: 0 1.875rem;
     }
  
     .hero-banner {
@@ -2416,29 +2416,29 @@ $transition: .5s;
                 max-width: 620px;
             }
             h1 {
-                font-size: 50px;
+                font-size: 3.125rem;
             }
             p {
-                font-size: 17px;
-                margin-bottom: 15px;
+                font-size: 1.062rem;
+                margin-bottom: 0.937rem;
             }
         }
     }
     .hero-slider {
         .owl-prev {
-            left: 25px;
-            height: 45px !important;
-            width: 45px !important;
+            left: 1.562rem;
+            height: 2.812rem !important;
+            width: 2.812rem !important;
             i {
-                line-height: 45px !important;
+                line-height: 2.812rem !important;
             }
         }
         .owl-next {
-            right: 25px;
-            height: 45px !important;
-            width: 45px !important;
+            right: 1.562rem;
+            height: 2.812rem !important;
+            width: 2.812rem !important;
             i {
-                line-height: 45px !important;
+                line-height: 2.812rem !important;
             }
         }
     }
@@ -2450,8 +2450,8 @@ $transition: .5s;
         nav {
             .navbar-nav {
                 .nav-item {
-                    padding-left: 8px;
-                    padding-right: 8px;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
                 }
             }
         }
@@ -2476,7 +2476,7 @@ $transition: .5s;
         padding-left: 0;
     }
     .funfact {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .it-banner {
@@ -2491,7 +2491,7 @@ $transition: .5s;
         }
         .service-info {
             .title {
-                font-size: 32px;
+                font-size: 2rem;
             }
             &.pr-50 {
                 padding-right: 0;
@@ -2503,20 +2503,20 @@ $transition: .5s;
     }
 
     .service-right-img {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
     .service-left-img {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
     .service-read-more {
         text-align: center;
     }
     .right-image {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
     .single-feedback {
         p {
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 1.6;
         }
     }
@@ -2524,22 +2524,22 @@ $transition: .5s;
     .hero-banner {
         .main-banner-content {
             .btn-secondary, .btn-primary {
-                font-size: 14px;
-                padding: 12px 22px;
+                font-size: 0.875rem;
+                padding: 0.75rem 1.375rem;
             }
         }
     }
 
     .newsletter-inner-area {
-        padding: 60px 30px;
+        padding: 3.75rem 1.875rem;
         .newsletter-content {
             h2 {
-                font-size: 35px;
+                font-size: 2.187rem;
             }
         }
     }
     .pb-100 {
-        padding-bottom: 60px;
+        padding-bottom: 3.75rem;
     }
     .work-card {
         &::before {
@@ -2547,7 +2547,7 @@ $transition: .5s;
         }
         .content {
             h3 {
-                font-size: 22px;
+                font-size: 1.375rem;
             }
         }
     }
@@ -2555,35 +2555,35 @@ $transition: .5s;
     .cta-area-two {
         .cta-content {
             h3 {
-                font-size: 35px;
+                font-size: 2.187rem;
             }
         }
         .cta-btn-box {
-            margin-top: 35px;
+            margin-top: 2.187rem;
 
             .custom-btn {
-                padding: 15px 30px;
-                font-size: 15px;
+                padding: 0.937rem 1.875rem;
+                font-size: 0.937rem;
             }
         }
     }
 
     .video-studio {
         .video-box {
-            margin-top: 50px;
+            margin-top: 3.125rem;
             .video-btn {
                 position: relative;
                 transform: translateY(0);
                 width: 70px;
                 height: 70px;
-                font-size: 35px;
+                font-size: 2.187rem;
             }
         }
     }
     .main-banner.startup-agency {
         .main-banner-content {
             h1 {
-                font-size: 40px;
+                font-size: 2.5rem;
             }
         }
     }
@@ -2632,7 +2632,7 @@ $transition: .5s;
     }
 
     .blog-left-sidebar {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
         .widget-area {
             margin-top: 0;
         }
@@ -2643,14 +2643,14 @@ $transition: .5s;
             margin-top: 0;
         }
         .banner-animation-image2 {
-            margin-top: 60px;
+            margin-top: 3.75rem;
         }
     }
 
     .video-studio.center {
         .main-banner-content {
             h1 {
-                font-size: 50px;
+                font-size: 3.125rem;
             }
         }
 
@@ -2671,7 +2671,7 @@ $transition: .5s;
         padding-right: 0;
     }
     .btn {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .navbar-area {
@@ -2683,10 +2683,10 @@ $transition: .5s;
             }
             .navbar-nav {
                 .nav-item {
-                    padding-left: 10px;
-                    padding-right: 10px;
+                    padding-left: 0.625rem;
+                    padding-right: 0.625rem;
                     a {
-                        font-size: 15px;
+                        font-size: 0.937rem;
                     }
                 }
             }
@@ -2695,10 +2695,10 @@ $transition: .5s;
             nav {
                 .navbar-nav {
                     .nav-item {
-                        padding-left: 10px;
-                        padding-right: 10px;
+                        padding-left: 0.625rem;
+                        padding-right: 0.625rem;
                         a {
-                            font-size: 15px;
+                            font-size: 0.937rem;
                         }
                     }
                 }
@@ -2707,12 +2707,12 @@ $transition: .5s;
         &.navbar-style-two {
             nav {
                 .navbar-nav {
-                    margin-left: 25px;
+                    margin-left: 1.562rem;
 
                     .nav-item {
                         padding: {
-                            left: 12px;
-                            right: 12px;
+                            left: 0.75rem;
+                            right: 0.75rem;
                         }
                     }
                 }
@@ -2739,11 +2739,11 @@ $transition: .5s;
     }
     .main-banner-content {
         span {
-            font-size: 15px;
+            font-size: 0.937rem;
         }
         h1 {
-            font-size: 40px;
-            margin: 12px 0 17px;
+            font-size: 2.5rem;
+            margin: 0.75rem 0 1.062rem;
         }
     }
     .main-banner {
@@ -2757,10 +2757,10 @@ $transition: .5s;
 
     .featured-services-box {
         .icon {
-            font-size: 40px;
+            font-size: 2.5rem;
         }
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
     .featured-services-slides {
@@ -2768,11 +2768,11 @@ $transition: .5s;
             &:hover {
                 .owl-nav {
                     [class*="owl-"] {
-                        left: -20px;
+                        left: -1.25rem;
 
                         &.owl-next {
                             left: auto;
-                            right: -20px;
+                            right: -1.25rem;
                         }
                     }
                 }
@@ -2782,7 +2782,7 @@ $transition: .5s;
 
     .section-title {
         h2 {
-            font-size: 40px;
+            font-size: 2.5rem;
         }
     }
 
@@ -2790,7 +2790,7 @@ $transition: .5s;
         .tabs {
             li {
                 a {
-                    font-size: 15px;
+                    font-size: 0.937rem;
                 }
             }
         }
@@ -2798,7 +2798,7 @@ $transition: .5s;
     .single-case-studies {
         .content {
             h3 {
-                font-size: 22px;
+                font-size: 1.375rem;
             }
         }
     }
@@ -2808,20 +2808,20 @@ $transition: .5s;
             margin: 0 auto;
             max-width: 710px;
             line-height: initial;
-            font-size: 24px;
+            font-size: 1.5rem;
         }
     }
 
     .newsletter {
         h4 {
-            font-size: 30px;
+            font-size: 1.875rem;
         }
     }
 
     .services-inner {
         padding: {
-            right: 15px;
-            left: 15px;
+            right: 0.937rem;
+            left: 0.937rem;
         }
         .services-section-title {
             max-width: unset;
@@ -2829,7 +2829,7 @@ $transition: .5s;
             margin-left: 0;
 
             h2 {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
         img {
@@ -2837,21 +2837,21 @@ $transition: .5s;
         }
     }
     .services-list {
-        padding-right: 15px;
+        padding-right: 0.937rem;
     }
     .single-services {
         .content {
             bottom: -170px;
-            padding: 20px 15px 35px;
+            padding: 1.25rem 0.937rem 2.187rem;
 
             .icon {
-                width: 60px;
-                height: 60px;
-                font-size: 25px;
-                line-height: 60px;
+                width: 3.75rem;
+                height: 3.75rem;
+                font-size: 1.562rem;
+                line-height: 3.75rem;
             }
             h3 {
-                font-size: 22px;
+                font-size: 1.375rem;
             }
         }
     }
@@ -2859,29 +2859,29 @@ $transition: .5s;
     .single-portfolio {
         .portfolio-content {
             h3 {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
     }
 
     .cta-content {
         h3 {
-            font-size: 30px;
+            font-size: 1.875rem;
         }
         p {
-            font-size: 16px;
+            font-size: 1rem;
         }
     }
 
     .page-title-area {
         h2 {
-            font-size: 30px;
+            font-size: 1.875rem;
         }
     }
 
     .comments-area {
         .comments-title {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
 
@@ -2892,8 +2892,8 @@ $transition: .5s;
     .single-blog-post {
         .post-content {
             h3 {
-                line-height: 30px;
-                font-size: 20px;
+                line-height: 1.875rem;
+                font-size: 1.25rem;
             }
         }
     }
@@ -2902,18 +2902,18 @@ $transition: .5s;
             .post-content {
                 .post-meta {
                     li {
-                        margin-right: 10px;
-                        padding-left: 20px;
-                        font-size: 13px;
+                        margin-right: 0.625rem;
+                        padding-left: 1.25rem;
+                        font-size: 0.812rem;
 
                         &::before {
-                            right: -8px;
+                            right: -0.5rem;
                         }
                     }
                 }
                 h3 {
-                    line-height: 27px;
-                    font-size: 19px;
+                    line-height: 1.687rem;
+                    font-size: 1.187rem;
                 }
             }
         }
@@ -2931,17 +2931,17 @@ $transition: .5s;
     }
     .case-studies-desc {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
     .case-studies-information {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
         ul {
             li {
                 span {
-                    font-size: 15px;
+                    font-size: 0.937rem;
                 }
             }
         }
@@ -2950,12 +2950,12 @@ $transition: .5s;
     .pricing-table {
         .pricing-header {
             h3 {
-                font-size: 18px;
+                font-size: 1.125rem;
             }
         }
         .price {
             span {
-                font-size: 30px;
+                font-size: 1.875rem;
             }
         }
     }
@@ -2964,21 +2964,21 @@ $transition: .5s;
         .accordion {
             .accordion-item {
                 .accordion-title {
-                    font-size: 16px;
+                    font-size: 1rem;
                 }
             }
         }
     }
     .faq-contact {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
 
     .about-content {
         .section-title {
             h2 {
-                font-size: 22px;
+                font-size: 1.375rem;
             }
         }
     }
@@ -2995,17 +2995,17 @@ $transition: .5s;
     }
     .portfolio-desc {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
     .portfolio-information {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
         ul {
             li {
                 span {
-                    font-size: 15px;
+                    font-size: 0.937rem;
                 }
             }
         }
@@ -3013,17 +3013,17 @@ $transition: .5s;
 
     .services-details-desc {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
     .services-details-info {
         h3 {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
         ul {
             li {
                 span {
-                    font-size: 15px;
+                    font-size: 0.937rem;
                 }
             }
         }
@@ -3031,18 +3031,18 @@ $transition: .5s;
 
     .single-footer-widget {
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
 
     .modal-video-body {
-        padding: 0 50px;
+        padding: 0 3.125rem;
     }
 
     .service-card-one {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         h3 {
-            font-size: 20px;
+            font-size: 1.25rem;
         }
     }
     .single-case-studies {
@@ -3051,14 +3051,14 @@ $transition: .5s;
     .team-card {
         .team-caption {
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
     .hero-banner {
         .main-banner-content {
             h1 {
-                font-size: 50px;
+                font-size: 3.125rem;
             }
         }
     }
@@ -3074,21 +3074,21 @@ $transition: .5s;
     }
 
     .service-card-one.white-bg {
-        padding: 25px 20px;
+        padding: 1.562rem 1.25rem;
     }
 
     .funfact {
         h3 {
-            font-size: 30px;
+            font-size: 1.875rem;
         }
     }
 
     p {
-        font-size: 15px;
+        font-size: 0.937rem;
     }
 
     .service-card-one.bg-fcfbfb {
-        padding: 30px 25px;
+        padding: 1.875rem 1.562rem;
     }
 
     .service-style-two {
@@ -3107,66 +3107,66 @@ $transition: .5s;
     }
 
     .feature-list {
-        padding: 13px 10px 13px 29px;
-        font-size: 13px;
+        padding: 0.812rem 0.625rem 0.812rem 1.812rem;
+        font-size: 0.812rem;
 
         i {
-            left: 12px;
+            left: 0.75rem;
         }
     }
 
     .service-style-two {
         .service-info {
             .title {
-                font-size: 34px;
+                font-size: 2.125rem;
             }
         }
     }
 
     .single-feedback {
         p {
-            font-size: 22px;
+            font-size: 1.375rem;
         }
     }
 
     .single-pricing-table {
         .pricing-header {
-            padding: 15px 30px;
+            padding: 0.937rem 1.875rem;
             h3 {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
         .price {
-            font-size: 35px;
+            font-size: 2.187rem;
         }
         .pricing-features {
-            padding: 25px 30px;
+            padding: 1.562rem 1.875rem;
         }
     }
 
     .hero-banner {
         .main-banner-content {
             .btn-secondary, .btn-primary {
-                font-size: 14px;
-                padding: 12px 25px;
+                font-size: 0.875rem;
+                padding: 0.75rem 1.562rem;
             }
             p {
-                margin-bottom: 15px;
-                font-size: 16px;
+                margin-bottom: 0.937rem;
+                font-size: 1rem;
             }
         }
     }
 
     .main-banner-content {
         .btn-primary {
-            margin-right: 20px;
+            margin-right: 1.25rem;
         }
     }
 
     .it-banner {
         .main-banner-content {
             h1 {
-                font-size: 45px;
+                font-size: 2.812rem;
             }
         }
     }
@@ -3174,14 +3174,14 @@ $transition: .5s;
     .work-card {
         .content {
             h3 {
-                font-size: 22px;
+                font-size: 1.375rem;
             }
         }
     }
     .cta-area-two {
         .cta-content {
             h3 {
-                font-size: 50px;
+                font-size: 3.125rem;
             }
         }
     }
@@ -3189,15 +3189,15 @@ $transition: .5s;
     .lg-portfolio {
         .work-card {
             .content {
-                padding: 20px;
+                padding: 1.25rem;
                 h3 {
-                    font-size: 18px;
+                    font-size: 1.125rem;
                 }
 
                 .custom-btn {
-                    margin-top: 10px;
-                    padding: 8px 20px;
-                    font-size: 14px;
+                    margin-top: 0.625rem;
+                    padding: 0.5rem 1.25rem;
+                    font-size: 0.875rem;
                 }
             }
         }
@@ -3216,7 +3216,7 @@ $transition: .5s;
         }
         .main-banner-content {
             h1 {
-                font-size: 36px;
+                font-size: 2.25rem;
             }
         }
     }
@@ -3236,21 +3236,21 @@ $transition: .5s;
         .accordion {
             .accordion__item {
                 .accordion__button {
-                    font-size: 16px;
+                    font-size: 1rem;
                 }
             }
         }
     }
     .contact-form {
         h2 {
-            font-size: 28px;
+            font-size: 1.75rem;
         }
     }
 
     .single-blog-item {
         .blog-post-content {
             h3 {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
@@ -3258,17 +3258,17 @@ $transition: .5s;
     .widget-area {
         .widget {
             .widget-title {
-                font-size: 19px;
+                font-size: 1.187rem;
             }
         }
     }
     .pagination-area {
-        margin-top: 25px;
+        margin-top: 1.562rem;
     }
 
     .main-banner2 {
         .container {
-            margin-top: 30px;
+            margin-top: 1.875rem;
         }
     }
     .service-card-one.center {
@@ -3277,21 +3277,21 @@ $transition: .5s;
     .video-studio.center {
         .main-banner-content {
             h1 {
-                font-size: 50px;
+                font-size: 3.125rem;
             }
         }
     }
 
     .contact-info-box {
         text-align: center;
-        padding: 30px;
+        padding: 1.875rem;
 
         .icon {
-            left: 30px;
+            left: 1.875rem;
             position: relative;
             top: 0;
             left: 0;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
     }
 
@@ -3327,11 +3327,11 @@ $transition: .5s;
     }
     .navbar-style-2 {
         .container-fluid {
-            padding: 15px 40px 0;
+            padding: 0.937rem 2.5rem 0;
         }
         &.is-sticky {
             .container-fluid {
-                padding: 0 20px;
+                padding: 0 1.25rem;
             }
         }
     }

@@ -84,7 +84,7 @@ const HomeServices = () => {
 
               <div className="rightarrow">
                 <img src="/images/arrow.png" alt="arrow" />
-                <img src="/images/arrow.png" alt="arrow" />
+              
               </div>
             </div>
           </div>
