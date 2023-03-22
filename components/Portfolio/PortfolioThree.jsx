@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
 import Image from 'next/image';
-import portfolio from './../../public/images/portfoliopage/travelling app mockups.png'
+import portfolio from './../../public/images/portfoliopage/travellingappmockups.png'
 
 const PortfolioThree = () => {
   useEffect(() => {
