@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/Layouts/Footer';
 
-class TermsConditions extends Component {
-    render() {
-        return (
-            <>
+import React from 'react'
+
+const TermsConditions = () => {
+  return (
+    <>
                 <NavbarTwo />
                 
                 <PageBanner 
@@ -36,8 +37,7 @@ class TermsConditions extends Component {
 
                 <Footer />
             </>
-        );
-    }
+  )
 }
 
-export default TermsConditions;
+export default TermsConditions

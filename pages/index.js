@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import MainBanner from '../components/ItAgency/MainBanner';
 import Partner from '../components/Common/Partner';
@@ -13,11 +13,9 @@ import HomePortfolio from '../components/Common/HomePortfolio';
 import HomeBottomContact from '../components/Common/HomeBottomContact';
 import PricingPageSection from '../components/Pricing/PricingPageSection';
 
-
-class Index extends Component {
-    render() {
-        return (
-            <>
+const index = () => {
+  return (
+    <>
                 <NavbarTwo />
 
                 <MainBanner />
@@ -48,8 +46,7 @@ class Index extends Component {
                 
                 <Footer />
             </>
-        );
-    }
+  )
 }
 
-export default Index;
+export default index;

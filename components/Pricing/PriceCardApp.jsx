@@ -35,10 +35,9 @@ const PriceCardApp = ({n}, props) => {
 
                     <div className="btn-box">
                         <Link href="/PackageSelect">
-                            <a className="btn btn-primary green">
-                                <i className="bx bxs-hot"></i> 
+                            <div className="btn btn-primary green">  
                                 Order Now   
-                            </a>
+                            </div>
                         </Link>
                     </div>
                 </div>

@@ -101,7 +101,7 @@ const HomePortfolio = () => {
             <Slider {...settings}>
               <div className="slide">
                 <div>
-                  <Link href="/portfolio">
+                  <Link href={{pathname: '/portfolio'}}>
                   <img
                     src="/images/portfolio/Portfolio 5.png"
                     alt="portfolio"

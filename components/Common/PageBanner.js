@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PageBanner extends Component {
-    render() {
-
-        let { pageTitle, BGImage, pageDescription, DNONE} = this.props;
-
-        return (
-            // <div className="page-title-area bg-one">
-            <div className={`page-title-area ${BGImage}`}>
+const PageBanner = (props) => {
+    let { pageTitle, BGImage, pageDescription, DNONE} = props;
+  return (
+    <div className={`page-title-area ${BGImage}`}>
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">
@@ -20,8 +16,7 @@ class PageBanner extends Component {
                     </div>
                 </div>
             </div>
-        );
-    }
+  )
 }
 
 export default PageBanner;

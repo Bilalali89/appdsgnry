@@ -11,9 +11,9 @@ export const AppdData = [
             "Online Purpose Files (JPG, PNG)",
             "No Master Ai File of Logo"         
         ],
-        app: {
-
-        }
+        selectedPackage: "BASIC - APP Design",
+        
+       
     },
     {
         id: 2,
@@ -30,9 +30,7 @@ export const AppdData = [
             "100% Ownership"
                 
         ],
-        app: {
-            
-        }
+        selectedPackage: "PROFESSIONAL - APP Design"
     },
     {
         id: 3,
@@ -63,9 +61,7 @@ export const AppdData = [
             "Online Purpose Files (JPG, PNG)",
             "No Master Ai File of Logo"         
         ],
-        app: {
-            
-        }
+        selectedPackage: "PREMIUM - APP Design"
     },
     {
         id: 5,
@@ -82,9 +78,7 @@ export const AppdData = [
             "100% Ownership"
                 
         ],
-        app: {
-            
-        }
+        selectedPackage: "BUSINESS PRO - APP Design"
     },
     {
         id: 6,
@@ -99,8 +93,6 @@ export const AppdData = [
             "Both Large and Small Size", 
             "Printing Files (PDF, EPS)"       
         ],
-        app: {
-            
-        }
+        selectedPackage: "FULL AGENCY - APP Design"
     }
 ]

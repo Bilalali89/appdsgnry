@@ -24,7 +24,7 @@ const HomeBottomGetintouch = () => {
                        <div className="getbutton" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
                          <span>
                             <Link href="/contact">
-                                <a> <img src="/images/Send.svg" alt="send" className='paperplane'/>&nbsp;&nbsp;Get in Touch</a>                   
+                                <div className='link'> <img src="/images/Send.svg" alt="send" className='paperplane'/>&nbsp;&nbsp;Get in Touch</div>                   
                             </Link>
                             
                         </span>

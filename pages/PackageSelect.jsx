@@ -3,6 +3,7 @@ import NavbarTwo from "../components/Layouts/NavbarTwo";
 import Footer from "../components/Layouts/Footer";
 import PageBanner from "../components/Common/PageBanner";
 import ProjectBrief from "../components/PackageSelect/ProjectBrief";
+import { WebdData } from "../components/Pricing/WebdData";
 
 const packageSelect = () => {
   return (

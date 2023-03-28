@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/Layouts/Footer';
@@ -10,38 +10,36 @@ import AboutQuoteSection from '../components/About/AboutQuoteSection';
 import AboutScrollspy from '../components/About/AboutScrollspy';
 import AboutApproach from '../components/About/AboutApproach';
 
-class Aabout extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+const Aabout = () => {
+  return (
+    <>
+    <NavbarTwo />
 
-                <PageBanner 
-                    
-                    pageDescription = {`Your Growth \nPartner`}
-                    pageTitle="About Us"
-                    BGImage="bg-one"
-                    DNONE="none"
-                />  
+    <PageBanner 
+        
+        pageDescription = {`Your Growth \nPartner`}
+        pageTitle="About Us"
+        BGImage="bg-one"
+        DNONE="none"
+    />  
 
-                <AboutHeaderSection />
+    <AboutHeaderSection />
 
-                <AboutApproach />
-                
-                <AboutScrollspy />
+    <AboutApproach />
+    
+    <AboutScrollspy />
 
-                <AboutPhilosophy />
+    <AboutPhilosophy />
 
-                <AboutClientLogos />
+    <AboutClientLogos />
 
-                <AboutQuoteSection />
+    <AboutQuoteSection />
 
-                <HomeBottomContact />
-                
-                <Footer/>
-            </>
-        );
-    }
+    <HomeBottomContact />
+    
+    <Footer/>
+</>
+  )
 }
 
-export default Aabout;
+export default Aabout

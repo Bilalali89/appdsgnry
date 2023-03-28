@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
 import ContactInfo from '../components/Contact/ContactInfo';
 import ContactForm from '../components/Contact/ContactForm';
-import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
 import ContactHeadline from '../components/Contact/ContactHeadline';
 
-class Contact extends Component {
-    render() {
-        return (
-            <>
+
+const Contact = () => {
+  return (
+    <>
                 <NavbarTwo />
 
                 <PageBanner 
@@ -28,8 +27,7 @@ class Contact extends Component {
                 
                 <Footer/>
             </>
-        );
-    }
+  )
 }
 
-export default Contact;
+export default Contact

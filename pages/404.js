@@ -4,23 +4,23 @@ import PageBanner from '../components/Common/PageBanner';
 import ErrorContent from '../components/Error/ErrorContent';
 import Footer from '../components/Layouts/Footer';
 
-class Error extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
-                
-                <PageBanner 
-                    pageTitle="404 Error" 
-                    BGImage="bg-three"
-                />  
 
-                <ErrorContent />
 
-                <Footer />
-            </>
-        );
-    }
+const fourZerofour = () => {
+  return (
+    <>
+    <NavbarTwo />
+    
+    <PageBanner 
+        pageTitle="404 Error" 
+        BGImage="bg-three"
+    />  
+
+    <ErrorContent />
+
+    <Footer />
+</>
+  )
 }
 
-export default Error;
+export default fourZerofour
