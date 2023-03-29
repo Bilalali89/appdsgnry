@@ -19,16 +19,15 @@ import { useState, useEffect } from 'react';
 
 const _app = ({Component, pageProps}) => {
 
-    let [loading, setLoading] = useState()
+    let [loading, setLoading] = useState(true)
 
     useEffect(() => {
-      setTimeout(()=> {
-        (setLoading(false), 
-        2000)
-       },[]);
-       
-       
-      });
+      if (loading) {
+        setTimeout(() => {
+        setLoading(!true);
+      }, 2000);
+      }
+    }, [loading]);
 
   return (
     <>
